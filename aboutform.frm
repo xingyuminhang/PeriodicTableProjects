@@ -38,5 +38,5 @@ Attribute VB_Exposed = False
 Option Explicit
 
 Private Sub Image1_Click()
-Shell "explorer.exe " & "  https://github.com/xingyuminhang/yszqb-Projects"
+Shell "explorer.exe " & "  https://github.com/xingyuminhang/PeriodicTableProjects"
 End Sub

@@ -1,6 +1,6 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\Windows\system32\stdole2.tlb#OLE Automation
-Reference=*\G{00025E01-0000-0000-C000-000000000046}#5.0#0#..\..\..\..\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll#Microsoft DAO 3.6 Object Library
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\Windows\system32\stdole2.tlb#OLE Automation
+Reference=*\G{00025E01-0000-0000-C000-000000000046}#5.0#0#..\..\..\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll#Microsoft DAO 3.6 Object Library
 Form=Projects.frm
 Form=lanthanideelement.frm
 Form=actinicleselement.frm
