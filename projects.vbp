@@ -1,6 +1,6 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\Windows\system32\stdole2.tlb#OLE Automation
-Reference=*\G{00025E01-0000-0000-C000-000000000046}#5.0#0#..\..\..\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll#Microsoft DAO 3.6 Object Library
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\Windows\system32\stdole2.tlb#OLE Automation
+Reference=*\G{00025E01-0000-0000-C000-000000000046}#5.0#0#..\..\..\..\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll#Microsoft DAO 3.6 Object Library
 Form=Projects.frm
 Form=lanthanideelement.frm
 Form=actinicleselement.frm
@@ -19,7 +19,7 @@ HelpContextID="0"
 CompatibleMode="0"
 MajorVer=2
 MinorVer=0
-RevisionVer=3
+RevisionVer=4
 AutoIncrementVer=1
 ServerSupportFiles=0
 VersionProductName="元素周期表Projects"

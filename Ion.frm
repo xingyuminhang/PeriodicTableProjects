@@ -207,7 +207,7 @@ Begin VB.Form Ion
       End
    End
    Begin VB.Label Label1 
-      Caption         =   "此工具的诞生离不开张老师和Forever  95120___________________________________@spam4.me(776592058),我们对此表示感谢!"
+      Caption         =   "此工具的诞生离不开张老师和Forever  95120___________________________________@spam4.me,我们对此表示感谢!"
       Height          =   375
       Left            =   120
       TabIndex        =   24
