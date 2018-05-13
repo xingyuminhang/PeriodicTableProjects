@@ -4,11 +4,11 @@ Begin VB.Form PeriodicTable
    ClientHeight    =   6270
    ClientLeft      =   120
    ClientTop       =   450
-   ClientWidth     =   14040
+   ClientWidth     =   13935
    Icon            =   "Projects.frx":0000
    LinkTopic       =   "Form1"
    ScaleHeight     =   6270
-   ScaleWidth      =   14040
+   ScaleWidth      =   13935
    StartUpPosition =   3  '窗口缺省
    Begin VB.CommandButton ElectronicShellTool 
       Caption         =   "电子层工具"
@@ -307,6 +307,7 @@ Begin VB.Form PeriodicTable
       Width           =   615
    End
    Begin VB.CommandButton mt109 
+      Appearance      =   0  'Flat
       Caption         =   "109?钅麦(梦)"
       Height          =   735
       Left            =   5280
@@ -915,12 +916,12 @@ Begin VB.Form PeriodicTable
       Width           =   975
    End
    Begin VB.Label Label50 
-      Caption         =   "2,8,18,32,32,18,8,2"
+      Caption         =   "8,18,32,32,18,8,2"
       Height          =   735
       Left            =   12120
       TabIndex        =   148
       Top             =   5400
-      Width           =   1695
+      Width           =   1575
    End
    Begin VB.Label Label49 
       Caption         =   "8,18,32,18,8,2"
@@ -1746,6 +1747,10 @@ PeriodicTable.cjhhj.Text = "--"
 PeriodicTable.fl.Text = "是一种无色无味无臭的惰性气体"
 PeriodicTable.qt.Text = "性质活泼"
 PeriodicTable.xdyzzl.Text = "83.80"
+End Sub
+
+Private Sub Label50_Click()
+
 End Sub
 
 Private Sub lalu_Click()

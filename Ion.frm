@@ -227,98 +227,98 @@ Private Sub Option8_Click()
 End Sub
 
 Private Sub ag_Click()
-X = 140
+cation = 140
 End Sub
 
 Private Sub al_Click()
-X = 80
+cation = 80
 End Sub
 
 Private Sub ba_Click()
-X = 50
+cation = 50
 End Sub
 
 Private Sub ca_Click()
-X = 60
+cation = 60
 End Sub
 
 Private Sub cl_Click()
-Y = 3
+anion = 3
 End Sub
 
 Private Sub co3_Click()
-Y = 5
+anion = 5
 End Sub
 
 Private Sub Command1_Click()
-Dim i As Integer
-i = X + Y
-If i = 11 Then
+Dim ionpair As Integer
+ionpair = cation + anion
+If ionpair = 11 Then
   Text1.Text = "ÀÆ£¨H2O"
-   ElseIf i = 12 Or i = 13 Or i = 15 Or i = 21 Then
+   ElseIf ionpair = 12 Or ionpair = 13 Or ionpair = 15 Or ionpair = 21 Then
     Text1.Text = "»‹,ª”"
-ElseIf i = 54 Or i = 55 Or i = 56 Or i = 65 Or i = 66 Or i = 71 Or i = 81 Or i = 86 Or i = 91 Or i = 95 Or i = 96 Or i = 101 Or i = 105 Or i = 106 Or i = 111 Or i = 115 Or i = 116 Or i = 121 Or i = 126 Or i = 131 Or i = 136 Or i = 143 Or i = 145 Or i = 146 Then
+ElseIf ionpair = 54 Or ionpair = 55 Or ionpair = 56 Or ionpair = 65 Or ionpair = 66 Or ionpair = 71 Or ionpair = 81 Or ionpair = 86 Or ionpair = 91 Or ionpair = 95 Or ionpair = 96 Or ionpair = 101 Or ionpair = 105 Or ionpair = 106 Or ionpair = 111 Or ionpair = 115 Or ionpair = 116 Or ionpair = 121 Or ionpair = 126 Or ionpair = 131 Or ionpair = 136 Or ionpair = 143 Or ionpair = 145 Or ionpair = 146 Then
 Text1.Text = "≤ª"
-ElseIf i = 61 Or i = 64 Or i = 75 Or i = 144 Then
+ElseIf ionpair = 61 Or ionpair = 64 Or ionpair = 75 Or ionpair = 144 Then
 Text1.Text = "Œ¢"
-ElseIf i = 85 Or i = 125 Or i = 135 Or i = 141 Then
+ElseIf ionpair = 85 Or ionpair = 125 Or ionpair = 135 Or ionpair = 141 Then
 Text1.Text = "--"
 Else: Text1.Text = "»‹"
 End If
 End Sub
 
 Private Sub cu_Click()
-X = 130
+cation = 130
 End Sub
 
 Private Sub fe2_Click()
-X = 110
+cation = 110
 End Sub
 
 Private Sub fe3_Click()
-X = 120
+cation = 120
 End Sub
 
 Private Sub h_Click()
-X = 10
+cation = 10
 End Sub
 
 Private Sub k_Click()
-X = 30
+cation = 30
 End Sub
 
 Private Sub mg_Click()
-X = 70
+cation = 70
 End Sub
 
 Private Sub mn_Click()
-X = 90
+cation = 90
 End Sub
 
 Private Sub na_Click()
-X = 40
+cation = 40
 End Sub
 
 Private Sub nh4_Click()
-X = 20
+cation = 20
 End Sub
 
 Private Sub no3_Click()
-Y = 2
+anion = 2
 End Sub
 
 Private Sub oh_Click()
-Y = 1
+anion = 1
 End Sub
 
 Private Sub po4_Click()
-Y = 6
+anion = 6
 End Sub
 
 Private Sub so4_Click()
-Y = 4
+anion = 4
 End Sub
 
 Private Sub zn_Click()
-X = 100
+cation = 100
 End Sub
