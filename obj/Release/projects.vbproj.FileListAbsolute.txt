@@ -1,0 +1,2 @@
+C:\Users\minhang\Desktop\元素周期表Projects.NET\obj\Release\Interop.DAO.dll
+C:\Users\minhang\Desktop\元素周期表Projects.NET\obj\Release\projects.vbproj.ResolveComReference.cache
