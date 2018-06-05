@@ -21,7 +21,7 @@
 	'可以使用 Windows 窗体设计器来修改它。
 	'不要使用代码编辑器修改它。
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ElectronicShell))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
@@ -41,9 +41,9 @@
         Me.Name = "ElectronicShell"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ShowInTaskbar = False
-        Me.Text = "电子层"
+        Me.Text = "电子层（…）"
         Me.ResumeLayout(False)
 
     End Sub
-#End Region 
+#End Region
 End Class

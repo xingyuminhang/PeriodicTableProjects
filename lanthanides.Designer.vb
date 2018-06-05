@@ -1,61 +1,61 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> Partial Class lanthanideelement
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> Partial Class lanthanides
 #Region "Windows 窗体设计器生成的代码 "
-	<System.Diagnostics.DebuggerNonUserCode()> Public Sub New()
-		MyBase.New()
-		'此调用是 Windows 窗体设计器所必需的。
-		InitializeComponent()
-	End Sub
-	'Form 重写 Dispose，以清理组件列表。
-	<System.Diagnostics.DebuggerNonUserCode()> Protected Overloads Overrides Sub Dispose(ByVal Disposing As Boolean)
-		If Disposing Then
-			If Not components Is Nothing Then
-				components.Dispose()
-			End If
-		End If
-		MyBase.Dispose(Disposing)
-	End Sub
-	'Windows 窗体设计器所必需的
-	Private components As System.ComponentModel.IContainer
-	Public ToolTip1 As System.Windows.Forms.ToolTip
-	Public WithEvents la57 As System.Windows.Forms.Button
-	Public WithEvents ce58 As System.Windows.Forms.Button
-	Public WithEvents pr58 As System.Windows.Forms.Button
-	Public WithEvents nd60 As System.Windows.Forms.Button
-	Public WithEvents pm61 As System.Windows.Forms.Button
-	Public WithEvents sm62 As System.Windows.Forms.Button
-	Public WithEvents eu63 As System.Windows.Forms.Button
-	Public WithEvents gd64 As System.Windows.Forms.Button
-	Public WithEvents tb65 As System.Windows.Forms.Button
-	Public WithEvents dy66 As System.Windows.Forms.Button
-	Public WithEvents ho67 As System.Windows.Forms.Button
-	Public WithEvents er68 As System.Windows.Forms.Button
-	Public WithEvents tm69 As System.Windows.Forms.Button
-	Public WithEvents yb70 As System.Windows.Forms.Button
-	Public WithEvents lu71 As System.Windows.Forms.Button
-	Public WithEvents Frame1 As System.Windows.Forms.GroupBox
-	'注意: 以下过程是 Windows 窗体设计器所必需的
-	'可以使用 Windows 窗体设计器来修改它。
-	'不要使用代码编辑器修改它。
-	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(lanthanideelement))
+    <System.Diagnostics.DebuggerNonUserCode()> Public Sub New()
+        MyBase.New()
+        '此调用是 Windows 窗体设计器所必需的。
+        InitializeComponent()
+    End Sub
+    'Form 重写 Dispose，以清理组件列表。
+    <System.Diagnostics.DebuggerNonUserCode()> Protected Overloads Overrides Sub Dispose(ByVal Disposing As Boolean)
+        If Disposing Then
+            If Not components Is Nothing Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(Disposing)
+    End Sub
+    'Windows 窗体设计器所必需的
+    Private components As System.ComponentModel.IContainer
+    Public ToolTip1 As System.Windows.Forms.ToolTip
+    Public WithEvents la57 As System.Windows.Forms.Button
+    Public WithEvents ce58 As System.Windows.Forms.Button
+    Public WithEvents pr58 As System.Windows.Forms.Button
+    Public WithEvents nd60 As System.Windows.Forms.Button
+    Public WithEvents pm61 As System.Windows.Forms.Button
+    Public WithEvents sm62 As System.Windows.Forms.Button
+    Public WithEvents eu63 As System.Windows.Forms.Button
+    Public WithEvents gd64 As System.Windows.Forms.Button
+    Public WithEvents tb65 As System.Windows.Forms.Button
+    Public WithEvents dy66 As System.Windows.Forms.Button
+    Public WithEvents ho67 As System.Windows.Forms.Button
+    Public WithEvents er68 As System.Windows.Forms.Button
+    Public WithEvents tm69 As System.Windows.Forms.Button
+    Public WithEvents yb70 As System.Windows.Forms.Button
+    Public WithEvents lu71 As System.Windows.Forms.Button
+    Public WithEvents Frame1 As System.Windows.Forms.GroupBox
+    '注意: 以下过程是 Windows 窗体设计器所必需的
+    '可以使用 Windows 窗体设计器来修改它。
+    '不要使用代码编辑器修改它。
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(lanthanides))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Frame1 = New System.Windows.Forms.GroupBox
-        Me.la57 = New System.Windows.Forms.Button
-        Me.ce58 = New System.Windows.Forms.Button
-        Me.pr58 = New System.Windows.Forms.Button
-        Me.nd60 = New System.Windows.Forms.Button
-        Me.pm61 = New System.Windows.Forms.Button
-        Me.sm62 = New System.Windows.Forms.Button
-        Me.eu63 = New System.Windows.Forms.Button
-        Me.gd64 = New System.Windows.Forms.Button
-        Me.tb65 = New System.Windows.Forms.Button
-        Me.dy66 = New System.Windows.Forms.Button
-        Me.ho67 = New System.Windows.Forms.Button
-        Me.er68 = New System.Windows.Forms.Button
-        Me.tm69 = New System.Windows.Forms.Button
-        Me.yb70 = New System.Windows.Forms.Button
-        Me.lu71 = New System.Windows.Forms.Button
+        Me.Frame1 = New System.Windows.Forms.GroupBox()
+        Me.la57 = New System.Windows.Forms.Button()
+        Me.ce58 = New System.Windows.Forms.Button()
+        Me.pr58 = New System.Windows.Forms.Button()
+        Me.nd60 = New System.Windows.Forms.Button()
+        Me.pm61 = New System.Windows.Forms.Button()
+        Me.sm62 = New System.Windows.Forms.Button()
+        Me.eu63 = New System.Windows.Forms.Button()
+        Me.gd64 = New System.Windows.Forms.Button()
+        Me.tb65 = New System.Windows.Forms.Button()
+        Me.dy66 = New System.Windows.Forms.Button()
+        Me.ho67 = New System.Windows.Forms.Button()
+        Me.er68 = New System.Windows.Forms.Button()
+        Me.tm69 = New System.Windows.Forms.Button()
+        Me.yb70 = New System.Windows.Forms.Button()
+        Me.lu71 = New System.Windows.Forms.Button()
         Me.Frame1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -282,7 +282,7 @@
         Me.lu71.Text = "71镥"
         Me.lu71.UseVisualStyleBackColor = False
         '
-        'lanthanideelement
+        'lanthanides
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -295,7 +295,7 @@
         Me.Location = New System.Drawing.Point(3, 25)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "lanthanideelement"
+        Me.Name = "lanthanides"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ShowInTaskbar = False
         Me.Text = "镧系元素"
@@ -303,5 +303,5 @@
         Me.ResumeLayout(False)
 
     End Sub
-#End Region 
+#End Region
 End Class

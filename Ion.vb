@@ -3,9 +3,6 @@ Option Explicit On
 Friend Class Ion
     Inherits System.Windows.Forms.Form
     Dim ionpair, cation, anion As Integer
-    Private Sub Option8_Click()
-
-    End Sub
 
     'UPGRADE_WARNING: 初始化窗体时可能激发事件 ag.CheckedChanged。 单击以获得更多信息:“ms-help://MS.VSCC.v90/dv_commoner/local/redirect.htm?keyword="88B12AE1-6DE0-48A0-86F1-60C0686C026A"”
     Private Sub ag_CheckedChanged(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ag.CheckedChanged

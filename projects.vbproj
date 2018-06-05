@@ -10,13 +10,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <AssemblyName>元素周期表Projects</AssemblyName>
     <OutputType>WinExe</OutputType>
-    <StartupObject>元素周期表Projects.PeriodicTable</StartupObject>
+    <StartupObject>元素周期表Projects.My.MyApplication</StartupObject>
     <AssemblyMajorVersion>2</AssemblyMajorVersion>
     <AssemblyMinorVersion>0</AssemblyMinorVersion>
     <AssemblyRevisionNumber>6</AssemblyRevisionNumber>
     <GenerateRevisionNumber>True</GenerateRevisionNumber>
     <StartWithIE>False</StartWithIE>
-    <ApplicationIcon>projects.ico</ApplicationIcon>
+    <ApplicationIcon>icon\32位图标.ico</ApplicationIcon>
     <RootNamespace>元素周期表Projects</RootNamespace>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -41,8 +41,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>7</ApplicationRevision>
-    <ApplicationVersion>2.1.1.%2a</ApplicationVersion>
+    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>false</BootstrapperEnabled>
@@ -120,11 +120,11 @@
     <Compile Include="aboutform.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="actinicleselement.Designer.vb">
+    <Compile Include="actinides.Designer.vb">
       <SubType>Code</SubType>
-      <DependentUpon>actinicleselement.vb</DependentUpon>
+      <DependentUpon>actinides.vb</DependentUpon>
     </Compile>
-    <Compile Include="actinicleselement.vb">
+    <Compile Include="actinides.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AssemblyInfo.vb" />
@@ -145,13 +145,30 @@
     <Compile Include="Ion.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lanthanideelement.Designer.vb">
+    <Compile Include="lanthanides.Designer.vb">
       <SubType>Code</SubType>
-      <DependentUpon>lanthanideelement.vb</DependentUpon>
+      <DependentUpon>lanthanides.vb</DependentUpon>
     </Compile>
-    <Compile Include="lanthanideelement.vb">
+    <Compile Include="lanthanides.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="DataPanel.Designer.vb">
+      <DependentUpon>DataPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectsModule.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
@@ -163,15 +180,27 @@
     <Compile Include="Projects.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="UpgradeSupport.vb">
       <SubType>Code</SubType>
     </Compile>
-    <Content Include="sjypd2.ico" />
+    <Content Include="icon\24位图标.ico" />
+    <Content Include="icon\32位图标.ico" />
+    <Content Include="icon\sjypd1.ico" />
+    <Content Include="icon\sjypd2.ico" />
+    <Content Include="icon\元素周期表logo.png" />
+    <Content Include="icon\酸碱盐的溶解性判定1.bmp" />
+    <Content Include="icon\酸碱盐的溶解性判定2.bmp" />
     <EmbeddedResource Include="aboutform.resX">
       <DependentUpon>aboutform.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="actinicleselement.resX">
-      <DependentUpon>actinicleselement.vb</DependentUpon>
+    <EmbeddedResource Include="actinides.resX">
+      <DependentUpon>actinides.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ElectronicShell.resX">
       <DependentUpon>ElectronicShell.vb</DependentUpon>
@@ -179,18 +208,33 @@
     <EmbeddedResource Include="Ion.resX">
       <DependentUpon>Ion.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lanthanideelement.resX">
-      <DependentUpon>lanthanideelement.vb</DependentUpon>
+    <EmbeddedResource Include="lanthanides.resX">
+      <DependentUpon>lanthanides.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Projects.resX">
       <DependentUpon>Projects.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DataPanel.resx">
+      <DependentUpon>DataPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="projects.ico" />
     <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
@@ -224,6 +268,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
     <PreBuildEvent>

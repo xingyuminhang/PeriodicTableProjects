@@ -1,11 +1,11 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> Partial Class PeriodicTable
-#Region "Windows ¥∞ÃÂ…Ëº∆∆˜…˙≥…µƒ¥˙¬Î "
+Ôªø<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> Partial Class PeriodicTable
+#Region "Windows Á™ó‰ΩìËÆæËÆ°Âô®ÁîüÊàêÁöÑ‰ª£Á†Å "
 	<System.Diagnostics.DebuggerNonUserCode()> Public Sub New()
 		MyBase.New()
-		'¥Àµ˜”√ « Windows ¥∞ÃÂ…Ëº∆∆˜À˘±ÿ–Ëµƒ°£
+		'Ê≠§Ë∞ÉÁî®ÊòØ Windows Á™ó‰ΩìËÆæËÆ°Âô®ÊâÄÂøÖÈúÄÁöÑ„ÄÇ
 		InitializeComponent()
 	End Sub
-	'Form ÷ÿ–¥ Dispose£¨“‘«Â¿Ì◊Èº˛¡–±Ì°£
+	'Form ÈáçÂÜô DisposeÔºå‰ª•Ê∏ÖÁêÜÁªÑ‰ª∂ÂàóË°®„ÄÇ
 	<System.Diagnostics.DebuggerNonUserCode()> Protected Overloads Overrides Sub Dispose(ByVal Disposing As Boolean)
 		If Disposing Then
 			If Not components Is Nothing Then
@@ -14,166 +14,166 @@
 		End If
 		MyBase.Dispose(Disposing)
 	End Sub
-	'Windows ¥∞ÃÂ…Ëº∆∆˜À˘±ÿ–Ëµƒ
+	'Windows Á™ó‰ΩìËÆæËÆ°Âô®ÊâÄÂøÖÈúÄÁöÑ
 	Private components As System.ComponentModel.IContainer
 	Public ToolTip1 As System.Windows.Forms.ToolTip
 	Public WithEvents ElectronicShellTool As System.Windows.Forms.Button
 	Public WithEvents IonTool As System.Windows.Forms.Button
 	Public WithEvents AboutTool As System.Windows.Forms.Button
-	Public WithEvents qt As System.Windows.Forms.TextBox
-	Public WithEvents xdyzzl As System.Windows.Forms.TextBox
-	Public WithEvents fl As System.Windows.Forms.TextBox
-	Public WithEvents cjhhj As System.Windows.Forms.TextBox
-	Public WithEvents wcdz As System.Windows.Forms.TextBox
-	Public WithEvents Label35 As System.Windows.Forms.Label
-	Public WithEvents Label34 As System.Windows.Forms.Label
-	Public WithEvents Label33 As System.Windows.Forms.Label
-	Public WithEvents Label32 As System.Windows.Forms.Label
-	Public WithEvents Frame2 As System.Windows.Forms.GroupBox
-	Public WithEvents ar18 As System.Windows.Forms.Button
-	Public WithEvents cl17 As System.Windows.Forms.Button
-	Public WithEvents s16 As System.Windows.Forms.Button
-	Public WithEvents p15 As System.Windows.Forms.Button
-	Public WithEvents si14 As System.Windows.Forms.Button
-	Public WithEvents al13 As System.Windows.Forms.Button
-	Public WithEvents ne10 As System.Windows.Forms.Button
-	Public WithEvents f9 As System.Windows.Forms.Button
-	Public WithEvents o8 As System.Windows.Forms.Button
-	Public WithEvents n7 As System.Windows.Forms.Button
-	Public WithEvents c6 As System.Windows.Forms.Button
-	Public WithEvents b5 As System.Windows.Forms.Button
-	Public WithEvents he2 As System.Windows.Forms.Button
-	Public WithEvents mg12 As System.Windows.Forms.Button
-	Public WithEvents be4 As System.Windows.Forms.Button
-	Public WithEvents og118 As System.Windows.Forms.Button
-	Public WithEvents ts117 As System.Windows.Forms.Button
-	Public WithEvents lv116 As System.Windows.Forms.Button
-	Public WithEvents mc115 As System.Windows.Forms.Button
-	Public WithEvents fl114 As System.Windows.Forms.Button
-	Public WithEvents nh113 As System.Windows.Forms.Button
-	Public WithEvents cn112 As System.Windows.Forms.Button
-	Public WithEvents rg111 As System.Windows.Forms.Button
-	Public WithEvents ds110 As System.Windows.Forms.Button
-	Public WithEvents mt109 As System.Windows.Forms.Button
-	Public WithEvents hs108 As System.Windows.Forms.Button
-	Public WithEvents bh107 As System.Windows.Forms.Button
-	Public WithEvents sg106 As System.Windows.Forms.Button
-	Public WithEvents db105 As System.Windows.Forms.Button
-	Public WithEvents rf104 As System.Windows.Forms.Button
-	Public WithEvents aclr As System.Windows.Forms.Button
-	Public WithEvents rr88 As System.Windows.Forms.Button
-	Public WithEvents fr87 As System.Windows.Forms.Button
-	Public WithEvents rn86 As System.Windows.Forms.Button
-	Public WithEvents at85 As System.Windows.Forms.Button
-	Public WithEvents po84 As System.Windows.Forms.Button
-	Public WithEvents bi83 As System.Windows.Forms.Button
-	Public WithEvents pb82 As System.Windows.Forms.Button
-	Public WithEvents tl81 As System.Windows.Forms.Button
-	Public WithEvents hg80 As System.Windows.Forms.Button
-	Public WithEvents au79 As System.Windows.Forms.Button
-	Public WithEvents pt78 As System.Windows.Forms.Button
-	Public WithEvents ir77 As System.Windows.Forms.Button
-	Public WithEvents os76 As System.Windows.Forms.Button
-	Public WithEvents re75 As System.Windows.Forms.Button
-	Public WithEvents w74 As System.Windows.Forms.Button
-	Public WithEvents ta73 As System.Windows.Forms.Button
-	Public WithEvents hf72 As System.Windows.Forms.Button
-	Public WithEvents lalu As System.Windows.Forms.Button
-	Public WithEvents ba56 As System.Windows.Forms.Button
-	Public WithEvents cs55 As System.Windows.Forms.Button
-	Public WithEvents xe54 As System.Windows.Forms.Button
-	Public WithEvents i53 As System.Windows.Forms.Button
-	Public WithEvents te52 As System.Windows.Forms.Button
-	Public WithEvents sb51 As System.Windows.Forms.Button
-	Public WithEvents sn50 As System.Windows.Forms.Button
-	Public WithEvents in49 As System.Windows.Forms.Button
-	Public WithEvents cd48 As System.Windows.Forms.Button
-	Public WithEvents ag47 As System.Windows.Forms.Button
-	Public WithEvents pd46 As System.Windows.Forms.Button
-	Public WithEvents rh45 As System.Windows.Forms.Button
-	Public WithEvents ru44 As System.Windows.Forms.Button
-	Public WithEvents tc43 As System.Windows.Forms.Button
-	Public WithEvents mo42 As System.Windows.Forms.Button
-	Public WithEvents nb41 As System.Windows.Forms.Button
-	Public WithEvents zr40 As System.Windows.Forms.Button
-	Public WithEvents y39 As System.Windows.Forms.Button
-	Public WithEvents sr38 As System.Windows.Forms.Button
-	Public WithEvents rb37 As System.Windows.Forms.Button
-	Public WithEvents kr36 As System.Windows.Forms.Button
-	Public WithEvents br35 As System.Windows.Forms.Button
-	Public WithEvents se34 As System.Windows.Forms.Button
-	Public WithEvents as33 As System.Windows.Forms.Button
-	Public WithEvents ge32 As System.Windows.Forms.Button
-	Public WithEvents ga31 As System.Windows.Forms.Button
-	Public WithEvents zn30 As System.Windows.Forms.Button
-	Public WithEvents cu29 As System.Windows.Forms.Button
-	Public WithEvents ni28 As System.Windows.Forms.Button
-	Public WithEvents co27 As System.Windows.Forms.Button
-	Public WithEvents fe26 As System.Windows.Forms.Button
-	Public WithEvents mn25 As System.Windows.Forms.Button
-	Public WithEvents cr24 As System.Windows.Forms.Button
-	Public WithEvents v23 As System.Windows.Forms.Button
-	Public WithEvents ti22 As System.Windows.Forms.Button
-	Public WithEvents sc21 As System.Windows.Forms.Button
-	Public WithEvents ca20 As System.Windows.Forms.Button
-	Public WithEvents k19 As System.Windows.Forms.Button
-	Public WithEvents na11 As System.Windows.Forms.Button
-	Public WithEvents li3 As System.Windows.Forms.Button
-	Public WithEvents h1 As System.Windows.Forms.Button
-	Public WithEvents yyyb As System.Windows.Forms.TextBox
-	Public WithEvents ywm As System.Windows.Forms.TextBox
-	Public WithEvents hypy As System.Windows.Forms.TextBox
-	Public WithEvents ysfh As System.Windows.Forms.TextBox
-	Public WithEvents Label31 As System.Windows.Forms.Label
-	Public WithEvents Label30 As System.Windows.Forms.Label
-	Public WithEvents Label29 As System.Windows.Forms.Label
-	Public WithEvents Label28 As System.Windows.Forms.Label
-	Public WithEvents Frame1 As System.Windows.Forms.GroupBox
-	Public WithEvents Label36 As System.Windows.Forms.Label
-	Public WithEvents Label50 As System.Windows.Forms.Label
-	Public WithEvents Label49 As System.Windows.Forms.Label
-	Public WithEvents Label48 As System.Windows.Forms.Label
-	Public WithEvents Label47 As System.Windows.Forms.Label
-	Public WithEvents Label46 As System.Windows.Forms.Label
-	Public WithEvents Label45 As System.Windows.Forms.Label
-	Public WithEvents Label44 As System.Windows.Forms.Label
+    Public WithEvents find As System.Windows.Forms.TextBox
+    Public WithEvents xdyzzl As System.Windows.Forms.TextBox
+    Public WithEvents fl As System.Windows.Forms.TextBox
+    Public WithEvents cjhhj As System.Windows.Forms.TextBox
+    Public WithEvents wcdz As System.Windows.Forms.TextBox
+    Public WithEvents Label35 As System.Windows.Forms.Label
+    Public WithEvents Label34 As System.Windows.Forms.Label
+    Public WithEvents Label33 As System.Windows.Forms.Label
+    Public WithEvents Label32 As System.Windows.Forms.Label
+    Public WithEvents Frame2 As System.Windows.Forms.GroupBox
+    Public WithEvents ar18 As System.Windows.Forms.Button
+    Public WithEvents cl17 As System.Windows.Forms.Button
+    Public WithEvents s16 As System.Windows.Forms.Button
+    Public WithEvents p15 As System.Windows.Forms.Button
+    Public WithEvents si14 As System.Windows.Forms.Button
+    Public WithEvents al13 As System.Windows.Forms.Button
+    Public WithEvents ne10 As System.Windows.Forms.Button
+    Public WithEvents f9 As System.Windows.Forms.Button
+    Public WithEvents o8 As System.Windows.Forms.Button
+    Public WithEvents n7 As System.Windows.Forms.Button
+    Public WithEvents c6 As System.Windows.Forms.Button
+    Public WithEvents b5 As System.Windows.Forms.Button
+    Public WithEvents he2 As System.Windows.Forms.Button
+    Public WithEvents mg12 As System.Windows.Forms.Button
+    Public WithEvents be4 As System.Windows.Forms.Button
+    Public WithEvents og118 As System.Windows.Forms.Button
+    Public WithEvents ts117 As System.Windows.Forms.Button
+    Public WithEvents lv116 As System.Windows.Forms.Button
+    Public WithEvents mc115 As System.Windows.Forms.Button
+    Public WithEvents fl114 As System.Windows.Forms.Button
+    Public WithEvents nh113 As System.Windows.Forms.Button
+    Public WithEvents cn112 As System.Windows.Forms.Button
+    Public WithEvents rg111 As System.Windows.Forms.Button
+    Public WithEvents ds110 As System.Windows.Forms.Button
+    Public WithEvents mt109 As System.Windows.Forms.Button
+    Public WithEvents hs108 As System.Windows.Forms.Button
+    Public WithEvents bh107 As System.Windows.Forms.Button
+    Public WithEvents sg106 As System.Windows.Forms.Button
+    Public WithEvents db105 As System.Windows.Forms.Button
+    Public WithEvents rf104 As System.Windows.Forms.Button
+    Public WithEvents aclr As System.Windows.Forms.Button
+    Public WithEvents ra88 As System.Windows.Forms.Button
+    Public WithEvents fr87 As System.Windows.Forms.Button
+    Public WithEvents rn86 As System.Windows.Forms.Button
+    Public WithEvents at85 As System.Windows.Forms.Button
+    Public WithEvents po84 As System.Windows.Forms.Button
+    Public WithEvents bi83 As System.Windows.Forms.Button
+    Public WithEvents pb82 As System.Windows.Forms.Button
+    Public WithEvents tl81 As System.Windows.Forms.Button
+    Public WithEvents hg80 As System.Windows.Forms.Button
+    Public WithEvents au79 As System.Windows.Forms.Button
+    Public WithEvents pt78 As System.Windows.Forms.Button
+    Public WithEvents ir77 As System.Windows.Forms.Button
+    Public WithEvents os76 As System.Windows.Forms.Button
+    Public WithEvents re75 As System.Windows.Forms.Button
+    Public WithEvents w74 As System.Windows.Forms.Button
+    Public WithEvents ta73 As System.Windows.Forms.Button
+    Public WithEvents hf72 As System.Windows.Forms.Button
+    Public WithEvents lalu As System.Windows.Forms.Button
+    Public WithEvents ba56 As System.Windows.Forms.Button
+    Public WithEvents cs55 As System.Windows.Forms.Button
+    Public WithEvents xe54 As System.Windows.Forms.Button
+    Public WithEvents i53 As System.Windows.Forms.Button
+    Public WithEvents te52 As System.Windows.Forms.Button
+    Public WithEvents sb51 As System.Windows.Forms.Button
+    Public WithEvents sn50 As System.Windows.Forms.Button
+    Public WithEvents in49 As System.Windows.Forms.Button
+    Public WithEvents cd48 As System.Windows.Forms.Button
+    Public WithEvents ag47 As System.Windows.Forms.Button
+    Public WithEvents pd46 As System.Windows.Forms.Button
+    Public WithEvents rh45 As System.Windows.Forms.Button
+    Public WithEvents ru44 As System.Windows.Forms.Button
+    Public WithEvents tc43 As System.Windows.Forms.Button
+    Public WithEvents mo42 As System.Windows.Forms.Button
+    Public WithEvents nb41 As System.Windows.Forms.Button
+    Public WithEvents zr40 As System.Windows.Forms.Button
+    Public WithEvents y39 As System.Windows.Forms.Button
+    Public WithEvents sr38 As System.Windows.Forms.Button
+    Public WithEvents rb37 As System.Windows.Forms.Button
+    Public WithEvents kr36 As System.Windows.Forms.Button
+    Public WithEvents br35 As System.Windows.Forms.Button
+    Public WithEvents se34 As System.Windows.Forms.Button
+    Public WithEvents as33 As System.Windows.Forms.Button
+    Public WithEvents ge32 As System.Windows.Forms.Button
+    Public WithEvents ga31 As System.Windows.Forms.Button
+    Public WithEvents zn30 As System.Windows.Forms.Button
+    Public WithEvents cu29 As System.Windows.Forms.Button
+    Public WithEvents ni28 As System.Windows.Forms.Button
+    Public WithEvents co27 As System.Windows.Forms.Button
+    Public WithEvents fe26 As System.Windows.Forms.Button
+    Public WithEvents mn25 As System.Windows.Forms.Button
+    Public WithEvents cr24 As System.Windows.Forms.Button
+    Public WithEvents v23 As System.Windows.Forms.Button
+    Public WithEvents ti22 As System.Windows.Forms.Button
+    Public WithEvents sc21 As System.Windows.Forms.Button
+    Public WithEvents ca20 As System.Windows.Forms.Button
+    Public WithEvents k19 As System.Windows.Forms.Button
+    Public WithEvents na11 As System.Windows.Forms.Button
+    Public WithEvents li3 As System.Windows.Forms.Button
+    Public WithEvents h1 As System.Windows.Forms.Button
+    Public WithEvents yyyb As System.Windows.Forms.TextBox
+    Public WithEvents ywm As System.Windows.Forms.TextBox
+    Public WithEvents hypy As System.Windows.Forms.TextBox
+    Public WithEvents ysfh As System.Windows.Forms.TextBox
+    Public WithEvents Label31 As System.Windows.Forms.Label
+    Public WithEvents Label30 As System.Windows.Forms.Label
+    Public WithEvents Label29 As System.Windows.Forms.Label
+    Public WithEvents Label28 As System.Windows.Forms.Label
+    Public WithEvents Frame1 As System.Windows.Forms.GroupBox
+    Public WithEvents Label36 As System.Windows.Forms.Label
+    Public WithEvents Label50 As System.Windows.Forms.Label
+    Public WithEvents Label49 As System.Windows.Forms.Label
+    Public WithEvents Label48 As System.Windows.Forms.Label
+    Public WithEvents Label47 As System.Windows.Forms.Label
+    Public WithEvents Label46 As System.Windows.Forms.Label
+    Public WithEvents Label45 As System.Windows.Forms.Label
+    Public WithEvents Label44 As System.Windows.Forms.Label
     Public WithEvents Label27 As System.Windows.Forms.Label
-	Public WithEvents Label26 As System.Windows.Forms.Label
-	Public WithEvents Label25 As System.Windows.Forms.Label
-	Public WithEvents Label24 As System.Windows.Forms.Label
-	Public WithEvents Label23 As System.Windows.Forms.Label
-	Public WithEvents Label22 As System.Windows.Forms.Label
-	Public WithEvents Label21 As System.Windows.Forms.Label
-	Public WithEvents Label20 As System.Windows.Forms.Label
+    Public WithEvents Label26 As System.Windows.Forms.Label
+    Public WithEvents Label25 As System.Windows.Forms.Label
+    Public WithEvents Label24 As System.Windows.Forms.Label
+    Public WithEvents Label23 As System.Windows.Forms.Label
+    Public WithEvents Label22 As System.Windows.Forms.Label
+    Public WithEvents Label21 As System.Windows.Forms.Label
+    Public WithEvents Label20 As System.Windows.Forms.Label
     Public WithEvents Label18 As System.Windows.Forms.Label
-	Public WithEvents Label17 As System.Windows.Forms.Label
-	Public WithEvents Label16 As System.Windows.Forms.Label
-	Public WithEvents Label15 As System.Windows.Forms.Label
-	Public WithEvents Label14 As System.Windows.Forms.Label
-	Public WithEvents Label13 As System.Windows.Forms.Label
-	Public WithEvents Label12 As System.Windows.Forms.Label
-	Public WithEvents Label11 As System.Windows.Forms.Label
-	Public WithEvents Label10 As System.Windows.Forms.Label
-	Public WithEvents Label9 As System.Windows.Forms.Label
-	Public WithEvents Label8 As System.Windows.Forms.Label
-	Public WithEvents Label7 As System.Windows.Forms.Label
-	Public WithEvents Label6 As System.Windows.Forms.Label
-	Public WithEvents Label5 As System.Windows.Forms.Label
-	Public WithEvents Label4 As System.Windows.Forms.Label
-	Public WithEvents Label3 As System.Windows.Forms.Label
-	Public WithEvents Label2 As System.Windows.Forms.Label
-	Public WithEvents Label1 As System.Windows.Forms.Label
-	'◊¢“‚: “‘œ¬π˝≥Ã « Windows ¥∞ÃÂ…Ëº∆∆˜À˘±ÿ–Ëµƒ
-	'ø…“‘ π”√ Windows ¥∞ÃÂ…Ëº∆∆˜¿¥–ﬁ∏ƒÀ¸°£
-	'≤ª“™ π”√¥˙¬Î±‡º≠∆˜–ﬁ∏ƒÀ¸°£
-	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+    Public WithEvents Label17 As System.Windows.Forms.Label
+    Public WithEvents Label16 As System.Windows.Forms.Label
+    Public WithEvents Label15 As System.Windows.Forms.Label
+    Public WithEvents Label14 As System.Windows.Forms.Label
+    Public WithEvents Label13 As System.Windows.Forms.Label
+    Public WithEvents Label12 As System.Windows.Forms.Label
+    Public WithEvents Label11 As System.Windows.Forms.Label
+    Public WithEvents Label10 As System.Windows.Forms.Label
+    Public WithEvents Label9 As System.Windows.Forms.Label
+    Public WithEvents Label8 As System.Windows.Forms.Label
+    Public WithEvents Label7 As System.Windows.Forms.Label
+    Public WithEvents Label6 As System.Windows.Forms.Label
+    Public WithEvents Label5 As System.Windows.Forms.Label
+    Public WithEvents Label4 As System.Windows.Forms.Label
+    Public WithEvents Label3 As System.Windows.Forms.Label
+    Public WithEvents Label2 As System.Windows.Forms.Label
+    Public WithEvents Label1 As System.Windows.Forms.Label
+    'Ê≥®ÊÑè: ‰ª•‰∏ãËøáÁ®ãÊòØ Windows Á™ó‰ΩìËÆæËÆ°Âô®ÊâÄÂøÖÈúÄÁöÑ
+    'ÂèØ‰ª•‰ΩøÁî® Windows Á™ó‰ΩìËÆæËÆ°Âô®Êù•‰øÆÊîπÂÆÉ„ÄÇ
+    '‰∏çË¶Å‰ΩøÁî®‰ª£Á†ÅÁºñËæëÂô®‰øÆÊîπÂÆÉ„ÄÇ
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PeriodicTable))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.ElectronicShellTool = New System.Windows.Forms.Button()
         Me.IonTool = New System.Windows.Forms.Button()
         Me.AboutTool = New System.Windows.Forms.Button()
-        Me.qt = New System.Windows.Forms.TextBox()
+        Me.find = New System.Windows.Forms.TextBox()
         Me.Frame2 = New System.Windows.Forms.GroupBox()
         Me.xdyzzl = New System.Windows.Forms.TextBox()
         Me.fl = New System.Windows.Forms.TextBox()
@@ -214,7 +214,7 @@
         Me.db105 = New System.Windows.Forms.Button()
         Me.rf104 = New System.Windows.Forms.Button()
         Me.aclr = New System.Windows.Forms.Button()
-        Me.rr88 = New System.Windows.Forms.Button()
+        Me.ra88 = New System.Windows.Forms.Button()
         Me.fr87 = New System.Windows.Forms.Button()
         Me.rn86 = New System.Windows.Forms.Button()
         Me.at85 = New System.Windows.Forms.Button()
@@ -318,6 +318,8 @@
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
+        Me.uue119 = New System.Windows.Forms.Button()
+        Me.ubn120 = New System.Windows.Forms.Button()
         Me.Frame2.SuspendLayout()
         Me.Frame1.SuspendLayout()
         Me.SuspendLayout()
@@ -327,12 +329,12 @@
         Me.ElectronicShellTool.BackColor = System.Drawing.SystemColors.Control
         Me.ElectronicShellTool.Cursor = System.Windows.Forms.Cursors.Default
         Me.ElectronicShellTool.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.ElectronicShellTool.Location = New System.Drawing.Point(878, 31)
+        Me.ElectronicShellTool.Location = New System.Drawing.Point(898, 31)
         Me.ElectronicShellTool.Name = "ElectronicShellTool"
         Me.ElectronicShellTool.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ElectronicShellTool.Size = New System.Drawing.Size(82, 33)
         Me.ElectronicShellTool.TabIndex = 151
-        Me.ElectronicShellTool.Text = "µÁ◊”≤„π§æﬂ"
+        Me.ElectronicShellTool.Text = "ÁîµÂ≠êÂ±ÇÂ∑•ÂÖ∑"
         Me.ElectronicShellTool.UseVisualStyleBackColor = False
         '
         'IonTool
@@ -340,12 +342,12 @@
         Me.IonTool.BackColor = System.Drawing.SystemColors.Control
         Me.IonTool.Cursor = System.Windows.Forms.Cursors.Default
         Me.IonTool.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.IonTool.Location = New System.Drawing.Point(878, 74)
+        Me.IonTool.Location = New System.Drawing.Point(898, 74)
         Me.IonTool.Name = "IonTool"
         Me.IonTool.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.IonTool.Size = New System.Drawing.Size(82, 33)
         Me.IonTool.TabIndex = 152
-        Me.IonTool.Text = "¿Î◊”π§æﬂ"
+        Me.IonTool.Text = "Á¶ªÂ≠êÂ∑•ÂÖ∑"
         Me.IonTool.UseVisualStyleBackColor = False
         '
         'AboutTool
@@ -353,27 +355,28 @@
         Me.AboutTool.BackColor = System.Drawing.SystemColors.Control
         Me.AboutTool.Cursor = System.Windows.Forms.Cursors.Default
         Me.AboutTool.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.AboutTool.Location = New System.Drawing.Point(878, 119)
+        Me.AboutTool.Location = New System.Drawing.Point(898, 119)
         Me.AboutTool.Name = "AboutTool"
         Me.AboutTool.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.AboutTool.Size = New System.Drawing.Size(82, 33)
         Me.AboutTool.TabIndex = 153
-        Me.AboutTool.Text = "πÿ”⁄"
+        Me.AboutTool.Text = "ÂÖ≥‰∫éËÆæÁΩÆ"
         Me.AboutTool.UseVisualStyleBackColor = False
         '
-        'qt
+        'find
         '
-        Me.qt.AcceptsReturn = True
-        Me.qt.BackColor = System.Drawing.SystemColors.Window
-        Me.qt.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.qt.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.qt.Location = New System.Drawing.Point(512, 31)
-        Me.qt.MaxLength = 0
-        Me.qt.Name = "qt"
-        Me.qt.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.qt.Size = New System.Drawing.Size(193, 21)
-        Me.qt.TabIndex = 150
-        Me.qt.Text = "Hi!µ•ª˜ƒ˙œÎ“™≤È—Øµƒ‘™Àÿº¥ø…ø™ º!"
+        Me.find.AcceptsReturn = True
+        Me.find.BackColor = System.Drawing.SystemColors.Window
+        Me.find.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.find.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.find.Location = New System.Drawing.Point(512, 31)
+        Me.find.MaxLength = 0
+        Me.find.Multiline = True
+        Me.find.Name = "find"
+        Me.find.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.find.Size = New System.Drawing.Size(193, 45)
+        Me.find.TabIndex = 150
+        Me.find.Text = "ÊÇ®ÂèØ‰ª•Âú®Ê≠§ËæìÂÖ•ÊÉ≥Ë¶ÅÊü•ËØ¢ÁöÑÂÖÉÁ¥†„ÄÇ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ÊîØÊåÅÂéüÂ≠êÂ∫èÊï∞„ÄÅÂÖÉÁ¥†Á¨¶Âè∑ÂíåÂÖÉÁ¥†ÂêçÁß∞„ÄÇ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(Â∞öÊú™ÂÆåÊàê)"
         '
         'Frame2
         '
@@ -394,7 +397,7 @@
         Me.Frame2.Size = New System.Drawing.Size(201, 145)
         Me.Frame2.TabIndex = 140
         Me.Frame2.TabStop = False
-        Me.Frame2.Text = "µÁ◊” ˝”ÎªØ∫œº€"
+        Me.Frame2.Text = "ÁîµÂ≠êÊï∞‰∏éÂåñÂêà‰ª∑"
         '
         'xdyzzl
         '
@@ -408,7 +411,7 @@
         Me.xdyzzl.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.xdyzzl.Size = New System.Drawing.Size(97, 21)
         Me.xdyzzl.TabIndex = 148
-        Me.xdyzzl.Text = "“‘12C=12Œ™ª˘◊º"
+        Me.xdyzzl.Text = "‰ª•12C=12‰∏∫Âü∫ÂáÜ"
         '
         'fl
         '
@@ -422,7 +425,7 @@
         Me.fl.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.fl.Size = New System.Drawing.Size(97, 21)
         Me.fl.TabIndex = 147
-        Me.fl.Text = "÷˜∏±/Ω∑«/¿‡±"
+        Me.fl.Text = "‰∏ªÂâØ/ÈáëÈùû/Á±ªÂà´"
         '
         'cjhhj
         '
@@ -436,7 +439,7 @@
         Me.cjhhj.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cjhhj.Size = New System.Drawing.Size(97, 21)
         Me.cjhhj.TabIndex = 146
-        Me.cjhhj.Text = "≥£º˚µƒªØ∫œº€"
+        Me.cjhhj.Text = "Â∏∏ËßÅÁöÑÂåñÂêà‰ª∑"
         '
         'wcdz
         '
@@ -450,7 +453,7 @@
         Me.wcdz.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.wcdz.Size = New System.Drawing.Size(97, 21)
         Me.wcdz.TabIndex = 145
-        Me.wcdz.Text = "Õ‚≤„µÁ◊” ˝"
+        Me.wcdz.Text = "Â§ñÂ±ÇÁîµÂ≠êÊï∞"
         '
         'Label35
         '
@@ -462,7 +465,7 @@
         Me.Label35.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label35.Size = New System.Drawing.Size(81, 17)
         Me.Label35.TabIndex = 144
-        Me.Label35.Text = "œ‡∂‘‘≠◊”÷ ¡ø:"
+        Me.Label35.Text = "Áõ∏ÂØπÂéüÂ≠êË¥®Èáè:"
         '
         'Label34
         '
@@ -474,7 +477,7 @@
         Me.Label34.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label34.Size = New System.Drawing.Size(73, 17)
         Me.Label34.TabIndex = 143
-        Me.Label34.Text = "∑÷¿‡:"
+        Me.Label34.Text = "ÂàÜÁ±ª:"
         '
         'Label33
         '
@@ -486,7 +489,7 @@
         Me.Label33.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label33.Size = New System.Drawing.Size(73, 17)
         Me.Label33.TabIndex = 142
-        Me.Label33.Text = "≥£º˚ªØ∫œº€:"
+        Me.Label33.Text = "Â∏∏ËßÅÂåñÂêà‰ª∑:"
         '
         'Label32
         '
@@ -498,7 +501,7 @@
         Me.Label32.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label32.Size = New System.Drawing.Size(73, 17)
         Me.Label32.TabIndex = 141
-        Me.Label32.Text = "Õ‚≤„µÁ◊”£∫"
+        Me.Label32.Text = "Â§ñÂ±ÇÁîµÂ≠êÔºö"
         '
         'ar18
         '
@@ -510,7 +513,7 @@
         Me.ar18.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ar18.Size = New System.Drawing.Size(41, 49)
         Me.ar18.TabIndex = 17
-        Me.ar18.Text = "18Î≤"
+        Me.ar18.Text = "18Ê∞©"
         Me.ar18.UseVisualStyleBackColor = False
         '
         'cl17
@@ -523,7 +526,7 @@
         Me.cl17.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cl17.Size = New System.Drawing.Size(41, 49)
         Me.cl17.TabIndex = 16
-        Me.cl17.Text = "17¬»"
+        Me.cl17.Text = "17Ê∞Ø"
         Me.cl17.UseVisualStyleBackColor = False
         '
         's16
@@ -536,7 +539,7 @@
         Me.s16.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.s16.Size = New System.Drawing.Size(41, 49)
         Me.s16.TabIndex = 15
-        Me.s16.Text = "16¡Ú"
+        Me.s16.Text = "16Á°´"
         Me.s16.UseVisualStyleBackColor = False
         '
         'p15
@@ -549,7 +552,7 @@
         Me.p15.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.p15.Size = New System.Drawing.Size(41, 49)
         Me.p15.TabIndex = 14
-        Me.p15.Text = "15¡◊"
+        Me.p15.Text = "15Á£∑"
         Me.p15.UseVisualStyleBackColor = False
         '
         'si14
@@ -562,7 +565,7 @@
         Me.si14.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.si14.Size = New System.Drawing.Size(41, 49)
         Me.si14.TabIndex = 13
-        Me.si14.Text = "14πË"
+        Me.si14.Text = "14Á°Ö"
         Me.si14.UseVisualStyleBackColor = False
         '
         'al13
@@ -575,7 +578,7 @@
         Me.al13.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.al13.Size = New System.Drawing.Size(41, 49)
         Me.al13.TabIndex = 12
-        Me.al13.Text = "13¬¡"
+        Me.al13.Text = "13Èìù"
         Me.al13.UseVisualStyleBackColor = False
         '
         'ne10
@@ -588,7 +591,7 @@
         Me.ne10.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ne10.Size = New System.Drawing.Size(41, 49)
         Me.ne10.TabIndex = 9
-        Me.ne10.Text = "10ƒ "
+        Me.ne10.Text = "10Ê∞ñ"
         Me.ne10.UseVisualStyleBackColor = False
         '
         'f9
@@ -601,7 +604,7 @@
         Me.f9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.f9.Size = New System.Drawing.Size(41, 49)
         Me.f9.TabIndex = 8
-        Me.f9.Text = "9∑˙"
+        Me.f9.Text = "9Ê∞ü"
         Me.f9.UseVisualStyleBackColor = False
         '
         'o8
@@ -614,7 +617,7 @@
         Me.o8.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.o8.Size = New System.Drawing.Size(41, 49)
         Me.o8.TabIndex = 7
-        Me.o8.Text = "8—ı"
+        Me.o8.Text = "8Ê∞ß"
         Me.o8.UseVisualStyleBackColor = False
         '
         'n7
@@ -627,7 +630,7 @@
         Me.n7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.n7.Size = New System.Drawing.Size(41, 49)
         Me.n7.TabIndex = 6
-        Me.n7.Text = "7µ™"
+        Me.n7.Text = "7Ê∞Æ"
         Me.n7.UseVisualStyleBackColor = False
         '
         'c6
@@ -640,7 +643,7 @@
         Me.c6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.c6.Size = New System.Drawing.Size(41, 49)
         Me.c6.TabIndex = 5
-        Me.c6.Text = "6Ãº"
+        Me.c6.Text = "6Á¢≥"
         Me.c6.UseVisualStyleBackColor = False
         '
         'b5
@@ -653,7 +656,7 @@
         Me.b5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.b5.Size = New System.Drawing.Size(41, 49)
         Me.b5.TabIndex = 4
-        Me.b5.Text = "5≈"
+        Me.b5.Text = "5Á°º"
         Me.b5.UseVisualStyleBackColor = False
         '
         'he2
@@ -666,7 +669,7 @@
         Me.he2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.he2.Size = New System.Drawing.Size(41, 49)
         Me.he2.TabIndex = 1
-        Me.he2.Text = "2∫§"
+        Me.he2.Text = "2Ê∞¶"
         Me.he2.UseVisualStyleBackColor = False
         '
         'mg12
@@ -679,7 +682,7 @@
         Me.mg12.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.mg12.Size = New System.Drawing.Size(41, 49)
         Me.mg12.TabIndex = 11
-        Me.mg12.Text = "12√æ"
+        Me.mg12.Text = "12ÈïÅ"
         Me.mg12.UseVisualStyleBackColor = False
         '
         'be4
@@ -692,7 +695,7 @@
         Me.be4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.be4.Size = New System.Drawing.Size(41, 49)
         Me.be4.TabIndex = 3
-        Me.be4.Text = "4ÓÎ"
+        Me.be4.Text = "4Èìç"
         Me.be4.UseVisualStyleBackColor = False
         '
         'og118
@@ -705,7 +708,7 @@
         Me.og118.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.og118.Size = New System.Drawing.Size(41, 49)
         Me.og118.TabIndex = 89
-        Me.og118.Text = "118∞¬∆¯"
+        Me.og118.Text = "118Â••Ê∞î"
         Me.og118.UseVisualStyleBackColor = False
         '
         'ts117
@@ -718,7 +721,7 @@
         Me.ts117.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ts117.Size = New System.Drawing.Size(41, 49)
         Me.ts117.TabIndex = 88
-        Me.ts117.Text = "117 ØÃÔ"
+        Me.ts117.Text = "117Áü≥Áî∞"
         Me.ts117.UseVisualStyleBackColor = False
         '
         'lv116
@@ -731,7 +734,7 @@
         Me.lv116.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.lv116.Size = New System.Drawing.Size(41, 49)
         Me.lv116.TabIndex = 87
-        Me.lv116.Text = "116??"
+        Me.lv116.Text = "116´ü∑"
         Me.lv116.UseVisualStyleBackColor = False
         '
         'mc115
@@ -744,7 +747,7 @@
         Me.mc115.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.mc115.Size = New System.Drawing.Size(41, 49)
         Me.mc115.TabIndex = 86
-        Me.mc115.Text = "115Ô“"
+        Me.mc115.Text = "115ÈïÜ"
         Me.mc115.UseVisualStyleBackColor = False
         '
         'fl114
@@ -757,7 +760,7 @@
         Me.fl114.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.fl114.Size = New System.Drawing.Size(41, 49)
         Me.fl114.TabIndex = 85
-        Me.fl114.Text = "114??"
+        Me.fl114.Text = "114´ìß"
         Me.fl114.UseVisualStyleBackColor = False
         '
         'nh113
@@ -770,7 +773,7 @@
         Me.nh113.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.nh113.Size = New System.Drawing.Size(41, 49)
         Me.nh113.TabIndex = 84
-        Me.nh113.Text = "113„b"
+        Me.nh113.Text = "113Èâ®"
         Me.nh113.UseVisualStyleBackColor = False
         '
         'cn112
@@ -783,7 +786,7 @@
         Me.cn112.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cn112.Size = New System.Drawing.Size(41, 49)
         Me.cn112.TabIndex = 83
-        Me.cn112.Text = "112?"
+        Me.cn112.Text = "112Èøî"
         Me.cn112.UseVisualStyleBackColor = False
         '
         'rg111
@@ -796,7 +799,7 @@
         Me.rg111.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.rg111.Size = New System.Drawing.Size(41, 49)
         Me.rg111.TabIndex = 82
-        Me.rg111.Text = "111??"
+        Me.rg111.Text = "111¨¨≠"
         Me.rg111.UseVisualStyleBackColor = False
         '
         'ds110
@@ -809,7 +812,7 @@
         Me.ds110.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ds110.Size = New System.Drawing.Size(41, 49)
         Me.ds110.TabIndex = 81
-        Me.ds110.Text = "110??"
+        Me.ds110.Text = "110´üº"
         Me.ds110.UseVisualStyleBackColor = False
         '
         'mt109
@@ -822,7 +825,7 @@
         Me.mt109.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.mt109.Size = New System.Drawing.Size(41, 49)
         Me.mt109.TabIndex = 80
-        Me.mt109.Text = "109?"
+        Me.mt109.Text = "109Èøè"
         Me.mt109.UseVisualStyleBackColor = False
         '
         'hs108
@@ -835,7 +838,7 @@
         Me.hs108.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.hs108.Size = New System.Drawing.Size(41, 49)
         Me.hs108.TabIndex = 79
-        Me.hs108.Text = "108??"
+        Me.hs108.Text = "108¨≠∂"
         Me.hs108.UseVisualStyleBackColor = False
         '
         'bh107
@@ -848,7 +851,7 @@
         Me.bh107.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.bh107.Size = New System.Drawing.Size(41, 49)
         Me.bh107.TabIndex = 78
-        Me.bh107.Text = "107??"
+        Me.bh107.Text = "107¨≠õ"
         Me.bh107.UseVisualStyleBackColor = False
         '
         'sg106
@@ -861,7 +864,7 @@
         Me.sg106.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.sg106.Size = New System.Drawing.Size(41, 49)
         Me.sg106.TabIndex = 77
-        Me.sg106.Text = "106??"
+        Me.sg106.Text = "106¨≠≥"
         Me.sg106.UseVisualStyleBackColor = False
         '
         'db105
@@ -874,7 +877,7 @@
         Me.db105.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.db105.Size = New System.Drawing.Size(41, 49)
         Me.db105.TabIndex = 76
-        Me.db105.Text = "105??"
+        Me.db105.Text = "105¨≠ä"
         Me.db105.UseVisualStyleBackColor = False
         '
         'rf104
@@ -887,7 +890,7 @@
         Me.rf104.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.rf104.Size = New System.Drawing.Size(41, 49)
         Me.rf104.TabIndex = 75
-        Me.rf104.Text = "104??"
+        Me.rf104.Text = "104¨¨ª"
         Me.rf104.UseVisualStyleBackColor = False
         '
         'aclr
@@ -900,21 +903,22 @@
         Me.aclr.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.aclr.Size = New System.Drawing.Size(41, 49)
         Me.aclr.TabIndex = 74
-        Me.aclr.Text = "Ôπœµ"
+        Me.aclr.Text = "ÈîïÁ≥ª"
         Me.aclr.UseVisualStyleBackColor = False
         '
-        'rr88
+        'ra88
         '
-        Me.rr88.BackColor = System.Drawing.SystemColors.Control
-        Me.rr88.Cursor = System.Windows.Forms.Cursors.Default
-        Me.rr88.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.rr88.Location = New System.Drawing.Point(72, 343)
-        Me.rr88.Name = "rr88"
-        Me.rr88.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.rr88.Size = New System.Drawing.Size(41, 49)
-        Me.rr88.TabIndex = 73
-        Me.rr88.Text = "88¿ÿ"
-        Me.rr88.UseVisualStyleBackColor = False
+        Me.ra88.AccessibleName = ""
+        Me.ra88.BackColor = System.Drawing.SystemColors.Control
+        Me.ra88.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ra88.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.ra88.Location = New System.Drawing.Point(72, 343)
+        Me.ra88.Name = "ra88"
+        Me.ra88.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ra88.Size = New System.Drawing.Size(41, 49)
+        Me.ra88.TabIndex = 73
+        Me.ra88.Text = "88Èï≠"
+        Me.ra88.UseVisualStyleBackColor = False
         '
         'fr87
         '
@@ -926,7 +930,7 @@
         Me.fr87.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.fr87.Size = New System.Drawing.Size(41, 49)
         Me.fr87.TabIndex = 72
-        Me.fr87.Text = "87Ó’"
+        Me.fr87.Text = "87Èí´"
         Me.fr87.UseVisualStyleBackColor = False
         '
         'rn86
@@ -939,7 +943,7 @@
         Me.rn86.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.rn86.Size = New System.Drawing.Size(41, 49)
         Me.rn86.TabIndex = 71
-        Me.rn86.Text = "86Î±"
+        Me.rn86.Text = "86Ê∞°"
         Me.rn86.UseVisualStyleBackColor = False
         '
         'at85
@@ -952,7 +956,7 @@
         Me.at85.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.at85.Size = New System.Drawing.Size(41, 49)
         Me.at85.TabIndex = 70
-        Me.at85.Text = "85Ì¡"
+        Me.at85.Text = "85Á†π"
         Me.at85.UseVisualStyleBackColor = False
         '
         'po84
@@ -965,7 +969,7 @@
         Me.po84.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.po84.Size = New System.Drawing.Size(41, 49)
         Me.po84.TabIndex = 69
-        Me.po84.Text = "84Ó«"
+        Me.po84.Text = "84Èíã"
         Me.po84.UseVisualStyleBackColor = False
         '
         'bi83
@@ -978,7 +982,7 @@
         Me.bi83.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.bi83.Size = New System.Drawing.Size(41, 49)
         Me.bi83.TabIndex = 68
-        Me.bi83.Text = "83ÓÈ"
+        Me.bi83.Text = "83Èìã"
         Me.bi83.UseVisualStyleBackColor = False
         '
         'pb82
@@ -991,7 +995,7 @@
         Me.pb82.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.pb82.Size = New System.Drawing.Size(41, 49)
         Me.pb82.TabIndex = 67
-        Me.pb82.Text = "82«¶"
+        Me.pb82.Text = "82ÈìÖ"
         Me.pb82.UseVisualStyleBackColor = False
         '
         'tl81
@@ -1004,7 +1008,7 @@
         Me.tl81.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.tl81.Size = New System.Drawing.Size(41, 49)
         Me.tl81.TabIndex = 66
-        Me.tl81.Text = "81ÓË"
+        Me.tl81.Text = "81Èìä"
         Me.tl81.UseVisualStyleBackColor = False
         '
         'hg80
@@ -1017,7 +1021,7 @@
         Me.hg80.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.hg80.Size = New System.Drawing.Size(41, 49)
         Me.hg80.TabIndex = 65
-        Me.hg80.Text = "80πØ"
+        Me.hg80.Text = "80Ê±û"
         Me.hg80.UseVisualStyleBackColor = False
         '
         'au79
@@ -1030,7 +1034,7 @@
         Me.au79.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.au79.Size = New System.Drawing.Size(41, 49)
         Me.au79.TabIndex = 64
-        Me.au79.Text = "79Ω"
+        Me.au79.Text = "79Èáë"
         Me.au79.UseVisualStyleBackColor = False
         '
         'pt78
@@ -1043,7 +1047,7 @@
         Me.pt78.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.pt78.Size = New System.Drawing.Size(41, 49)
         Me.pt78.TabIndex = 63
-        Me.pt78.Text = "78≤¨"
+        Me.pt78.Text = "78ÈìÇ"
         Me.pt78.UseVisualStyleBackColor = False
         '
         'ir77
@@ -1056,7 +1060,7 @@
         Me.ir77.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ir77.Size = New System.Drawing.Size(41, 49)
         Me.ir77.TabIndex = 62
-        Me.ir77.Text = "77“ø"
+        Me.ir77.Text = "77Èì±"
         Me.ir77.UseVisualStyleBackColor = False
         '
         'os76
@@ -1069,7 +1073,7 @@
         Me.os76.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.os76.Size = New System.Drawing.Size(41, 49)
         Me.os76.TabIndex = 61
-        Me.os76.Text = "76Ô∞"
+        Me.os76.Text = "76Èîá"
         Me.os76.UseVisualStyleBackColor = False
         '
         're75
@@ -1082,7 +1086,7 @@
         Me.re75.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.re75.Size = New System.Drawing.Size(41, 49)
         Me.re75.TabIndex = 60
-        Me.re75.Text = "75Ô™"
+        Me.re75.Text = "75Èìº"
         Me.re75.UseVisualStyleBackColor = False
         '
         'w74
@@ -1095,7 +1099,7 @@
         Me.w74.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.w74.Size = New System.Drawing.Size(41, 49)
         Me.w74.TabIndex = 59
-        Me.w74.Text = "74ŒŸ"
+        Me.w74.Text = "74Èí®"
         Me.w74.UseVisualStyleBackColor = False
         '
         'ta73
@@ -1108,7 +1112,7 @@
         Me.ta73.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ta73.Size = New System.Drawing.Size(41, 49)
         Me.ta73.TabIndex = 58
-        Me.ta73.Text = "73Ó„"
+        Me.ta73.Text = "73ÈíΩ"
         Me.ta73.UseVisualStyleBackColor = False
         '
         'hf72
@@ -1121,7 +1125,7 @@
         Me.hf72.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.hf72.Size = New System.Drawing.Size(41, 49)
         Me.hf72.TabIndex = 57
-        Me.hf72.Text = "72Ó˛"
+        Me.hf72.Text = "72Èì™"
         Me.hf72.UseVisualStyleBackColor = False
         '
         'lalu
@@ -1134,7 +1138,7 @@
         Me.lalu.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.lalu.Size = New System.Drawing.Size(41, 49)
         Me.lalu.TabIndex = 56
-        Me.lalu.Text = "ÔÁœµ"
+        Me.lalu.Text = "ÈïßÁ≥ª"
         Me.lalu.UseVisualStyleBackColor = False
         '
         'ba56
@@ -1147,7 +1151,7 @@
         Me.ba56.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ba56.Size = New System.Drawing.Size(41, 49)
         Me.ba56.TabIndex = 55
-        Me.ba56.Text = "56±µ"
+        Me.ba56.Text = "56Èí°"
         Me.ba56.UseVisualStyleBackColor = False
         '
         'cs55
@@ -1160,7 +1164,7 @@
         Me.cs55.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cs55.Size = New System.Drawing.Size(41, 49)
         Me.cs55.TabIndex = 54
-        Me.cs55.Text = "55Ô§"
+        Me.cs55.Text = "55ÈìØ"
         Me.cs55.UseVisualStyleBackColor = False
         '
         'xe54
@@ -1173,7 +1177,7 @@
         Me.xe54.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.xe54.Size = New System.Drawing.Size(41, 49)
         Me.xe54.TabIndex = 53
-        Me.xe54.Text = "54ÎØ"
+        Me.xe54.Text = "54Ê∞ô"
         Me.xe54.UseVisualStyleBackColor = False
         '
         'i53
@@ -1186,7 +1190,7 @@
         Me.i53.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.i53.Size = New System.Drawing.Size(41, 49)
         Me.i53.TabIndex = 52
-        Me.i53.Text = "53µ‚"
+        Me.i53.Text = "53Á¢ò"
         Me.i53.UseVisualStyleBackColor = False
         '
         'te52
@@ -1199,7 +1203,7 @@
         Me.te52.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.te52.Size = New System.Drawing.Size(41, 49)
         Me.te52.TabIndex = 51
-        Me.te52.Text = "52Ì⁄"
+        Me.te52.Text = "52Á¢≤"
         Me.te52.UseVisualStyleBackColor = False
         '
         'sb51
@@ -1212,7 +1216,7 @@
         Me.sb51.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.sb51.Size = New System.Drawing.Size(41, 49)
         Me.sb51.TabIndex = 50
-        Me.sb51.Text = "51Ã‡"
+        Me.sb51.Text = "51Èîë"
         Me.sb51.UseVisualStyleBackColor = False
         '
         'sn50
@@ -1225,7 +1229,7 @@
         Me.sn50.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.sn50.Size = New System.Drawing.Size(41, 49)
         Me.sn50.TabIndex = 49
-        Me.sn50.Text = "50Œ˝"
+        Me.sn50.Text = "50Èî°"
         Me.sn50.UseVisualStyleBackColor = False
         '
         'in49
@@ -1238,7 +1242,7 @@
         Me.in49.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.in49.Size = New System.Drawing.Size(41, 49)
         Me.in49.TabIndex = 48
-        Me.in49.Text = "49Ó˜"
+        Me.in49.Text = "49Èìü"
         Me.in49.UseVisualStyleBackColor = False
         '
         'cd48
@@ -1251,7 +1255,7 @@
         Me.cd48.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cd48.Size = New System.Drawing.Size(41, 49)
         Me.cd48.TabIndex = 47
-        Me.cd48.Text = "48Ô”"
+        Me.cd48.Text = "48Èïâ"
         Me.cd48.UseVisualStyleBackColor = False
         '
         'ag47
@@ -1264,7 +1268,7 @@
         Me.ag47.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ag47.Size = New System.Drawing.Size(41, 49)
         Me.ag47.TabIndex = 46
-        Me.ag47.Text = "47“¯"
+        Me.ag47.Text = "47Èì∂"
         Me.ag47.UseVisualStyleBackColor = False
         '
         'pd46
@@ -1277,7 +1281,7 @@
         Me.pd46.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.pd46.Size = New System.Drawing.Size(41, 49)
         Me.pd46.TabIndex = 45
-        Me.pd46.Text = "46ÓŸ"
+        Me.pd46.Text = "46ÈíØ"
         Me.pd46.UseVisualStyleBackColor = False
         '
         'rh45
@@ -1290,7 +1294,7 @@
         Me.rh45.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.rh45.Size = New System.Drawing.Size(41, 49)
         Me.rh45.TabIndex = 44
-        Me.rh45.Text = "45ÓÓ"
+        Me.rh45.Text = "45Èìë"
         Me.rh45.UseVisualStyleBackColor = False
         '
         'ru44
@@ -1303,7 +1307,7 @@
         Me.ru44.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ru44.Size = New System.Drawing.Size(41, 49)
         Me.ru44.TabIndex = 43
-        Me.ru44.Text = "44Ó…"
+        Me.ru44.Text = "44Èíå"
         Me.ru44.UseVisualStyleBackColor = False
         '
         'tc43
@@ -1316,7 +1320,7 @@
         Me.tc43.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.tc43.Size = New System.Drawing.Size(41, 49)
         Me.tc43.TabIndex = 42
-        Me.tc43.Text = "43ÔΩ"
+        Me.tc43.Text = "43Èîù"
         Me.tc43.UseVisualStyleBackColor = False
         '
         'mo42
@@ -1329,7 +1333,7 @@
         Me.mo42.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.mo42.Size = New System.Drawing.Size(41, 49)
         Me.mo42.TabIndex = 41
-        Me.mo42.Text = "42Ó‚"
+        Me.mo42.Text = "42Èíº"
         Me.mo42.UseVisualStyleBackColor = False
         '
         'nb41
@@ -1342,7 +1346,7 @@
         Me.nb41.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.nb41.Size = New System.Drawing.Size(41, 49)
         Me.nb41.TabIndex = 40
-        Me.nb41.Text = "41ÓÍ"
+        Me.nb41.Text = "41Èìå"
         Me.nb41.UseVisualStyleBackColor = False
         '
         'zr40
@@ -1355,7 +1359,7 @@
         Me.zr40.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.zr40.Size = New System.Drawing.Size(41, 49)
         Me.zr40.TabIndex = 39
-        Me.zr40.Text = "40ÔØ"
+        Me.zr40.Text = "40ÈîÜ"
         Me.zr40.UseVisualStyleBackColor = False
         '
         'y39
@@ -1368,7 +1372,7 @@
         Me.y39.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.y39.Size = New System.Drawing.Size(41, 49)
         Me.y39.TabIndex = 38
-        Me.y39.Text = "39Ó∆"
+        Me.y39.Text = "39Èíá"
         Me.y39.UseVisualStyleBackColor = False
         '
         'sr38
@@ -1381,7 +1385,7 @@
         Me.sr38.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.sr38.Size = New System.Drawing.Size(41, 49)
         Me.sr38.TabIndex = 37
-        Me.sr38.Text = "38Ô»"
+        Me.sr38.Text = "38Èî∂"
         Me.sr38.UseVisualStyleBackColor = False
         '
         'rb37
@@ -1394,7 +1398,7 @@
         Me.rb37.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.rb37.Size = New System.Drawing.Size(41, 49)
         Me.rb37.TabIndex = 36
-        Me.rb37.Text = "37Ô®"
+        Me.rb37.Text = "37Èì∑"
         Me.rb37.UseVisualStyleBackColor = False
         '
         'kr36
@@ -1407,7 +1411,7 @@
         Me.kr36.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.kr36.Size = New System.Drawing.Size(41, 49)
         Me.kr36.TabIndex = 35
-        Me.kr36.Text = "36Î¥"
+        Me.kr36.Text = "36Ê∞™"
         Me.kr36.UseVisualStyleBackColor = False
         '
         'br35
@@ -1420,7 +1424,7 @@
         Me.br35.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.br35.Size = New System.Drawing.Size(41, 49)
         Me.br35.TabIndex = 34
-        Me.br35.Text = "35‰Â"
+        Me.br35.Text = "35Ê∫¥"
         Me.br35.UseVisualStyleBackColor = False
         '
         'se34
@@ -1433,7 +1437,7 @@
         Me.se34.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.se34.Size = New System.Drawing.Size(41, 49)
         Me.se34.TabIndex = 33
-        Me.se34.Text = "34Œ¯"
+        Me.se34.Text = "34Á°í"
         Me.se34.UseVisualStyleBackColor = False
         '
         'as33
@@ -1446,7 +1450,7 @@
         Me.as33.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.as33.Size = New System.Drawing.Size(41, 49)
         Me.as33.TabIndex = 32
-        Me.as33.Text = "33…È"
+        Me.as33.Text = "33Á†∑"
         Me.as33.UseVisualStyleBackColor = False
         '
         'ge32
@@ -1459,7 +1463,7 @@
         Me.ge32.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ge32.Size = New System.Drawing.Size(41, 49)
         Me.ge32.TabIndex = 31
-        Me.ge32.Text = "32’‡"
+        Me.ge32.Text = "32Èîó"
         Me.ge32.UseVisualStyleBackColor = False
         '
         'ga31
@@ -1472,7 +1476,7 @@
         Me.ga31.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ga31.Size = New System.Drawing.Size(41, 49)
         Me.ga31.TabIndex = 30
-        Me.ga31.Text = "31Ôÿ"
+        Me.ga31.Text = "31Èïì"
         Me.ga31.UseVisualStyleBackColor = False
         '
         'zn30
@@ -1485,7 +1489,7 @@
         Me.zn30.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.zn30.Size = New System.Drawing.Size(41, 49)
         Me.zn30.TabIndex = 29
-        Me.zn30.Text = "30–ø"
+        Me.zn30.Text = "30Èîå"
         Me.zn30.UseVisualStyleBackColor = False
         '
         'cu29
@@ -1498,7 +1502,7 @@
         Me.cu29.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cu29.Size = New System.Drawing.Size(41, 49)
         Me.cu29.TabIndex = 28
-        Me.cu29.Text = "29Õ≠"
+        Me.cu29.Text = "29Èìú"
         Me.cu29.UseVisualStyleBackColor = False
         '
         'ni28
@@ -1511,7 +1515,7 @@
         Me.ni28.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ni28.Size = New System.Drawing.Size(41, 49)
         Me.ni28.TabIndex = 27
-        Me.ni28.Text = "28ƒ¯"
+        Me.ni28.Text = "28Èïç"
         Me.ni28.UseVisualStyleBackColor = False
         '
         'co27
@@ -1524,7 +1528,7 @@
         Me.co27.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.co27.Size = New System.Drawing.Size(41, 49)
         Me.co27.TabIndex = 26
-        Me.co27.Text = "27Ó‹"
+        Me.co27.Text = "27Èí¥"
         Me.co27.UseVisualStyleBackColor = False
         '
         'fe26
@@ -1537,7 +1541,7 @@
         Me.fe26.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.fe26.Size = New System.Drawing.Size(41, 49)
         Me.fe26.TabIndex = 25
-        Me.fe26.Text = "26Ã˙"
+        Me.fe26.Text = "26ÈìÅ"
         Me.fe26.UseVisualStyleBackColor = False
         '
         'mn25
@@ -1550,7 +1554,7 @@
         Me.mn25.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.mn25.Size = New System.Drawing.Size(41, 49)
         Me.mn25.TabIndex = 24
-        Me.mn25.Text = "25√Ã"
+        Me.mn25.Text = "25Èî∞"
         Me.mn25.UseVisualStyleBackColor = False
         '
         'cr24
@@ -1563,7 +1567,7 @@
         Me.cr24.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cr24.Size = New System.Drawing.Size(41, 49)
         Me.cr24.TabIndex = 23
-        Me.cr24.Text = "24∏ı"
+        Me.cr24.Text = "24Èì¨"
         Me.cr24.UseVisualStyleBackColor = False
         '
         'v23
@@ -1576,7 +1580,7 @@
         Me.v23.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.v23.Size = New System.Drawing.Size(41, 49)
         Me.v23.TabIndex = 22
-        Me.v23.Text = "23∑∞"
+        Me.v23.Text = "23Èíí"
         Me.v23.UseVisualStyleBackColor = False
         '
         'ti22
@@ -1589,7 +1593,7 @@
         Me.ti22.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ti22.Size = New System.Drawing.Size(41, 49)
         Me.ti22.TabIndex = 21
-        Me.ti22.Text = "22Ó—"
+        Me.ti22.Text = "22Èíõ"
         Me.ti22.UseVisualStyleBackColor = False
         '
         'sc21
@@ -1602,7 +1606,7 @@
         Me.sc21.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.sc21.Size = New System.Drawing.Size(41, 49)
         Me.sc21.TabIndex = 20
-        Me.sc21.Text = "21Ó÷"
+        Me.sc21.Text = "21Èí™"
         Me.sc21.UseVisualStyleBackColor = False
         '
         'ca20
@@ -1615,7 +1619,7 @@
         Me.ca20.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ca20.Size = New System.Drawing.Size(41, 49)
         Me.ca20.TabIndex = 19
-        Me.ca20.Text = "20∏∆"
+        Me.ca20.Text = "20Èíô"
         Me.ca20.UseVisualStyleBackColor = False
         '
         'k19
@@ -1628,7 +1632,7 @@
         Me.k19.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.k19.Size = New System.Drawing.Size(41, 49)
         Me.k19.TabIndex = 18
-        Me.k19.Text = "19ºÿ"
+        Me.k19.Text = "19Èíæ"
         Me.k19.UseVisualStyleBackColor = False
         '
         'na11
@@ -1641,7 +1645,7 @@
         Me.na11.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.na11.Size = New System.Drawing.Size(41, 49)
         Me.na11.TabIndex = 10
-        Me.na11.Text = "11ƒ∆"
+        Me.na11.Text = "11Èí†"
         Me.na11.UseVisualStyleBackColor = False
         '
         'li3
@@ -1654,7 +1658,7 @@
         Me.li3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.li3.Size = New System.Drawing.Size(41, 49)
         Me.li3.TabIndex = 2
-        Me.li3.Text = "3ÔÆ"
+        Me.li3.Text = "3ÈîÇ"
         Me.li3.UseVisualStyleBackColor = False
         '
         'h1
@@ -1667,7 +1671,7 @@
         Me.h1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.h1.Size = New System.Drawing.Size(41, 49)
         Me.h1.TabIndex = 0
-        Me.h1.Text = "1«‚"
+        Me.h1.Text = "1Ê∞¢"
         Me.h1.UseVisualStyleBackColor = False
         '
         'Frame1
@@ -1689,7 +1693,7 @@
         Me.Frame1.Size = New System.Drawing.Size(177, 145)
         Me.Frame1.TabIndex = 131
         Me.Frame1.TabStop = False
-        Me.Frame1.Text = "√˚≥∆"
+        Me.Frame1.Text = "ÂêçÁß∞"
         '
         'yyyb
         '
@@ -1703,7 +1707,7 @@
         Me.yyyb.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.yyyb.Size = New System.Drawing.Size(89, 21)
         Me.yyyb.TabIndex = 139
-        Me.yyyb.Text = "”¢Œƒ√˚“Ù±Í"
+        Me.yyyb.Text = "Ëã±ÊñáÂêçÈü≥Ê†á"
         '
         'ywm
         '
@@ -1717,7 +1721,7 @@
         Me.ywm.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ywm.Size = New System.Drawing.Size(89, 21)
         Me.ywm.TabIndex = 138
-        Me.ywm.Text = "”¢Œƒ√˚"
+        Me.ywm.Text = "Ëã±ÊñáÂêç"
         '
         'hypy
         '
@@ -1731,7 +1735,7 @@
         Me.hypy.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.hypy.Size = New System.Drawing.Size(89, 21)
         Me.hypy.TabIndex = 137
-        Me.hypy.Text = "∫∫◊÷∫∫”Ô∆¥“Ù"
+        Me.hypy.Text = "Ê±âÂ≠óÊ±âËØ≠ÊãºÈü≥"
         '
         'ysfh
         '
@@ -1745,7 +1749,7 @@
         Me.ysfh.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.ysfh.Size = New System.Drawing.Size(89, 21)
         Me.ysfh.TabIndex = 136
-        Me.ysfh.Text = "π˙º Õ®”√∑˚∫≈"
+        Me.ysfh.Text = "ÂõΩÈôÖÈÄöÁî®Á¨¶Âè∑"
         '
         'Label31
         '
@@ -1757,7 +1761,7 @@
         Me.Label31.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label31.Size = New System.Drawing.Size(65, 17)
         Me.Label31.TabIndex = 135
-        Me.Label31.Text = "”¢”Ô“Ù±Í£∫"
+        Me.Label31.Text = "Ëã±ËØ≠Èü≥Ê†áÔºö"
         '
         'Label30
         '
@@ -1769,7 +1773,7 @@
         Me.Label30.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label30.Size = New System.Drawing.Size(65, 17)
         Me.Label30.TabIndex = 134
-        Me.Label30.Text = "”¢Œƒ√˚£∫"
+        Me.Label30.Text = "Ëã±ÊñáÂêçÔºö"
         '
         'Label29
         '
@@ -1781,7 +1785,7 @@
         Me.Label29.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label29.Size = New System.Drawing.Size(65, 17)
         Me.Label29.TabIndex = 133
-        Me.Label29.Text = "∫∫”Ô∆¥“Ù£∫"
+        Me.Label29.Text = "Ê±âËØ≠ÊãºÈü≥Ôºö"
         '
         'Label28
         '
@@ -1793,7 +1797,7 @@
         Me.Label28.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label28.Size = New System.Drawing.Size(65, 17)
         Me.Label28.TabIndex = 132
-        Me.Label28.Text = "‘™Àÿ∑˚∫≈£∫"
+        Me.Label28.Text = "ÂÖÉÁ¥†Á¨¶Âè∑Ôºö"
         '
         'Label36
         '
@@ -1803,9 +1807,9 @@
         Me.Label36.Location = New System.Drawing.Point(512, 7)
         Me.Label36.Name = "Label36"
         Me.Label36.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label36.Size = New System.Drawing.Size(65, 17)
+        Me.Label36.Size = New System.Drawing.Size(193, 17)
         Me.Label36.TabIndex = 149
-        Me.Label36.Text = "∆‰À¸"
+        Me.Label36.Text = "Êü•Êâæ‚Ä¶Ôºà‚Ä¶Ôºâ"
         '
         'Label50
         '
@@ -1815,7 +1819,7 @@
         Me.Label50.Location = New System.Drawing.Point(759, 343)
         Me.Label50.Name = "Label50"
         Me.Label50.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label50.Size = New System.Drawing.Size(111, 49)
+        Me.Label50.Size = New System.Drawing.Size(138, 49)
         Me.Label50.TabIndex = 130
         Me.Label50.Text = "8,18,32,32,18,8,2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Q, P, O, N, M,L,K"
         '
@@ -1827,7 +1831,7 @@
         Me.Label49.Location = New System.Drawing.Point(759, 303)
         Me.Label49.Name = "Label49"
         Me.Label49.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label49.Size = New System.Drawing.Size(111, 49)
+        Me.Label49.Size = New System.Drawing.Size(138, 49)
         Me.Label49.TabIndex = 129
         Me.Label49.Text = "8,18,32,18,8,2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "P, O, N, M,L,K"
         '
@@ -1839,7 +1843,7 @@
         Me.Label48.Location = New System.Drawing.Point(759, 247)
         Me.Label48.Name = "Label48"
         Me.Label48.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label48.Size = New System.Drawing.Size(111, 49)
+        Me.Label48.Size = New System.Drawing.Size(138, 49)
         Me.Label48.TabIndex = 128
         Me.Label48.Text = "8,18,18,8,2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "O, N, M,L,K"
         '
@@ -1851,7 +1855,7 @@
         Me.Label47.Location = New System.Drawing.Point(759, 199)
         Me.Label47.Name = "Label47"
         Me.Label47.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label47.Size = New System.Drawing.Size(111, 49)
+        Me.Label47.Size = New System.Drawing.Size(138, 49)
         Me.Label47.TabIndex = 127
         Me.Label47.Text = "8,18,8,2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "N, M,L,K"
         '
@@ -1863,7 +1867,7 @@
         Me.Label46.Location = New System.Drawing.Point(759, 151)
         Me.Label46.Name = "Label46"
         Me.Label46.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label46.Size = New System.Drawing.Size(111, 49)
+        Me.Label46.Size = New System.Drawing.Size(138, 49)
         Me.Label46.TabIndex = 126
         Me.Label46.Text = "8,8,2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "M,L,K"
         '
@@ -1875,7 +1879,7 @@
         Me.Label45.Location = New System.Drawing.Point(759, 111)
         Me.Label45.Name = "Label45"
         Me.Label45.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label45.Size = New System.Drawing.Size(111, 49)
+        Me.Label45.Size = New System.Drawing.Size(138, 49)
         Me.Label45.TabIndex = 125
         Me.Label45.Text = "8,2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "L,K"
         '
@@ -1887,7 +1891,7 @@
         Me.Label44.Location = New System.Drawing.Point(759, 55)
         Me.Label44.Name = "Label44"
         Me.Label44.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label44.Size = New System.Drawing.Size(111, 49)
+        Me.Label44.Size = New System.Drawing.Size(138, 49)
         Me.Label44.TabIndex = 124
         Me.Label44.Text = "2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "k"
         '
@@ -1983,9 +1987,9 @@
         Me.Label20.Location = New System.Drawing.Point(759, 31)
         Me.Label20.Name = "Label20"
         Me.Label20.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label20.Size = New System.Drawing.Size(111, 25)
+        Me.Label20.Size = New System.Drawing.Size(138, 25)
         Me.Label20.TabIndex = 123
-        Me.Label20.Text = "0◊ÂµÁ◊” ˝∫ÕµÁ◊”≤„"
+        Me.Label20.Text = "0ÊóèÁîµÂ≠êÊï∞ÂíåÁîµÂ≠êÂ±Ç"
         '
         'Label18
         '
@@ -2009,7 +2013,7 @@
         Me.Label17.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label17.Size = New System.Drawing.Size(41, 25)
         Me.Label17.TabIndex = 113
-        Me.Label17.Text = "¢˜A 17"
+        Me.Label17.Text = "‚Ö¶A 17"
         '
         'Label16
         '
@@ -2021,7 +2025,7 @@
         Me.Label16.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label16.Size = New System.Drawing.Size(41, 25)
         Me.Label16.TabIndex = 112
-        Me.Label16.Text = "¢ˆA 16"
+        Me.Label16.Text = "‚Ö•A 16"
         '
         'Label15
         '
@@ -2033,7 +2037,7 @@
         Me.Label15.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label15.Size = New System.Drawing.Size(41, 25)
         Me.Label15.TabIndex = 111
-        Me.Label15.Text = "¢ıA 15"
+        Me.Label15.Text = "‚Ö§A 15"
         '
         'Label14
         '
@@ -2045,7 +2049,7 @@
         Me.Label14.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label14.Size = New System.Drawing.Size(41, 25)
         Me.Label14.TabIndex = 110
-        Me.Label14.Text = "¢ÙA 14"
+        Me.Label14.Text = "‚Ö£A 14"
         '
         'Label13
         '
@@ -2057,7 +2061,7 @@
         Me.Label13.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label13.Size = New System.Drawing.Size(41, 25)
         Me.Label13.TabIndex = 109
-        Me.Label13.Text = "¢ÛA 13"
+        Me.Label13.Text = "‚Ö¢A 13"
         '
         'Label12
         '
@@ -2069,7 +2073,7 @@
         Me.Label12.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label12.Size = New System.Drawing.Size(41, 25)
         Me.Label12.TabIndex = 108
-        Me.Label12.Text = "¢ÚB 12"
+        Me.Label12.Text = "‚Ö°B 12"
         '
         'Label11
         '
@@ -2081,7 +2085,7 @@
         Me.Label11.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label11.Size = New System.Drawing.Size(41, 25)
         Me.Label11.TabIndex = 107
-        Me.Label11.Text = "¢ÒB 11"
+        Me.Label11.Text = "‚Ö†B 11"
         '
         'Label10
         '
@@ -2105,7 +2109,7 @@
         Me.Label9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label9.Size = New System.Drawing.Size(41, 25)
         Me.Label9.TabIndex = 105
-        Me.Label9.Text = "¢¯  9"
+        Me.Label9.Text = "‚Öß  9"
         '
         'Label8
         '
@@ -2129,7 +2133,7 @@
         Me.Label7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label7.Size = New System.Drawing.Size(41, 25)
         Me.Label7.TabIndex = 103
-        Me.Label7.Text = "¢˜B 7"
+        Me.Label7.Text = "‚Ö¶B 7"
         '
         'Label6
         '
@@ -2141,7 +2145,7 @@
         Me.Label6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label6.Size = New System.Drawing.Size(41, 25)
         Me.Label6.TabIndex = 102
-        Me.Label6.Text = "¢ˆB 6"
+        Me.Label6.Text = "‚Ö•B 6"
         '
         'Label5
         '
@@ -2153,7 +2157,7 @@
         Me.Label5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label5.Size = New System.Drawing.Size(41, 25)
         Me.Label5.TabIndex = 101
-        Me.Label5.Text = "¢ıB 5"
+        Me.Label5.Text = "‚Ö§B 5"
         '
         'Label4
         '
@@ -2165,7 +2169,7 @@
         Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label4.Size = New System.Drawing.Size(41, 25)
         Me.Label4.TabIndex = 100
-        Me.Label4.Text = "¢ÙB 4"
+        Me.Label4.Text = "‚Ö£B 4"
         '
         'Label3
         '
@@ -2177,7 +2181,7 @@
         Me.Label3.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label3.Size = New System.Drawing.Size(41, 25)
         Me.Label3.TabIndex = 99
-        Me.Label3.Text = "¢ÛB 3"
+        Me.Label3.Text = "‚Ö¢B 3"
         '
         'Label2
         '
@@ -2189,7 +2193,7 @@
         Me.Label2.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label2.Size = New System.Drawing.Size(41, 25)
         Me.Label2.TabIndex = 98
-        Me.Label2.Text = "¢ÚA 2"
+        Me.Label2.Text = "‚Ö°A 2"
         '
         'Label1
         '
@@ -2201,7 +2205,7 @@
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label1.Size = New System.Drawing.Size(41, 25)
         Me.Label1.TabIndex = 97
-        Me.Label1.Text = "¢ÒA 1"
+        Me.Label1.Text = "‚Ö†A 1"
         '
         'Label51
         '
@@ -2223,22 +2227,50 @@
         Me.Label53.Location = New System.Drawing.Point(759, 392)
         Me.Label53.Name = "Label53"
         Me.Label53.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label53.Size = New System.Drawing.Size(111, 49)
+        Me.Label53.Size = New System.Drawing.Size(138, 49)
         Me.Label53.TabIndex = 156
         Me.Label53.Text = "8,18,32,50,32,18,8,2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "R, Q, P, O, N, M, L, K"
+        '
+        'uue119
+        '
+        Me.uue119.BackColor = System.Drawing.SystemColors.Control
+        Me.uue119.Cursor = System.Windows.Forms.Cursors.Default
+        Me.uue119.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.uue119.Location = New System.Drawing.Point(32, 392)
+        Me.uue119.Name = "uue119"
+        Me.uue119.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.uue119.Size = New System.Drawing.Size(41, 49)
+        Me.uue119.TabIndex = 157
+        Me.uue119.Text = "119Uue"
+        Me.uue119.UseVisualStyleBackColor = False
+        '
+        'ubn120
+        '
+        Me.ubn120.BackColor = System.Drawing.SystemColors.Control
+        Me.ubn120.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ubn120.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.ubn120.Location = New System.Drawing.Point(72, 392)
+        Me.ubn120.Name = "ubn120"
+        Me.ubn120.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ubn120.Size = New System.Drawing.Size(41, 49)
+        Me.ubn120.TabIndex = 158
+        Me.ubn120.Text = "120Ubn"
+        Me.ubn120.UseVisualStyleBackColor = False
         '
         'PeriodicTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(969, 445)
+        Me.ClientSize = New System.Drawing.Size(992, 450)
+        Me.Controls.Add(Me.ubn120)
+        Me.Controls.Add(Me.uue119)
         Me.Controls.Add(Me.Label53)
         Me.Controls.Add(Me.Label51)
         Me.Controls.Add(Me.ElectronicShellTool)
         Me.Controls.Add(Me.IonTool)
         Me.Controls.Add(Me.AboutTool)
-        Me.Controls.Add(Me.qt)
+        Me.Controls.Add(Me.find)
         Me.Controls.Add(Me.Frame2)
         Me.Controls.Add(Me.ar18)
         Me.Controls.Add(Me.cl17)
@@ -2271,7 +2303,7 @@
         Me.Controls.Add(Me.db105)
         Me.Controls.Add(Me.rf104)
         Me.Controls.Add(Me.aclr)
-        Me.Controls.Add(Me.rr88)
+        Me.Controls.Add(Me.ra88)
         Me.Controls.Add(Me.fr87)
         Me.Controls.Add(Me.rn86)
         Me.Controls.Add(Me.at85)
@@ -2370,7 +2402,7 @@
         Me.Location = New System.Drawing.Point(8, 30)
         Me.Name = "PeriodicTable"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Text = "‘™Àÿ÷‹∆⁄±ÌProjects 2.0"
+        Me.Text = "ÂÖÉÁ¥†Âë®ÊúüË°®Projects 2.1"
         Me.Frame2.ResumeLayout(False)
         Me.Frame2.PerformLayout()
         Me.Frame1.ResumeLayout(False)
@@ -2381,5 +2413,7 @@
     End Sub
     Public WithEvents Label51 As System.Windows.Forms.Label
     Public WithEvents Label53 As System.Windows.Forms.Label
+    Public WithEvents uue119 As System.Windows.Forms.Button
+    Public WithEvents ubn120 As System.Windows.Forms.Button
 #End Region
 End Class

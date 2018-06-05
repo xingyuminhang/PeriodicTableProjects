@@ -41,39 +41,37 @@
 	Public WithEvents nh4 As System.Windows.Forms.RadioButton
 	Public WithEvents h As System.Windows.Forms.RadioButton
 	Public WithEvents Frame1 As System.Windows.Forms.GroupBox
-	Public WithEvents Label1 As System.Windows.Forms.Label
-	'注意: 以下过程是 Windows 窗体设计器所必需的
-	'可以使用 Windows 窗体设计器来修改它。
-	'不要使用代码编辑器修改它。
+    '注意: 以下过程是 Windows 窗体设计器所必需的
+    '可以使用 Windows 窗体设计器来修改它。
+    '不要使用代码编辑器修改它。
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Ion))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Command1 = New System.Windows.Forms.Button
-        Me.Text1 = New System.Windows.Forms.TextBox
-        Me.Frame2 = New System.Windows.Forms.GroupBox
-        Me.po4 = New System.Windows.Forms.RadioButton
-        Me.co3 = New System.Windows.Forms.RadioButton
-        Me.so4 = New System.Windows.Forms.RadioButton
-        Me.cl = New System.Windows.Forms.RadioButton
-        Me.no3 = New System.Windows.Forms.RadioButton
-        Me.oh = New System.Windows.Forms.RadioButton
-        Me.Frame1 = New System.Windows.Forms.GroupBox
-        Me.ag = New System.Windows.Forms.RadioButton
-        Me.cu = New System.Windows.Forms.RadioButton
-        Me.fe3 = New System.Windows.Forms.RadioButton
-        Me.fe2 = New System.Windows.Forms.RadioButton
-        Me.zn = New System.Windows.Forms.RadioButton
-        Me.mn = New System.Windows.Forms.RadioButton
-        Me.al = New System.Windows.Forms.RadioButton
-        Me.mg = New System.Windows.Forms.RadioButton
-        Me.ca = New System.Windows.Forms.RadioButton
-        Me.ba = New System.Windows.Forms.RadioButton
-        Me.na = New System.Windows.Forms.RadioButton
-        Me.k = New System.Windows.Forms.RadioButton
-        Me.nh4 = New System.Windows.Forms.RadioButton
-        Me.h = New System.Windows.Forms.RadioButton
-        Me.Label1 = New System.Windows.Forms.Label
+        Me.Command1 = New System.Windows.Forms.Button()
+        Me.Text1 = New System.Windows.Forms.TextBox()
+        Me.Frame2 = New System.Windows.Forms.GroupBox()
+        Me.po4 = New System.Windows.Forms.RadioButton()
+        Me.co3 = New System.Windows.Forms.RadioButton()
+        Me.so4 = New System.Windows.Forms.RadioButton()
+        Me.cl = New System.Windows.Forms.RadioButton()
+        Me.no3 = New System.Windows.Forms.RadioButton()
+        Me.oh = New System.Windows.Forms.RadioButton()
+        Me.Frame1 = New System.Windows.Forms.GroupBox()
+        Me.ag = New System.Windows.Forms.RadioButton()
+        Me.cu = New System.Windows.Forms.RadioButton()
+        Me.fe3 = New System.Windows.Forms.RadioButton()
+        Me.fe2 = New System.Windows.Forms.RadioButton()
+        Me.zn = New System.Windows.Forms.RadioButton()
+        Me.mn = New System.Windows.Forms.RadioButton()
+        Me.al = New System.Windows.Forms.RadioButton()
+        Me.mg = New System.Windows.Forms.RadioButton()
+        Me.ca = New System.Windows.Forms.RadioButton()
+        Me.ba = New System.Windows.Forms.RadioButton()
+        Me.na = New System.Windows.Forms.RadioButton()
+        Me.k = New System.Windows.Forms.RadioButton()
+        Me.nh4 = New System.Windows.Forms.RadioButton()
+        Me.h = New System.Windows.Forms.RadioButton()
         Me.Frame2.SuspendLayout()
         Me.Frame1.SuspendLayout()
         Me.SuspendLayout()
@@ -415,19 +413,6 @@
         Me.h.Text = "H(+)"
         Me.h.UseVisualStyleBackColor = False
         '
-        'Label1
-        '
-        Me.Label1.BackColor = System.Drawing.SystemColors.Control
-        Me.Label1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(8, 8)
-        Me.Label1.Name = "Label1"
-        Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label1.Size = New System.Drawing.Size(617, 25)
-        Me.Label1.TabIndex = 24
-        Me.Label1.Text = "此工具的诞生离不开张老师和Forever  95120___________________________________@spam4.me,我们对此表示感谢!" & _
-            ""
-        '
         'Ion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
@@ -438,7 +423,6 @@
         Me.Controls.Add(Me.Text1)
         Me.Controls.Add(Me.Frame2)
         Me.Controls.Add(Me.Frame1)
-        Me.Controls.Add(Me.Label1)
         Me.Cursor = System.Windows.Forms.Cursors.Default
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)

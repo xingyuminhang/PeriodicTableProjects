@@ -2,3 +2,45 @@ C:\Users\minhang\Desktop\元素周期表Projects.NET\obj\Release\Interop.DAO.dll
 C:\Users\minhang\Desktop\元素周期表Projects.NET\obj\Release\projects.vbproj.ResolveComReference.cache
 D:\GitHub repository\PeriodicTableProjects\obj\Release\Interop.DAO.dll
 D:\GitHub repository\PeriodicTableProjects\obj\Release\projects.vbproj.ResolveComReference.cache
+D:\GitHub repository\PeriodicTableProjects\bin\元素周期表Projects.exe.manifest
+D:\GitHub repository\PeriodicTableProjects\bin\元素周期表Projects.application
+D:\GitHub repository\PeriodicTableProjects\bin\元素周期表Projects.exe
+D:\GitHub repository\PeriodicTableProjects\bin\元素周期表Projects.xml
+D:\GitHub repository\PeriodicTableProjects\bin\Interop.DAO.dll
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.aboutform.resources
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.actinicleselement.resources
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.ElectronicShell.resources
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.Ion.resources
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.lanthanideelement.resources
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.PeriodicTable.resources
+D:\GitHub repository\PeriodicTableProjects\obj\Release\projects.vbproj.GenerateResource.Cache
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.TrustInfo.xml
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.exe.manifest
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.application
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.exe
+D:\GitHub repository\PeriodicTableProjects\obj\Release\元素周期表Projects.xml
+D:\GitHub repository\PeriodicTableProjects\bin\元素周期表Projects.exe.CodeAnalysisLog.xml
+D:\GitHub repository\PeriodicTableProjects\bin\元素周期表Projects.exe.lastcodeanalysissucceeded
+D:\repository\PeriodicTableProjects\obj\Release\Interop.DAO.dll
+D:\repository\PeriodicTableProjects\obj\Release\projects.vbproj.ResolveComReference.cache
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.exe
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.xml
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.aboutform.resources
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.ElectronicShell.resources
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.Ion.resources
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.PeriodicTable.resources
+D:\repository\PeriodicTableProjects\obj\Release\projects.vbproj.GenerateResource.Cache
+D:\repository\PeriodicTableProjects\bin\元素周期表Projects.exe.manifest
+D:\repository\PeriodicTableProjects\bin\元素周期表Projects.application
+D:\repository\PeriodicTableProjects\bin\元素周期表Projects.exe
+D:\repository\PeriodicTableProjects\bin\元素周期表Projects.xml
+D:\repository\PeriodicTableProjects\bin\Interop.DAO.dll
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.TrustInfo.xml
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.exe.manifest
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.application
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.SplashScreen1.resources
+D:\repository\PeriodicTableProjects\bin\元素周期表Projects.exe.config
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.Resources.resources
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.DataPanel.resources
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.actinides.resources
+D:\repository\PeriodicTableProjects\obj\Release\元素周期表Projects.lanthanides.resources

@@ -1,1195 +1,1105 @@
-Option Strict Off
+ï»¿Option Strict Off
 Option Explicit On
 Friend Class PeriodicTable
-	Inherits System.Windows.Forms.Form
-	Private Sub Command39_Click()
-		
-	End Sub
-	
-	Private Sub Drive1_Change()
-		
-	End Sub
-	
-	Private Sub Text1_Change()
-		
-	End Sub
-	
-	Private Sub AboutTool_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles AboutTool.Click
-		aboutform.Show()
-	End Sub
-	
-	Private Sub aclr_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles aclr.Click
-		actinicleselement.Show()
-	End Sub
-	
-	Private Sub ag47_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ag47.Click
-		Me.ysfh.Text = "Ag"
-		Me.hypy.Text = "y¨ªn"
-		Me.ywm.Text = "Silver"
-		Me.yyyb.Text = "['silv?]"
-		Me.wcdz.Text = "4d10 5s1"
-		Me.cjhhj.Text = "1"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "¹ó½ğÊô£¬Ôø¾­ÊÇÈ«Çò·¶Î§ÄÚµÄÓ²Í¨»õ"
-		Me.xdyzzl.Text = "107.87"
-	End Sub
-	
-	Private Sub al13_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles al13.Click
-		Me.ysfh.Text = "Al"
-		Me.hypy.Text = "l¨·"
-		Me.ywm.Text = "Aluminum"
-		Me.yyyb.Text = "[,&aelig;lju'minj?m]"
-		Me.wcdz.Text = "3s2 3p1"
-		Me.cjhhj.Text = "3"
-		Me.fl.Text = "Ö÷/½ğ/Æø"
-		Me.qt.Text = "µØ¿ÇÀïº¬Á¿×î¶àµÄ½ğÊô"
-		Me.xdyzzl.Text = "26.98"
-	End Sub
-	
-	Private Sub ar18_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ar18.Click
-		Me.ysfh.Text = "Ar"
-		Me.hypy.Text = "y¨¤"
-		Me.ywm.Text = "Argon"
-		Me.yyyb.Text = "['¨»:¨À?n]"
-		Me.wcdz.Text = "2s2 2p1"
-		Me.cjhhj.Text = "--"
-		Me.fl.Text = "Ö÷/·Ç/Ï¡"
-		Me.qt.Text = "Ï¡ÓĞÆøÌå£¬ÔÚ¿ÕÆøÖĞº¬Á¿×î¶àµÄÏ¡ÓĞÆøÌå"
-		Me.xdyzzl.Text = "39.95"
-	End Sub
-	
-	Private Sub as33_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles as33.Click
-		Me.ysfh.Text = "As"
-		Me.hypy.Text = "sh¨¥n"
-		Me.ywm.Text = "Arsenic"
-		Me.yyyb.Text = "['¨»:s?nik]"
-		Me.wcdz.Text = "4s2 4p3"
-		Me.cjhhj.Text = "-3¡¢3¡¢5"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "ÓĞ¶¾"
-		Me.xdyzzl.Text = "74.92"
-	End Sub
-	
-	Private Sub at85_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles at85.Click
-		Me.ysfh.Text = "At"
-		Me.hypy.Text = "¨¤i"
-		Me.ywm.Text = "Astatine"
-		Me.yyyb.Text = "['&aelig;st?ti:n]"
-		Me.wcdz.Text = "6s2 6p5"
-		Me.cjhhj.Text = "1¡¢3"
-		Me.fl.Text = "Ö÷/·Ç/Â±"
-		Me.qt.Text = "»îÆÃ"
-		Me.xdyzzl.Text = "(210)"
-	End Sub
-	
-	Private Sub au79_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles au79.Click
-		Me.ysfh.Text = "Au"
-		Me.hypy.Text = "j¨©n"
-		Me.ywm.Text = "Gold"
-		Me.yyyb.Text = "[¨À?uld]"
-		Me.wcdz.Text = "5d10 6s1"
-		Me.cjhhj.Text = "1¡¢3"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "Ô­×Ó½á¹¹×îÎÈ¶¨£¬ÈËÀà×îÔç·¢ÏÖ¼°Ó¦ÓÃµÄ¹ó½ğÊô£¬È«ÇòÓ²Í¨»õ"
-		Me.xdyzzl.Text = "196.97"
-	End Sub
-	
-	Private Sub b5_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles b5.Click
-		Me.ysfh.Text = "B"
-		Me.hypy.Text = "p¨¦ng"
-		Me.ywm.Text = "Boron"
-		Me.yyyb.Text = "['b?:r?n]"
-		Me.wcdz.Text = "2s2 2p1"
-		Me.cjhhj.Text = "3"
-		Me.fl.Text = "Ö÷/·Ç"
-		Me.qt.Text = "Ó²¶È½ö´ÎÓÚ½ğ¸ÕÊ¯µÄ·Ç½ğÊôÔªËØ"
-		Me.xdyzzl.Text = "10.81"
-	End Sub
-	
-	Private Sub ba56_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ba56.Click
-		Me.ysfh.Text = "Ba"
-		Me.hypy.Text = "b¨¨i"
-		Me.ywm.Text = "Barium"
-		Me.yyyb.Text = "['b¦Å?ri?m]"
-		Me.wcdz.Text = "6s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "Ö÷/¼îÍÁ"
-		Me.qt.Text = "ÁòËá±µ±»Ó¦ÓÃÓÚ±µ²ÍÍ¸ÊÓ"
-		Me.xdyzzl.Text = "137.33"
-	End Sub
-	
-	Private Sub be4_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles be4.Click
-		Me.ysfh.Text = "Be"
-		Me.hypy.Text = "p¨ª"
-		Me.ywm.Text = "Beryllium"
-		Me.yyyb.Text = "[be'rili?m]"
-		Me.wcdz.Text = "2s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "Ö÷/½ğ/¼îÍÁ"
-		Me.qt.Text = "×îÇá¼îÍÁ½ğÊôÔªËØ"
-		Me.xdyzzl.Text = "9.012"
-	End Sub
-	
-	Private Sub bh107_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles bh107.Click
-		Me.ysfh.Text = "Bh"
-		Me.hypy.Text = "b¨­"
-		Me.ywm.Text = "Bohrium"
-		Me.yyyb.Text = "['b?u?ri?m]"
-		Me.wcdz.Text = "6d5 7s2"
-		Me.cjhhj.Text = ""
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "270"
-	End Sub
-	
-	Private Sub bi83_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles bi83.Click
-		Me.ysfh.Text = "Bi"
-		Me.hypy.Text = "b¨¬"
-		Me.ywm.Text = "Bismuth"
-		Me.yyyb.Text = "['bizm?¦È]"
-		Me.wcdz.Text = "6s2 6p3"
-		Me.cjhhj.Text = "3¡¢5"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "208.98"
-	End Sub
-	
-	Private Sub br35_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles br35.Click
-		Me.ysfh.Text = "Br"
-		Me.hypy.Text = "xi¨´"
-		Me.ywm.Text = "Bromine"
-		Me.yyyb.Text = "['br?umi:n]"
-		Me.wcdz.Text = "4s2 4p5"
-		Me.cjhhj.Text = "-1¡¢7"
-		Me.fl.Text = "Ö÷/·Ç/Â±"
-		Me.qt.Text = "»îÆÃ£¬µ¥ÖÊÎªºì×ØÉ«ÒºÌå"
-		Me.xdyzzl.Text = "79.90"
-	End Sub
-	
-	Private Sub c6_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles c6.Click
-		Me.ysfh.Text = "C"
-		Me.hypy.Text = "t¨¤n"
-		Me.ywm.Text = "Carbon"
-		Me.yyyb.Text = "['k¨»:b?n]"
-		Me.wcdz.Text = "2s2 2p2"
-		Me.cjhhj.Text = "2¡¢4¡¢-4"
-		Me.fl.Text = "Ö÷/·Ç/Æø"
-		Me.qt.Text = "Ó²¶È×î¸ß"
-		Me.xdyzzl.Text = "12.01"
-	End Sub
-	
-	Private Sub ca20_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ca20.Click
-		Me.ysfh.Text = "Ca"
-		Me.hypy.Text = "g¨¤i"
-		Me.ywm.Text = "Calcium"
-		Me.yyyb.Text = "['k&aelig;lsi?m]"
-		Me.wcdz.Text = "4s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "Ö÷/½ğ/¼îÍÁ"
-		Me.qt.Text = "¹Ç÷ÀÖ÷Òª×é³É³É·Ö"
-		Me.xdyzzl.Text = "40.08"
-	End Sub
-	
-	Private Sub cd48_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cd48.Click
-		Me.ysfh.Text = "Cd"
-		Me.hypy.Text = "g¨¦"
-		Me.ywm.Text = "Cadmium"
-		Me.yyyb.Text = "['k&aelig;dmi?m]"
-		Me.wcdz.Text = "4d10 5s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÖØ½ğÊô£¬¹ıÁ¿ÉãÈë»áµ¼ÖÂÍ´Í´²¡"
-		Me.xdyzzl.Text = "112.41"
-	End Sub
-	
-	Private Sub cl17_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cl17.Click
-		Me.ysfh.Text = "Cl"
-		Me.hypy.Text = "l¨¸"
-		Me.ywm.Text = "Chlorine"
-		Me.yyyb.Text = "['kl?:ri:n]"
-		Me.wcdz.Text = "3s2 3p5"
-		Me.cjhhj.Text = "-1¡¢1¡¢3¡¢5¡¢7"
-		Me.fl.Text = "Ö÷/·Ç/Â±"
-		Me.qt.Text = "ÓĞ¶¾ »îÆÃ"
-		Me.xdyzzl.Text = "35.45"
-	End Sub
-	
-	Private Sub cn112_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cn112.Click
-		Me.ysfh.Text = "Cn"
-		Me.hypy.Text = "g¨¥"
-		Me.ywm.Text = "Copernicium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = "³¬ÖØÔªËØ"
-		Me.xdyzzl.Text = "(285)"
-	End Sub
-	
-	Private Sub co27_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles co27.Click
-		Me.ysfh.Text = "Co"
-		Me.hypy.Text = "g¨³"
-		Me.ywm.Text = "Cobalt"
-		Me.yyyb.Text = "[k?u'b?:lt]"
-		Me.wcdz.Text = "3d7 4s2"
-		Me.cjhhj.Text = "2¡¢3"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "Í¬Î»ËØîÜ60±»Ó¦ÓÃÓÚX¹â·¢ÉúÆ÷ÖĞ"
-		Me.xdyzzl.Text = "58.93"
-	End Sub
-	
-	Private Sub cr24_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cr24.Click
-		Me.ysfh.Text = "Cr"
-		Me.hypy.Text = "g¨¨"
-		Me.ywm.Text = "Chromium"
-		Me.yyyb.Text = "['kr?umj?m]"
-		Me.wcdz.Text = "3d5 4s1"
-		Me.cjhhj.Text = "3¡¢6"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "Ó²¶È×î¸ßµÄ½ğÊô"
-		Me.xdyzzl.Text = "52.00"
-	End Sub
-	
-	Private Sub cs55_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cs55.Click
-		Me.ysfh.Text = "Cs"
-		Me.hypy.Text = "s¨¨"
-		Me.ywm.Text = "Cesium"
-		Me.yyyb.Text = "['si:zi?m]"
-		Me.wcdz.Text = "6s1"
-		Me.cjhhj.Text = "1"
-		Me.fl.Text = "Ö÷/½ğ/¼î"
-		Me.qt.Text = "»îÆÃ"
-		Me.xdyzzl.Text = "132.91"
-	End Sub
-	
-	Private Sub cu29_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cu29.Click
-		Me.ysfh.Text = "Cu"
-		Me.hypy.Text = "t¨®ng"
-		Me.ywm.Text = "Copper"
-		Me.yyyb.Text = "['k?p?]"
-		Me.wcdz.Text = "3d10 4s1"
-		Me.cjhhj.Text = "1¡¢2"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÀà·¢ÏÖ×îÔç½ğÊôÖ®Ò»"
-		Me.xdyzzl.Text = "63.55"
-	End Sub
-	
-	Private Sub db105_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles db105.Click
-		Me.ysfh.Text = "Db"
-		Me.hypy.Text = "d¨´"
-		Me.ywm.Text = "Dubnium"
-		Me.yyyb.Text = "['du:bni?m]"
-		Me.wcdz.Text = "6d3 7s2"
-		Me.cjhhj.Text = ""
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÔì ·ÅÉä"
-		Me.xdyzzl.Text = "(268)"
-	End Sub
-	
-	Private Sub ds110_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ds110.Click
-		Me.ysfh.Text = "Ds"
-		Me.hypy.Text = "d¨¢"
-		Me.ywm.Text = "Darmstadtium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = "6d8 7s2"
-		Me.cjhhj.Text = ""
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÔì ·ÅÉä"
-		Me.xdyzzl.Text = "(281)"
-	End Sub
-	
-	Private Sub ElectronicShellTool_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ElectronicShellTool.Click
-		ElectronicShell.Show()
-	End Sub
-	
-	Private Sub f9_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles f9.Click
-		Me.ysfh.Text = "F"
-		Me.hypy.Text = "f¨²"
-		Me.ywm.Text = "Fluorine"
-		Me.yyyb.Text = "['flu?ri:n]"
-		Me.wcdz.Text = "2s2 2p5"
-		Me.cjhhj.Text = "-1"
-		Me.fl.Text = "Ö÷/·Ç/Â±"
-		Me.qt.Text = "×î»îÆÃ£¬·Ç½ğÊô£¬²»ÄÜ±»Ñõ»¯"
-		Me.xdyzzl.Text = "19.00"
-	End Sub
-	
-	Private Sub fe26_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles fe26.Click
-		Me.ysfh.Text = "Fe"
-		Me.hypy.Text = "ti¨§"
-		Me.ywm.Text = "Iron"
-		Me.yyyb.Text = "['a??n]"
-		Me.wcdz.Text = "1s1"
-		Me.cjhhj.Text = "2¡¢3"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "µØ¿Çº¬Á¿µÚ¶ş¸ßµÄ½ğÊô£¬¿ª²É×î¶à½ğÊô"
-		Me.xdyzzl.Text = "55.84"
-	End Sub
-	
-	Private Sub fl114_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles fl114.Click
-		Me.ysfh.Text = "Fl"
-		Me.hypy.Text = "f¨±"
-		Me.ywm.Text = "Flerovium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "(289)"
-	End Sub
-	
-	Private Sub fr87_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles fr87.Click
-		Me.ysfh.Text = "Fr"
-		Me.hypy.Text = "f¨¡ng"
-		Me.ywm.Text = "Francium"
-		Me.yyyb.Text = "['fr?ns??m]"
-		Me.wcdz.Text = "7s1"
-		Me.cjhhj.Text = "--"
-		Me.fl.Text = "¼î½ğÊô"
-		Me.qt.Text = "·ÅÉä"
-		Me.xdyzzl.Text = "(223)"
-	End Sub
-	
-	Private Sub ga31_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ga31.Click
-		Me.ysfh.Text = "Ga"
-		Me.hypy.Text = "ji¨¡"
-		Me.ywm.Text = "Gallium"
-		Me.yyyb.Text = "['¨À&aelig;li?m]"
-		Me.wcdz.Text = "4s2 4p1"
-		Me.cjhhj.Text = "3"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "È¼µãµÍ·Ğµã¸ß¡¡"
-		Me.xdyzzl.Text = "69.72"
-	End Sub
-	
-	Private Sub ge32_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ge32.Click
-		Me.ysfh.Text = "Ge"
-		Me.hypy.Text = "zh¨§"
-		Me.ywm.Text = "4s2 4p2"
-		Me.yyyb.Text = "[d??:'meini?m]"
-		Me.wcdz.Text = "1s1"
-		Me.cjhhj.Text = "4"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "ÊÇÒ»ÖÖÖØÒªµÄ°ëµ¼Ìå²ÄÁÏ"
-		Me.xdyzzl.Text = "72.61"
-	End Sub
-	
-	Private Sub h1_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles h1.Click
-		Me.ysfh.Text = "H"
-		Me.hypy.Text = "q¨©ng"
-		Me.ywm.Text = "Hydrogen"
-		Me.yyyb.Text = "['haidr?d??n]"
-		Me.wcdz.Text = "1s1"
-		Me.cjhhj.Text = "1¡¢-1"
-		Me.fl.Text = "Ö÷/·Ç/Æø"
-		Me.qt.Text = "Çá£¬Í¬Î»ËØÎªë­¡¢ë®ºÍë°"
-		Me.xdyzzl.Text = "1.0079"
-	End Sub
-	
-	Private Sub Label360_Click()
-		
-	End Sub
-	
-	Private Sub he2_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles he2.Click
-		Me.ysfh.Text = "He"
-		Me.hypy.Text = "h¨¤i"
-		Me.ywm.Text = "Helium"
-		Me.yyyb.Text = "['hi:li?m]"
-		Me.wcdz.Text = "1s2"
-		Me.cjhhj.Text = "--"
-		Me.fl.Text = "Ö÷/·Ç/Ï¡"
-		Me.qt.Text = "×îÄÑÒº»¯"
-		Me.xdyzzl.Text = "4.003"
-	End Sub
-	
-	Private Sub hf72_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles hf72.Click
-		Me.ysfh.Text = "Hf"
-		Me.hypy.Text = "h¨¡"
-		Me.ywm.Text = "Hafnium"
-		Me.yyyb.Text = "['h&aelig;fni?m]"
-		Me.wcdz.Text = "5d2 6s2"
-		Me.cjhhj.Text = "4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "178.49"
-	End Sub
-	
-	Private Sub hg80_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles hg80.Click
-		Me.ysfh.Text = "Hg"
-		Me.hypy.Text = "g¨¯ng"
-		Me.ywm.Text = "Mercury"
-		Me.yyyb.Text = "['m?:kjuri]"
-		Me.wcdz.Text = "5d10 6s2"
-		Me.cjhhj.Text = "1¡¢2"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "¡¡Î¨Ò»Ò»ÖÖÔÚ³£ÎÂÏÂÎªÒºÌ¬µÄ½ğÊô"
-		Me.xdyzzl.Text = "200.59"
-	End Sub
-	
-	Private Sub hs108_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles hs108.Click
-		Me.ysfh.Text = "Hs"
-		Me.hypy.Text = "h¨¥i"
-		Me.ywm.Text = "Hassium"
-		Me.yyyb.Text = "['h&aelig;si?m]"
-		Me.wcdz.Text = "6d6 7s2"
-		Me.cjhhj.Text = "-1¡¢7"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÔì ·ÅÉä"
-		Me.xdyzzl.Text = "(271)"
-	End Sub
-	
-	Private Sub i53_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles i53.Click
-		Me.ysfh.Text = "I"
-		Me.hypy.Text = "di¨£n"
-		Me.ywm.Text = "Indium"
-		Me.yyyb.Text = "['indi?m]"
-		Me.wcdz.Text = "5s2 5p5"
-		Me.cjhhj.Text = "-1¡¢7"
-		Me.fl.Text = "Ö÷/·Ç/Â±"
-		Me.qt.Text = "»îÆÃ£¬¼××´ÏÙËùĞèµÄÎ¢Á¿ÔªËØ"
-		Me.xdyzzl.Text = "126.90"
-	End Sub
-	
-	Private Sub in49_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles in49.Click
-		Me.ysfh.Text = "In"
-		Me.hypy.Text = "y¨©n"
-		Me.ywm.Text = "Indium"
-		Me.yyyb.Text = "['indi?m]"
-		Me.wcdz.Text = "5s2 5p1"
-		Me.cjhhj.Text = "3"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "¿ÉËÜĞÔÇ¿£¬ÓĞÑÓÕ¹ĞÔ£¬In115ÊÇÖ÷ÒªºËËØ£¬µ«ÓĞ·ÅÉäĞÔ"
-		Me.xdyzzl.Text = "114.82"
-	End Sub
-	
-	Private Sub IonTool_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles IonTool.Click
-		Ion.Show()
-	End Sub
-	
-	Private Sub ir77_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ir77.Click
-		Me.ysfh.Text = "Ir"
-		Me.hypy.Text = "y¨©"
-		Me.ywm.Text = "Iridium"
-		Me.yyyb.Text = "[ai'ridi?m]"
-		Me.wcdz.Text = "5d7 6s2"
-		Me.cjhhj.Text = "3,4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = " "
-		Me.xdyzzl.Text = "192.22"
-	End Sub
-	
-	Private Sub k19_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles k19.Click
-		Me.ysfh.Text = "K"
-		Me.hypy.Text = "ji¨£"
-		Me.ywm.Text = "Potassium"
-		Me.yyyb.Text = "[p?'t&aelig;sj?m]"
-		Me.wcdz.Text = "4s1"
-		Me.cjhhj.Text = "1"
-		Me.fl.Text = "Ö÷/½ğ/¼î"
-		Me.qt.Text = "»îÆÃ£¬Óë¿ÕÆø»òË®½Ó´¥·¢Éú·´Ó¦£¬Ö»ÄÜ´¢´æÔÚÃºÓÍ¡¢Ï¡ÓĞÆøÌåÖĞ"
-		Me.xdyzzl.Text = "39.10"
-	End Sub
-	
-	Private Sub kr36_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles kr36.Click
-		Me.ysfh.Text = "Kr"
-		Me.hypy.Text = "k¨¨"
-		Me.ywm.Text = "Krypton"
-		Me.yyyb.Text = "['kript?n]"
-		Me.wcdz.Text = "4s2 4p6"
-		Me.cjhhj.Text = "--"
-		Me.fl.Text = "ÊÇÒ»ÖÖÎŞÉ«ÎŞÎ¶ÎŞ³ôµÄ¶èĞÔÆøÌå"
-		Me.qt.Text = "ĞÔÖÊ»îÆÃ"
-		Me.xdyzzl.Text = "83.80"
-	End Sub
-	
-	Private Sub Label50_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles Label50.Click
-		
-	End Sub
-	
-	Private Sub lalu_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles lalu.Click
-		lanthanideelement.Show()
-	End Sub
-	
-	Private Sub li3_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles li3.Click
-		Me.ysfh.Text = "Li"
-		Me.hypy.Text = "l¨«"
-		Me.ywm.Text = "Lithium"
-		Me.yyyb.Text = "['li¦Èi?m]"
-		Me.wcdz.Text = "2s1"
-		Me.cjhhj.Text = "1"
-		Me.fl.Text = "Ö÷/½ğ/¼î"
-		Me.qt.Text = "ĞÔÖÊ»îÆÃ"
-		Me.xdyzzl.Text = "6.941"
-	End Sub
-	
-	Private Sub lv116_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles lv116.Click
-		Me.ysfh.Text = "Lv"
-		Me.hypy.Text = "l¨¬"
-		Me.ywm.Text = "Livermorium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "(293)"
-	End Sub
-	
-	Private Sub mc115_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mc115.Click
-		Me.ysfh.Text = "Mc"
-		Me.hypy.Text = "m¨°"
-		Me.ywm.Text = "Moscovium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "(288)"
-	End Sub
-	
-	Private Sub mg12_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mg12.Click
-		Me.ysfh.Text = "Mg"
-		Me.hypy.Text = "m¨§i"
-		Me.ywm.Text = "Magnesium"
-		Me.yyyb.Text = "m&aelig;¨À'ni:zi?m]"
-		Me.wcdz.Text = "3s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "Ö÷/½ğ/¼îÍÁ"
-		Me.qt.Text = "Çá½ğÊôÖ®Ò»"
-		Me.xdyzzl.Text = "24.31"
-	End Sub
-	
-	Private Sub mn25_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mn25.Click
-		Me.ysfh.Text = "Mn"
-		Me.hypy.Text = "m¨§ng"
-		Me.ywm.Text = "Manganese"
-		Me.yyyb.Text = "['m&aelig;?¨À?,ni:s]"
-		Me.wcdz.Text = "3d5 4s2"
-		Me.cjhhj.Text = "2¡¢4¡¢6¡¢7"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÔÚµØ¿ÇÖĞ·Ö²¼¹ã·º"
-		Me.xdyzzl.Text = "54.96"
-	End Sub
-	
-	Private Sub mo42_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mo42.Click
-		Me.ysfh.Text = "Mo"
-		Me.hypy.Text = "m¨´"
-		Me.ywm.Text = "Molybdenum"
-		Me.yyyb.Text = "[m?'libdin?m]"
-		Me.wcdz.Text = "4d5 5s1"
-		Me.cjhhj.Text = "6"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "Ö²ÎïÉú³¤ËùĞèµÄÎ¢Á¿ÔªËØ¡¡"
-		Me.xdyzzl.Text = "95.94"
-	End Sub
-	
-	Private Sub mt109_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mt109.Click
-		Me.ysfh.Text = "Mt"
-		Me.hypy.Text = "m¨¤i"
-		Me.ywm.Text = "Mietnerium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = "6d7 7s2"
-		Me.cjhhj.Text = ""
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÔì ·ÅÉä"
-		Me.xdyzzl.Text = "(276)"
-	End Sub
-	
-	Private Sub n7_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles n7.Click
-		Me.ysfh.Text = "N"
-		Me.hypy.Text = "d¨¤n"
-		Me.ywm.Text = "Nitrogen"
-		Me.yyyb.Text = "['naitr?d??n]"
-		Me.wcdz.Text = "2s2 2p3"
-		Me.cjhhj.Text = "-3¡¢ 1 ¡¢2¡¢ 3¡¢ 4¡¢5"
-		Me.fl.Text = "Ö÷/·Ç/Æø"
-		Me.qt.Text = "¿ÕÆøÖĞº¬Á¿×î¶àµÄÔªËØ"
-		Me.xdyzzl.Text = "14.01"
-	End Sub
-	
-	Private Sub na11_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles na11.Click
-		Me.ysfh.Text = "Na"
-		Me.hypy.Text = "n¨¤"
-		Me.ywm.Text = "Sodium"
-		Me.yyyb.Text = "['s?udi?m]"
-		Me.wcdz.Text = "3s1"
-		Me.cjhhj.Text = "1"
-		Me.fl.Text = "Ö÷/½ğ/¼î"
-		Me.qt.Text = "»îÆÃ"
-		Me.xdyzzl.Text = "22.99"
-	End Sub
-	
-	Private Sub nb41_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles nb41.Click
-		Me.ysfh.Text = "Nb"
-		Me.hypy.Text = "n¨ª"
-		Me.ywm.Text = "Niobium"
-		Me.yyyb.Text = "[nai'?ubi?m]"
-		Me.wcdz.Text = "4d4 5s1"
-		Me.cjhhj.Text = "5"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "îê¸Ö±»ÓÃÓÚÖÆ×÷Æû³µÍâ¿Ç¡¡"
-		Me.xdyzzl.Text = "92.91"
-	End Sub
-	
-	Private Sub ne10_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ne10.Click
-		Me.ysfh.Text = "Ne"
-		Me.hypy.Text = "n¨£i"
-		Me.ywm.Text = "Neon"
-		Me.yyyb.Text = "['ni:?n]"
-		Me.wcdz.Text = "2s2 2p6"
-		Me.cjhhj.Text = "--"
-		Me.fl.Text = "Ö÷/·Ç/Ï¡"
-		Me.qt.Text = "Ï¡ÓĞÆøÌå"
-		Me.xdyzzl.Text = "20.18"
-	End Sub
-	
-	Private Sub nh113_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles nh113.Click
-		Me.ysfh.Text = "Nh"
-		Me.hypy.Text = "n¨«"
-		Me.ywm.Text = "Nihonium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "(284)"
-	End Sub
-	
-	Private Sub ni28_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ni28.Click
-		Me.ysfh.Text = "59"
-		Me.hypy.Text = "ni¨¨"
-		Me.ywm.Text = "Nickel"
-		Me.yyyb.Text = "['nik?l]"
-		Me.wcdz.Text = "3d8 4s2"
-		Me.cjhhj.Text = "2¡¢3"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÓĞ´ÅĞÔºÍÁ¼ºÃ¿ÉËÜĞÔ"
-		Me.xdyzzl.Text = "58.69"
-	End Sub
-	
-	Private Sub o8_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles o8.Click
-		Me.ysfh.Text = "O"
-		Me.hypy.Text = "y¨£ng"
-		Me.ywm.Text = "Oxygen"
-		Me.yyyb.Text = "['?ksid??n]"
-		Me.wcdz.Text = "2s2 2p4"
-		Me.cjhhj.Text = "-2¡¢-1¡¢2"
-		Me.fl.Text = "Ö÷/·Ç/Æø"
-		Me.qt.Text = "µØ¿ÇÖĞ×î¶à"
-		Me.xdyzzl.Text = "16.00"
-	End Sub
-	
-	Private Sub og118_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles og118.Click
-		Me.ysfh.Text = "Og"
-		Me.hypy.Text = "¨¤o"
-		Me.ywm.Text = "Oganesson"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "(294)"
-	End Sub
-	
-	Private Sub os76_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles os76.Click
-		Me.ysfh.Text = "Os"
-		Me.hypy.Text = "¨¦"
-		Me.ywm.Text = "Osmium"
-		Me.yyyb.Text = "['?zmi?m]"
-		Me.wcdz.Text = "5d6 6s2"
-		Me.cjhhj.Text = "4,6,8"
-		Me.fl.Text = "Ö÷/·Ç"
-		Me.qt.Text = "ÃÜ¶È×î´óµÄ½ğÊô"
-		Me.xdyzzl.Text = "190.23"
-	End Sub
-	
-	Private Sub p15_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles p15.Click
-		Me.ysfh.Text = "P"
-		Me.hypy.Text = "l¨ªn"
-		Me.ywm.Text = "Phosphorus"
-		Me.yyyb.Text = "['f?sf?r?s]"
-		Me.wcdz.Text = "3s2 3p3"
-		Me.cjhhj.Text = "-3¡¢3¡¢5"
-		Me.fl.Text = "Ö÷/·Ç"
-		Me.qt.Text = "°×Á×ÓĞ¾ç¶¾"
-		Me.xdyzzl.Text = "30.97"
-	End Sub
-	
-	Private Sub pb82_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles pb82.Click
-		Me.ysfh.Text = "Pb"
-		Me.hypy.Text = "qi¨¡n"
-		Me.ywm.Text = "Lead"
-		Me.yyyb.Text = "[led]"
-		Me.wcdz.Text = "6s2 6p2"
-		Me.cjhhj.Text = "2,4"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "¡¡ÃÜ¶È´ó£¬ÈÛµãµÍ£¬¶ÔÈËÌåÓĞ¶¾ĞÔ¡£Ğí¶à»¯×±Æ·ÖĞ±ØĞëº¬ÓĞµÄÔªËØ"
-		Me.xdyzzl.Text = "207.2"
-	End Sub
-	
-	Private Sub pd46_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles pd46.Click
-		Me.ysfh.Text = "Pd"
-		Me.hypy.Text = "b¨£"
-		Me.ywm.Text = "Palladium"
-		Me.yyyb.Text = "[p?'leidi?m]"
-		Me.wcdz.Text = "4d10"
-		Me.cjhhj.Text = "2,4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "±»Ó¦ÓÃÓÚ¾Æ¾«¼ì²âÖĞ"
-		Me.xdyzzl.Text = "106.42"
-	End Sub
-	
-	Private Sub po84_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles po84.Click
-		Me.ysfh.Text = "Po"
-		Me.hypy.Text = "p¨­"
-		Me.ywm.Text = "Polonium"
-		Me.yyyb.Text = "[p?'l?uni?m]"
-		Me.wcdz.Text = "6s2 6p4"
-		Me.cjhhj.Text = "-2¡¢6"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "·ÅÉä"
-		Me.xdyzzl.Text = "(209)"
-	End Sub
-	
-	Private Sub pt78_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles pt78.Click
-		Me.ysfh.Text = "Pt"
-		Me.hypy.Text = "b¨®"
-		Me.ywm.Text = "Platinum"
-		Me.yyyb.Text = "['pl&aelig;tin?m]"
-		Me.wcdz.Text = "5d9 6s1"
-		Me.cjhhj.Text = "2,4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "±»Ó¦ÓÃÓÚÖé±¦Ê×ÊÎÖĞµÄ¹ó½ğÊô£¬Ë×³Æ²¬½ğ¡¡"
-		Me.xdyzzl.Text = "195.08"
-	End Sub
-	
-	Private Sub rb37_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rb37.Click
-		Me.ysfh.Text = "Rb"
-		Me.hypy.Text = "r¨²"
-		Me.ywm.Text = "Rubidium"
-		Me.yyyb.Text = "[ru:'bidi?m]"
-		Me.wcdz.Text = "5s1"
-		Me.cjhhj.Text = "1"
-		Me.fl.Text = "Ö÷/½ğ/¼î"
-		Me.qt.Text = "»îÆÃ"
-		Me.xdyzzl.Text = "85.47"
-	End Sub
-	
-	Private Sub re75_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles re75.Click
-		Me.ysfh.Text = "Re"
-		Me.hypy.Text = "l¨¢i"
-		Me.ywm.Text = "Rhenium"
-		Me.yyyb.Text = "['ri:ni?m]"
-		Me.wcdz.Text = "5d5 6s2"
-		Me.cjhhj.Text = "7"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "×îÍí±»·¢ÏÖµÄÎÈ¶¨ÔªËØ¡¡"
-		Me.xdyzzl.Text = "186.21"
-	End Sub
-	
-	Private Sub rf104_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rf104.Click
-		Me.ysfh.Text = "Rf"
-		Me.hypy.Text = "l¨²"
-		Me.ywm.Text = "Rutherfordium"
-		Me.yyyb.Text = "[,r?&eth;?'f?:di?m]"
-		Me.wcdz.Text = "6d2 7s2"
-		Me.cjhhj.Text = ""
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÔì ·ÅÉä"
-		Me.xdyzzl.Text = "(265)"
-	End Sub
-	
-	Private Sub rg111_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rg111.Click
-		Me.ysfh.Text = "Rg"
-		Me.hypy.Text = "l¨²n"
-		Me.ywm.Text = "Roentgenium"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = "³¬ÖØÔªËØ"
-		Me.xdyzzl.Text = "(280)"
-	End Sub
-	
-	Private Sub rh45_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rh45.Click
-		Me.ysfh.Text = "Rh"
-		Me.hypy.Text = "l¨£o"
-		Me.ywm.Text = "Rhodium"
-		Me.yyyb.Text = "['r?udi?m]"
-		Me.wcdz.Text = "4d8 5s1"
-		Me.cjhhj.Text = "3£¬4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÏÖ´úÖé±¦ÖÆ×÷¹ı³Ì½øĞĞ±íÃæ´¦ÀíµÄ±ØĞëÔªËØ¡¡"
-		Me.xdyzzl.Text = "102.91"
-	End Sub
-	
-	Private Sub rn86_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rn86.Click
-		Me.ysfh.Text = "Rn"
-		Me.hypy.Text = "d¨­ng"
-		Me.ywm.Text = "Radon"
-		Me.yyyb.Text = "['reid?n]"
-		Me.wcdz.Text = "6s2 6p6"
-		Me.cjhhj.Text = "--"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "·ÅÉä"
-		Me.xdyzzl.Text = "(222)"
-	End Sub
-	
-	Private Sub rr88_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rr88.Click
-		Me.ysfh.Text = "Ra"
-		Me.hypy.Text = "l¨¦i"
-		Me.ywm.Text = "Radium"
-		Me.yyyb.Text = "['reidi?m]"
-		Me.wcdz.Text = "7s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "Ö÷/½ğ/¼îÍÁ"
-		Me.qt.Text = "·ÅÉä"
-		Me.xdyzzl.Text = "(226)"
-	End Sub
-	
-	Private Sub ru44_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ru44.Click
-		Me.ysfh.Text = "Ru"
-		Me.hypy.Text = "li¨£o"
-		Me.ywm.Text = "Ruthenium"
-		Me.yyyb.Text = "[ru:'¦Èi:ni?m]"
-		Me.wcdz.Text = "4d7 5s1"
-		Me.cjhhj.Text = "3¡¢8"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "¶à¼ÛÏ¡ÓĞ½ğÊôÔªËØ"
-		Me.xdyzzl.Text = "101.07"
-	End Sub
-	
-	Private Sub s16_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles s16.Click
-		Me.ysfh.Text = "S"
-		Me.hypy.Text = "li¨²"
-		Me.ywm.Text = "Sulfur"
-		Me.yyyb.Text = "['s?lf?]"
-		Me.wcdz.Text = "3s2 3p4"
-		Me.cjhhj.Text = "-2¡¢4¡¢6"
-		Me.fl.Text = "Ö÷/·Ç"
-		Me.qt.Text = "ÖÊµØÈáÈí£¬Çá¡£ÓëÑõÆøÈ¼ÉÕĞÎ³ÉÓĞ¶¾µÄ¶şÑõ»¯Áò"
-		Me.xdyzzl.Text = "32.07"
-	End Sub
-	
-	Private Sub sb51_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sb51.Click
-		Me.ysfh.Text = "Sb"
-		Me.hypy.Text = "t¨©"
-		Me.ywm.Text = "Antimony"
-		Me.yyyb.Text = "['&aelig;ntim?ni]"
-		Me.wcdz.Text = "5s2 5p3"
-		Me.cjhhj.Text = "-3¡¢3¡¢5"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "ÈÛµãµÍ£¬±»ÓÃÓÚÖÆ×÷±£ÏÕË¿¡¡"
-		Me.xdyzzl.Text = "121.76"
-	End Sub
-	
-	Private Sub sc21_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sc21.Click
-		Me.ysfh.Text = "Sc"
-		Me.hypy.Text = "k¨¤ng"
-		Me.ywm.Text = "Scandium"
-		Me.yyyb.Text = "['sk&aelig;ndi?m]"
-		Me.wcdz.Text = "3d1 4s2"
-		Me.cjhhj.Text = "3"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "Ò»ÖÖÈáÈí¹ı¶É½ğÊô£¬³£ÓëîÅ£¬îï»ìºÏ´æÔÚ"
-		Me.xdyzzl.Text = "44.96"
-	End Sub
-	
-	Private Sub se34_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles se34.Click
-		Me.ysfh.Text = "Se"
-		Me.hypy.Text = "x¨©"
-		Me.ywm.Text = "Selenium"
-		Me.yyyb.Text = "[si'li:ni?m]"
-		Me.wcdz.Text = "4s2 4p4"
-		Me.cjhhj.Text = "-2¡¢4¡¢6"
-		Me.fl.Text = "Ö÷/·Ç"
-		Me.qt.Text = "¿ÉÊ¹²£Á§ÖÂÉ«ÎªÏÊºìÉ«¡¡"
-		Me.xdyzzl.Text = "78.96"
-	End Sub
-	
-	Private Sub sg106_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sg106.Click
-		Me.ysfh.Text = "Sg"
-		Me.hypy.Text = "x¨«"
-		Me.ywm.Text = "Seaborgium"
-		Me.yyyb.Text = "[si:b?:¨Ài?m]"
-		Me.wcdz.Text = "6d4 7s2"
-		Me.cjhhj.Text = ""
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÔì ·ÅÉä"
-		Me.xdyzzl.Text = "(271)"
-	End Sub
-	
-	Private Sub si14_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles si14.Click
-		Me.ysfh.Text = "Si"
-		Me.hypy.Text = "gu¨©"
-		Me.ywm.Text = "Silicon"
-		Me.yyyb.Text = "['silik?n]"
-		Me.wcdz.Text = "3s2 3p2"
-		Me.cjhhj.Text = "4"
-		Me.fl.Text = "Ö÷/·Ç"
-		Me.qt.Text = "µØ¿ÇÖĞº¬Á¿½ö´ÎÓÚÑõ"
-		Me.xdyzzl.Text = "28.09"
-	End Sub
-	
-	Private Sub sn50_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sn50.Click
-		Me.ysfh.Text = "Sn"
-		Me.hypy.Text = "x¨©"
-		Me.ywm.Text = "Tin"
-		Me.yyyb.Text = "[tin]"
-		Me.wcdz.Text = "5s2 5p2"
-		Me.cjhhj.Text = "2¡¢4"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = "ÈËÀà×îÔç·¢ÏÖÓ¦ÓÃµÄÔªËØÖ®Ò»£¬±»ÓÃÓÚÖÆÔìÈİÆ÷"
-		Me.xdyzzl.Text = "118.71"
-	End Sub
-	
-	Private Sub sr38_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sr38.Click
-		Me.ysfh.Text = "Sr"
-		Me.hypy.Text = "s¨©"
-		Me.ywm.Text = "Strontium"
-		Me.yyyb.Text = "['str?nti?m]"
-		Me.wcdz.Text = "5s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "Ö÷/½ğ/¼îÍÁ"
-		Me.qt.Text = "ÊÇ¼îÍÁÔªËØÖĞ·á¶È×îĞ¡µÄÔªËØ¡¡"
-		Me.xdyzzl.Text = "87.62"
-	End Sub
-	
-	Private Sub ta73_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ta73.Click
-		Me.ysfh.Text = "Ta"
-		Me.hypy.Text = "t¨£n"
-		Me.ywm.Text = "Tantalum"
-		Me.yyyb.Text = "['t&aelig;nt?l?m]"
-		Me.wcdz.Text = "5d3 6s2"
-		Me.cjhhj.Text = "5"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "180.95"
-	End Sub
-	
-	Private Sub tc43_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles tc43.Click
-		Me.ysfh.Text = "Tc"
-		Me.hypy.Text = "d¨¦"
-		Me.ywm.Text = "Technetium"
-		Me.yyyb.Text = "[tek'ni:?i?m]"
-		Me.wcdz.Text = "4d5 5s2"
-		Me.cjhhj.Text = "7"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "Ô­×ÓĞòÊı×îĞ¡µÄ·ÅÉäĞÔÔªËØ"
-		Me.xdyzzl.Text = "(99)"
-	End Sub
-	
-	Private Sub te52_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles te52.Click
-		Me.ysfh.Text = "Te"
-		Me.hypy.Text = "d¨¬"
-		Me.ywm.Text = "Tellurium"
-		Me.yyyb.Text = "[te'lju?ri?m]"
-		Me.wcdz.Text = "5s2 5p4"
-		Me.cjhhj.Text = "-2¡¢2¡¢4¡¢6"
-		Me.fl.Text = "Ö÷/·Ç"
-		Me.qt.Text = "ÃÜ¶È×î´óµÄ·Ç½ğÊô"
-		Me.xdyzzl.Text = "127.60"
-	End Sub
-	
-	Private Sub ti22_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ti22.Click
-		Me.ysfh.Text = "Ti"
-		Me.hypy.Text = "t¨¤i"
-		Me.ywm.Text = "Titanium"
-		Me.yyyb.Text = "[tai'teini?m]"
-		Me.wcdz.Text = "3d2 4s2"
-		Me.cjhhj.Text = "4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÄÜÔÚµªÆøÖĞÈ¼ÉÕ£¬ÈÛµã¸ß"
-		Me.xdyzzl.Text = "47.87"
-	End Sub
-	
-	Private Sub tl81_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles tl81.Click
-		Me.ysfh.Text = "Tl"
-		Me.hypy.Text = "t¨¡"
-		Me.ywm.Text = "Thallium"
-		Me.yyyb.Text = "['¦È&aelig;li?m]"
-		Me.wcdz.Text = "6s2 6p1"
-		Me.cjhhj.Text = "3"
-		Me.fl.Text = "Ö÷/½ğ"
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "204.38"
-	End Sub
-	
-	Private Sub ts117_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ts117.Click
-		Me.ysfh.Text = "Ts"
-		Me.hypy.Text = "ti¨¢n"
-		Me.ywm.Text = "Tennessine"
-		Me.yyyb.Text = ""
-		Me.wcdz.Text = ""
-		Me.cjhhj.Text = ""
-		Me.fl.Text = ""
-		Me.qt.Text = ""
-		Me.xdyzzl.Text = "(294)"
-	End Sub
-	
-	Private Sub v23_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles v23.Click
-		Me.ysfh.Text = "V"
-		Me.hypy.Text = "f¨¢n"
-		Me.ywm.Text = "Vanadium"
-		Me.yyyb.Text = "[v?'neidi?m]"
-		Me.wcdz.Text = "3d3 4s2"
-		Me.cjhhj.Text = "4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "¸ßÈÛµãÏ¡ÓĞ½ğÊô"
-		Me.xdyzzl.Text = "50.94"
-	End Sub
-	
-	Private Sub w74_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles w74.Click
-		Me.ysfh.Text = "W"
-		Me.hypy.Text = "w¨±"
-		Me.ywm.Text = "Tungsten"
-		Me.yyyb.Text = "['t??st?n]"
-		Me.wcdz.Text = "5d4 6s2"
-		Me.cjhhj.Text = "6"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈÛµã×î¸ß"
-		Me.xdyzzl.Text = "183.84"
-	End Sub
-	
-	Private Sub xe54_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles xe54.Click
-		Me.ysfh.Text = "Xe"
-		Me.hypy.Text = "xi¨¡n"
-		Me.ywm.Text = "Xenon"
-		Me.yyyb.Text = "['zen?n]"
-		Me.wcdz.Text = "5s2 5p6"
-		Me.cjhhj.Text = "4¡¢6¡¢8"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "¿É±»ÓÃÓÚÖÆ×÷ë¯µÆ¡¡"
-		Me.xdyzzl.Text = "131.29"
-	End Sub
-	
-	Private Sub y39_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles y39.Click
-		Me.ysfh.Text = "Y"
-		Me.hypy.Text = "y¨«"
-		Me.ywm.Text = "Yttrium"
-		Me.yyyb.Text = "['itri?m]"
-		Me.wcdz.Text = "4d1 5s2"
-		Me.cjhhj.Text = "3"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈË¹¤ºÏ³ÉµÄîÆÂÁÁñÊ¯Ôø±»µ±×ö×êÊ¯µÄÌæ´úÆ·¡¡"
-		Me.xdyzzl.Text = "88.91"
-	End Sub
-	
-	Private Sub zn30_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles zn30.Click
-		Me.ysfh.Text = "Zn"
-		Me.hypy.Text = "x¨©n"
-		Me.ywm.Text = "Zinc"
-		Me.yyyb.Text = "[zi?k]"
-		Me.wcdz.Text = "3d10 4s2"
-		Me.cjhhj.Text = "2"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "ÈËÌåĞèÒªµÄÎ¢Á¿ÔªËØ"
-		Me.xdyzzl.Text = "69.72"
-	End Sub
-	
-	Private Sub zr40_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles zr40.Click
-		Me.ysfh.Text = "Zr"
-		Me.hypy.Text = "g¨¤o"
-		Me.ywm.Text = "Zirconium"
-		Me.yyyb.Text = "[z?:'k?uni?m]"
-		Me.wcdz.Text = "4d2 5s2"
-		Me.cjhhj.Text = "4"
-		Me.fl.Text = "¸±/½ğ/¹ı"
-		Me.qt.Text = "Ñõ»¯ÎïÁ¢·½Ñõ»¯ï¯Îª×êÊ¯µÄÈË¹¤Ìæ´úÆ·¡¡"
-		Me.xdyzzl.Text = "91.22"
-	End Sub
+    Inherits System.Windows.Forms.Form
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    Private Sub PeriodicTable_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
+    Private Sub AboutTool_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles AboutTool.Click
+        aboutform.Show()
     End Sub
 
-    Private Sub Label44_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label44.Click
+    Private Sub aclr_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles aclr.Click
+        actinides.Show()
+    End Sub
 
+    Private Sub ag47_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ag47.Click
+        DataPanel.boxchname.Text = "Ag"
+        DataPanel.boxchpinyin.Text = "yÃ­n"
+        DataPanel.boxenname.Text = "Silver"
+        DataPanel.boxensymbol.Text = "['silvÉ™]"
+        DataPanel.boxoutelec.Text = "4d10 5s1"
+        DataPanel.boxvalence.Text = "1"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "è´µé‡‘å±ï¼Œæ›¾ç»æ˜¯å…¨çƒèŒƒå›´å†…çš„ç¡¬é€šè´§"
+        DataPanel.boxrelaatomass.Text = "107.87"
+    End Sub
+
+    Private Sub al13_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles al13.Click
+        DataPanel.boxchname.Text = "Al"
+        DataPanel.boxchpinyin.Text = "lÇš"
+        DataPanel.boxenname.Text = "Aluminum"
+        DataPanel.boxensymbol.Text = "[,&aelig;lju'minjÉ™m]"
+        DataPanel.boxoutelec.Text = "3s2 3p1"
+        DataPanel.boxvalence.Text = "3"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/æ°”"
+        DataPanel.boxintro.Text = "åœ°å£³é‡Œå«é‡æœ€å¤šçš„é‡‘å±"
+        DataPanel.boxrelaatomass.Text = "26.98"
+    End Sub
+
+    Private Sub ar18_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ar18.Click
+        DataPanel.boxchname.Text = "Ar"
+        DataPanel.boxchpinyin.Text = "yÃ "
+        DataPanel.boxenname.Text = "Argon"
+        DataPanel.boxensymbol.Text = "['É‘:É¡É”n]"
+        DataPanel.boxoutelec.Text = "2s2 2p1"
+        DataPanel.boxvalence.Text = "--"
+        DataPanel.boxclassifi.Text = "ä¸»/é/ç¨€"
+        DataPanel.boxintro.Text = "ç¨€æœ‰æ°”ä½“ï¼Œåœ¨ç©ºæ°”ä¸­å«é‡æœ€å¤šçš„ç¨€æœ‰æ°”ä½“"
+        DataPanel.boxrelaatomass.Text = "39.95"
+    End Sub
+
+    Private Sub as33_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles as33.Click
+        DataPanel.boxchname.Text = "As"
+        DataPanel.boxchpinyin.Text = "shÄ“n"
+        DataPanel.boxenname.Text = "Arsenic"
+        DataPanel.boxensymbol.Text = "['É‘:sÉ™nik]"
+        DataPanel.boxoutelec.Text = "4s2 4p3"
+        DataPanel.boxvalence.Text = "-3ã€3ã€5"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "æœ‰æ¯’"
+        DataPanel.boxrelaatomass.Text = "74.92"
+    End Sub
+
+    Private Sub at85_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles at85.Click
+        DataPanel.boxchname.Text = "At"
+        DataPanel.boxchpinyin.Text = "Ã i"
+        DataPanel.boxenname.Text = "Astatine"
+        DataPanel.boxensymbol.Text = "['&aelig;stÉ™ti:n]"
+        DataPanel.boxoutelec.Text = "6s2 6p5"
+        DataPanel.boxvalence.Text = "1ã€3"
+        DataPanel.boxclassifi.Text = "ä¸»/é/å¤"
+        DataPanel.boxintro.Text = "æ´»æ³¼"
+        DataPanel.boxrelaatomass.Text = "(210)"
+    End Sub
+
+    Private Sub au79_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles au79.Click
+        DataPanel.boxchname.Text = "Au"
+        DataPanel.boxchpinyin.Text = "jÄ«n"
+        DataPanel.boxenname.Text = "Gold"
+        DataPanel.boxensymbol.Text = "[É¡É™uld]"
+        DataPanel.boxoutelec.Text = "5d10 6s1"
+        DataPanel.boxvalence.Text = "1ã€3"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "åŸå­ç»“æ„æœ€ç¨³å®šï¼Œäººç±»æœ€æ—©å‘ç°åŠåº”ç”¨çš„è´µé‡‘å±ï¼Œå…¨çƒç¡¬é€šè´§"
+        DataPanel.boxrelaatomass.Text = "196.97"
+    End Sub
+
+    Private Sub b5_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles b5.Click
+        DataPanel.boxchname.Text = "B"
+        DataPanel.boxchpinyin.Text = "pÃ©ng"
+        DataPanel.boxenname.Text = "Boron"
+        DataPanel.boxensymbol.Text = "['bÉ”:rÉ”n]"
+        DataPanel.boxoutelec.Text = "2s2 2p1"
+        DataPanel.boxvalence.Text = "3"
+        DataPanel.boxclassifi.Text = "ä¸»/é"
+        DataPanel.boxintro.Text = "ç¡¬åº¦ä»…æ¬¡äºé‡‘åˆšçŸ³çš„éé‡‘å±å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "10.81"
+    End Sub
+
+    Private Sub ba56_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ba56.Click
+        DataPanel.boxchname.Text = "Ba"
+        DataPanel.boxchpinyin.Text = "bÃ¨i"
+        DataPanel.boxenname.Text = "Barium"
+        DataPanel.boxensymbol.Text = "['bÎµÉ™riÉ™m]"
+        DataPanel.boxoutelec.Text = "6s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "ä¸»/ç¢±åœŸ"
+        DataPanel.boxintro.Text = "ç¡«é…¸é’¡è¢«åº”ç”¨äºé’¡é¤é€è§†"
+        DataPanel.boxrelaatomass.Text = "137.33"
+    End Sub
+
+    Private Sub be4_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles be4.Click
+        DataPanel.boxchname.Text = "Be"
+        DataPanel.boxchpinyin.Text = "pÃ­"
+        DataPanel.boxenname.Text = "Beryllium"
+        DataPanel.boxensymbol.Text = "[be'riliÉ™m]"
+        DataPanel.boxoutelec.Text = "2s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±åœŸ"
+        DataPanel.boxintro.Text = "æœ€è½»ç¢±åœŸé‡‘å±å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "9.012"
+    End Sub
+
+    Private Sub bh107_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles bh107.Click
+        DataPanel.boxchname.Text = "Bh"
+        DataPanel.boxchpinyin.Text = "bÅ"
+        DataPanel.boxenname.Text = "Bohrium"
+        DataPanel.boxensymbol.Text = "['bÉ™uÉ™riÉ™m]"
+        DataPanel.boxoutelec.Text = "6d5 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "264"
+    End Sub
+
+    Private Sub bi83_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles bi83.Click
+        DataPanel.boxchname.Text = "Bi"
+        DataPanel.boxchpinyin.Text = "bÃ¬"
+        DataPanel.boxenname.Text = "Bismuth"
+        DataPanel.boxensymbol.Text = "['bizmÉ™Î¸]"
+        DataPanel.boxoutelec.Text = "6s2 6p3"
+        DataPanel.boxvalence.Text = "3ã€5"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = ""
+        DataPanel.boxrelaatomass.Text = "208.98"
+    End Sub
+
+    Private Sub br35_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles br35.Click
+        DataPanel.boxchname.Text = "Br"
+        DataPanel.boxchpinyin.Text = "xiÃ¹"
+        DataPanel.boxenname.Text = "Bromine"
+        DataPanel.boxensymbol.Text = "['brÉ™umi:n]"
+        DataPanel.boxoutelec.Text = "4s2 4p5"
+        DataPanel.boxvalence.Text = "-1ã€7"
+        DataPanel.boxclassifi.Text = "ä¸»/é/å¤"
+        DataPanel.boxintro.Text = "æ´»æ³¼ï¼Œå•è´¨ä¸ºçº¢æ£•è‰²æ¶²ä½“"
+        DataPanel.boxrelaatomass.Text = "79.90"
+    End Sub
+
+    Private Sub c6_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles c6.Click
+        DataPanel.boxchname.Text = "C"
+        DataPanel.boxchpinyin.Text = "tÃ n"
+        DataPanel.boxenname.Text = "Carbon"
+        DataPanel.boxensymbol.Text = "['kÉ‘:bÉ™n]"
+        DataPanel.boxoutelec.Text = "2s2 2p2"
+        DataPanel.boxvalence.Text = "2ã€4ã€-4"
+        DataPanel.boxclassifi.Text = "ä¸»/é/æ°”"
+        DataPanel.boxintro.Text = "ç¡¬åº¦æœ€é«˜"
+        DataPanel.boxrelaatomass.Text = "12.01"
+    End Sub
+
+    Private Sub ca20_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ca20.Click
+        DataPanel.boxchname.Text = "Ca"
+        DataPanel.boxchpinyin.Text = "gÃ i"
+        DataPanel.boxenname.Text = "Calcium"
+        DataPanel.boxensymbol.Text = "['k&aelig;lsiÉ™m]"
+        DataPanel.boxoutelec.Text = "4s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±åœŸ"
+        DataPanel.boxintro.Text = "éª¨éª¼ä¸»è¦ç»„æˆæˆåˆ†"
+        DataPanel.boxrelaatomass.Text = "40.08"
+    End Sub
+
+    Private Sub cd48_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cd48.Click
+        DataPanel.boxchname.Text = "Cd"
+        DataPanel.boxchpinyin.Text = "gÃ©"
+        DataPanel.boxenname.Text = "Cadmium"
+        DataPanel.boxensymbol.Text = "['k&aelig;dmiÉ™m]"
+        DataPanel.boxoutelec.Text = "4d10 5s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "é‡é‡‘å±ï¼Œè¿‡é‡æ‘„å…¥ä¼šå¯¼è‡´ç—›ç—›ç—…"
+        DataPanel.boxrelaatomass.Text = "112.41"
+    End Sub
+
+    Private Sub cl17_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cl17.Click
+        DataPanel.boxchname.Text = "Cl"
+        DataPanel.boxchpinyin.Text = "lÇœ"
+        DataPanel.boxenname.Text = "Chlorine"
+        DataPanel.boxensymbol.Text = "['klÉ”:ri:n]"
+        DataPanel.boxoutelec.Text = "3s2 3p5"
+        DataPanel.boxvalence.Text = "-1ã€1ã€3ã€5ã€7"
+        DataPanel.boxclassifi.Text = "ä¸»/é/å¤"
+        DataPanel.boxintro.Text = "æœ‰æ¯’ æ´»æ³¼"
+        DataPanel.boxrelaatomass.Text = "35.45"
+    End Sub
+
+    Private Sub cn112_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cn112.Click
+        DataPanel.boxchname.Text = "Cn"
+        DataPanel.boxchpinyin.Text = "gÄ“"
+        DataPanel.boxenname.Text = "Copernicium"
+        DataPanel.boxensymbol.Text = "kÅpÉ™rËˆnisÄ“É™m"
+        DataPanel.boxoutelec.Text = "6d10 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘"
+        DataPanel.boxintro.Text = "è¶…é‡å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(277)"
+    End Sub
+
+    Private Sub co27_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles co27.Click
+        DataPanel.boxchname.Text = "Co"
+        DataPanel.boxchpinyin.Text = "gÇ”"
+        DataPanel.boxenname.Text = "Cobalt"
+        DataPanel.boxensymbol.Text = "[kÉ™u'bÉ”:lt]"
+        DataPanel.boxoutelec.Text = "3d7 4s2"
+        DataPanel.boxvalence.Text = "2ã€3"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "åŒä½ç´ é’´60è¢«åº”ç”¨äºXå…‰å‘ç”Ÿå™¨ä¸­"
+        DataPanel.boxrelaatomass.Text = "58.93"
+    End Sub
+
+    Private Sub cr24_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cr24.Click
+        DataPanel.boxchname.Text = "Cr"
+        DataPanel.boxchpinyin.Text = "gÃ¨"
+        DataPanel.boxenname.Text = "Chromium"
+        DataPanel.boxensymbol.Text = "['krÉ™umjÉ™m]"
+        DataPanel.boxoutelec.Text = "3d5 4s1"
+        DataPanel.boxvalence.Text = "3ã€6"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "ç¡¬åº¦æœ€é«˜çš„é‡‘å±"
+        DataPanel.boxrelaatomass.Text = "52.00"
+    End Sub
+
+    Private Sub cs55_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cs55.Click
+        DataPanel.boxchname.Text = "Cs"
+        DataPanel.boxchpinyin.Text = "sÃ¨"
+        DataPanel.boxenname.Text = "Cesium"
+        DataPanel.boxensymbol.Text = "['si:ziÉ™m]"
+        DataPanel.boxoutelec.Text = "6s1"
+        DataPanel.boxvalence.Text = "1"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±"
+        DataPanel.boxintro.Text = "æ´»æ³¼"
+        DataPanel.boxrelaatomass.Text = "132.91"
+    End Sub
+
+    Private Sub cu29_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles cu29.Click
+        DataPanel.boxchname.Text = "Cu"
+        DataPanel.boxchpinyin.Text = "tÃ³ng"
+        DataPanel.boxenname.Text = "Copper"
+        DataPanel.boxensymbol.Text = "['kÉ”pÉ™]"
+        DataPanel.boxoutelec.Text = "3d10 4s1"
+        DataPanel.boxvalence.Text = "1ã€2"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººç±»å‘ç°æœ€æ—©é‡‘å±ä¹‹ä¸€"
+        DataPanel.boxrelaatomass.Text = "63.55"
+    End Sub
+
+    Private Sub db105_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles db105.Click
+        DataPanel.boxchname.Text = "Db"
+        DataPanel.boxchpinyin.Text = "dÃ¹"
+        DataPanel.boxenname.Text = "Dubnium"
+        DataPanel.boxensymbol.Text = "['du:bniÉ™m]"
+        DataPanel.boxoutelec.Text = "6d3 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(262)"
+    End Sub
+
+    Private Sub ds110_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ds110.Click
+        DataPanel.boxchname.Text = "Ds"
+        DataPanel.boxchpinyin.Text = "dÃ¡"
+        DataPanel.boxenname.Text = "Darmstadtium"
+        DataPanel.boxensymbol.Text = "-ËˆSHtÃ¤t-,dÃ¤rmËˆstatÄ“É™m"
+        DataPanel.boxoutelec.Text = "6d8 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(269)"
+    End Sub
+
+    Private Sub ElectronicShellTool_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ElectronicShellTool.Click
+        ElectronicShell.Show()
+    End Sub
+
+    Private Sub f9_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles f9.Click
+        DataPanel.boxchname.Text = "F"
+        DataPanel.boxchpinyin.Text = "fÃº"
+        DataPanel.boxenname.Text = "Fluorine"
+        DataPanel.boxensymbol.Text = "['fluÉ™ri:n]"
+        DataPanel.boxoutelec.Text = "2s2 2p5"
+        DataPanel.boxvalence.Text = "-1"
+        DataPanel.boxclassifi.Text = "ä¸»/é/å¤"
+        DataPanel.boxintro.Text = "æœ€æ´»æ³¼ï¼Œéé‡‘å±ï¼Œä¸èƒ½è¢«æ°§åŒ–"
+        DataPanel.boxrelaatomass.Text = "19.00"
+    End Sub
+
+    Private Sub fe26_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles fe26.Click
+        DataPanel.boxchname.Text = "Fe"
+        DataPanel.boxchpinyin.Text = "tiÄ›"
+        DataPanel.boxenname.Text = "Iron"
+        DataPanel.boxensymbol.Text = "['aÉªÉ™n]"
+        DataPanel.boxoutelec.Text = "1s1"
+        DataPanel.boxvalence.Text = "2ã€3"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "åœ°å£³å«é‡ç¬¬äºŒé«˜çš„é‡‘å±ï¼Œå¼€é‡‡æœ€å¤šé‡‘å±"
+        DataPanel.boxrelaatomass.Text = "55.84"
+    End Sub
+
+    Private Sub fl114_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles fl114.Click
+        DataPanel.boxchname.Text = "Fl"
+        DataPanel.boxchpinyin.Text = "fÅ«"
+        DataPanel.boxenname.Text = "Flerovium"
+        DataPanel.boxensymbol.Text = "Flerovium"
+        DataPanel.boxoutelec.Text = "5f6d7s7p2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„,ç¬¬ä¸€ç§è¡¨ç°å‡ºæƒ°æ€§æ°”ä½“ç‰¹å¾çš„è¶…é‡å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(289)"
+    End Sub
+
+    Private Sub fr87_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles fr87.Click
+        DataPanel.boxchname.Text = "Fr"
+        DataPanel.boxchpinyin.Text = "fÄng"
+        DataPanel.boxenname.Text = "Francium"
+        DataPanel.boxensymbol.Text = "['frÃ¦nsÉªÉ™m]"
+        DataPanel.boxoutelec.Text = "7s1"
+        DataPanel.boxvalence.Text = "--"
+        DataPanel.boxclassifi.Text = "ç¢±é‡‘å±"
+        DataPanel.boxintro.Text = "æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(223)"
+    End Sub
+
+    Private Sub ga31_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ga31.Click
+        DataPanel.boxchname.Text = "Ga"
+        DataPanel.boxchpinyin.Text = "jiÄ"
+        DataPanel.boxenname.Text = "Gallium"
+        DataPanel.boxensymbol.Text = "['É¡&aelig;liÉ™m]"
+        DataPanel.boxoutelec.Text = "4s2 4p1"
+        DataPanel.boxvalence.Text = "3"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "ç‡ƒç‚¹ä½æ²¸ç‚¹é«˜ã€€"
+        DataPanel.boxrelaatomass.Text = "69.72"
+    End Sub
+
+    Private Sub ge32_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ge32.Click
+        DataPanel.boxchname.Text = "Ge"
+        DataPanel.boxchpinyin.Text = "zhÄ›"
+        DataPanel.boxenname.Text = "4s2 4p2"
+        DataPanel.boxensymbol.Text = "[dÊ’É™:'meiniÉ™m]"
+        DataPanel.boxoutelec.Text = "1s1"
+        DataPanel.boxvalence.Text = "4"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "æ˜¯ä¸€ç§é‡è¦çš„åŠå¯¼ä½“ææ–™"
+        DataPanel.boxrelaatomass.Text = "72.61"
+    End Sub
+
+    Private Sub h1_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles h1.Click
+        DataPanel.boxchname.Text = "H"
+        DataPanel.boxchpinyin.Text = "qÄ«ng"
+        DataPanel.boxenname.Text = "Hydrogen"
+        DataPanel.boxensymbol.Text = "['haidrÉ™dÊ’É™n]"
+        DataPanel.boxoutelec.Text = "1s1"
+        DataPanel.boxvalence.Text = "1ã€-1"
+        DataPanel.boxclassifi.Text = "ä¸»/é/æ°”"
+        DataPanel.boxintro.Text = "è½»ï¼ŒåŒä½ç´ ä¸ºæ°•ã€æ°˜å’Œæ°š"
+        DataPanel.boxrelaatomass.Text = "1.0079"
+    End Sub
+
+    Private Sub he2_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles he2.Click
+        DataPanel.boxchname.Text = "He"
+        DataPanel.boxchpinyin.Text = "hÃ i"
+        DataPanel.boxenname.Text = "Helium"
+        DataPanel.boxensymbol.Text = "['hi:liÉ™m]"
+        DataPanel.boxoutelec.Text = "1s2"
+        DataPanel.boxvalence.Text = "--"
+        DataPanel.boxclassifi.Text = "ä¸»/é/ç¨€"
+        DataPanel.boxintro.Text = "æœ€éš¾æ¶²åŒ–"
+        DataPanel.boxrelaatomass.Text = "4.003"
+    End Sub
+
+    Private Sub hf72_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles hf72.Click
+        DataPanel.boxchname.Text = "Hf"
+        DataPanel.boxchpinyin.Text = "hÄ"
+        DataPanel.boxenname.Text = "Hafnium"
+        DataPanel.boxensymbol.Text = "['h&aelig;fniÉ™m]"
+        DataPanel.boxoutelec.Text = "5d2 6s2"
+        DataPanel.boxvalence.Text = "4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = ""
+        DataPanel.boxrelaatomass.Text = "178.49"
+    End Sub
+
+    Private Sub hg80_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles hg80.Click
+        DataPanel.boxchname.Text = "Hg"
+        DataPanel.boxchpinyin.Text = "gÇ’ng"
+        DataPanel.boxenname.Text = "Mercury"
+        DataPanel.boxensymbol.Text = "['mÉ™:kjuri]"
+        DataPanel.boxoutelec.Text = "5d10 6s2"
+        DataPanel.boxvalence.Text = "1ã€2"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "ã€€å”¯ä¸€ä¸€ç§åœ¨å¸¸æ¸©ä¸‹ä¸ºæ¶²æ€çš„é‡‘å±"
+        DataPanel.boxrelaatomass.Text = "200.59"
+    End Sub
+
+    Private Sub hs108_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles hs108.Click
+        DataPanel.boxchname.Text = "Hs"
+        DataPanel.boxchpinyin.Text = "hÄ“i"
+        DataPanel.boxenname.Text = "Hassium"
+        DataPanel.boxensymbol.Text = "['h&aelig;siÉ™m]"
+        DataPanel.boxoutelec.Text = "6d6 7s2"
+        DataPanel.boxvalence.Text = "-1ã€7"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(265)"
+    End Sub
+
+    Private Sub i53_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles i53.Click
+        DataPanel.boxchname.Text = "I"
+        DataPanel.boxchpinyin.Text = "diÇn"
+        DataPanel.boxenname.Text = "Indium"
+        DataPanel.boxensymbol.Text = "['aiÉ™udi:n]"
+        DataPanel.boxoutelec.Text = "5s2 5p5"
+        DataPanel.boxvalence.Text = "-1ã€7"
+        DataPanel.boxclassifi.Text = "ä¸»/é/å¤"
+        DataPanel.boxintro.Text = "æ´»æ³¼ï¼Œç”²çŠ¶è…ºæ‰€éœ€çš„å¾®é‡å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "126.90"
+    End Sub
+
+    Private Sub in49_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles in49.Click
+        DataPanel.boxchname.Text = "In"
+        DataPanel.boxchpinyin.Text = "yÄ«n"
+        DataPanel.boxenname.Text = "Indium"
+        DataPanel.boxensymbol.Text = "['indiÉ™m]"
+        DataPanel.boxoutelec.Text = "5s2 5p1"
+        DataPanel.boxvalence.Text = "3"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "å¯å¡‘æ€§å¼ºï¼Œæœ‰å»¶å±•æ€§ï¼ŒIn115æ˜¯ä¸»è¦æ ¸ç´ ï¼Œä½†æœ‰æ”¾å°„æ€§"
+        DataPanel.boxrelaatomass.Text = "114.82"
+    End Sub
+
+    Private Sub IonTool_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles IonTool.Click
+        Ion.Show()
+    End Sub
+
+    Private Sub ir77_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ir77.Click
+        DataPanel.boxchname.Text = "Ir"
+        DataPanel.boxchpinyin.Text = "yÄ«"
+        DataPanel.boxenname.Text = "Iridium"
+        DataPanel.boxensymbol.Text = "[ai'ridiÉ™m]"
+        DataPanel.boxoutelec.Text = "5d7 6s2"
+        DataPanel.boxvalence.Text = "3,4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = " "
+        DataPanel.boxrelaatomass.Text = "192.22"
+    End Sub
+
+    Private Sub k19_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles k19.Click
+        DataPanel.boxchname.Text = "K"
+        DataPanel.boxchpinyin.Text = "jiÇ"
+        DataPanel.boxenname.Text = "Potassium"
+        DataPanel.boxensymbol.Text = "[pÉ™'t&aelig;sjÉ™m]"
+        DataPanel.boxoutelec.Text = "4s1"
+        DataPanel.boxvalence.Text = "1"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±"
+        DataPanel.boxintro.Text = "æ´»æ³¼ï¼Œä¸ç©ºæ°”æˆ–æ°´æ¥è§¦å‘ç”Ÿååº”ï¼Œåªèƒ½å‚¨å­˜åœ¨ç…¤æ²¹ã€ç¨€æœ‰æ°”ä½“ä¸­"
+        DataPanel.boxrelaatomass.Text = "39.10"
+    End Sub
+
+    Private Sub kr36_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles kr36.Click
+        DataPanel.boxchname.Text = "Kr"
+        DataPanel.boxchpinyin.Text = "kÃ¨"
+        DataPanel.boxenname.Text = "Krypton"
+        DataPanel.boxensymbol.Text = "['kriptÉ”n]"
+        DataPanel.boxoutelec.Text = "4s2 4p6"
+        DataPanel.boxvalence.Text = "--"
+        DataPanel.boxclassifi.Text = "æ˜¯ä¸€ç§æ— è‰²æ— å‘³æ— è‡­çš„æƒ°æ€§æ°”ä½“"
+        DataPanel.boxintro.Text = "æ€§è´¨æ´»æ³¼"
+        DataPanel.boxrelaatomass.Text = "83.80"
+    End Sub
+
+    Private Sub lalu_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles lalu.Click
+        lanthanides.Show()
+    End Sub
+
+    Private Sub li3_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles li3.Click
+        DataPanel.boxchname.Text = "Li"
+        DataPanel.boxchpinyin.Text = "lÇ"
+        DataPanel.boxenname.Text = "Lithium"
+        DataPanel.boxensymbol.Text = "['liÎ¸iÉ™m]"
+        DataPanel.boxoutelec.Text = "2s1"
+        DataPanel.boxvalence.Text = "1"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±"
+        DataPanel.boxintro.Text = "æ€§è´¨æ´»æ³¼"
+        DataPanel.boxrelaatomass.Text = "6.941"
+    End Sub
+
+    Private Sub lv116_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles lv116.Click
+        DataPanel.boxchname.Text = "Lv"
+        DataPanel.boxchpinyin.Text = "lÃ¬"
+        DataPanel.boxenname.Text = "Livermorium"
+        DataPanel.boxensymbol.Text = "Livermorium"
+        DataPanel.boxoutelec.Text = "5f6d7s7p4"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„,äººå·¥åˆæˆçš„æ”¾å°„æ€§é‡‘å±å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(293)"
+    End Sub
+
+    Private Sub mc115_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mc115.Click
+        DataPanel.boxchname.Text = "Mc"
+        DataPanel.boxchpinyin.Text = "mÃ²"
+        DataPanel.boxenname.Text = "Moscovium"
+        DataPanel.boxensymbol.Text = "Moscovium"
+        DataPanel.boxoutelec.Text = "5f6d7s7p3"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„,äººå·¥åˆæˆçš„æ”¾å°„æ€§é‡‘å±å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(288)"
+    End Sub
+
+    Private Sub mg12_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mg12.Click
+        DataPanel.boxchname.Text = "Mg"
+        DataPanel.boxchpinyin.Text = "mÄ›i"
+        DataPanel.boxenname.Text = "Magnesium"
+        DataPanel.boxensymbol.Text = "[m&aelig;É¡'ni:ziÉ™m]"
+        DataPanel.boxoutelec.Text = "3s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±åœŸ"
+        DataPanel.boxintro.Text = "è½»é‡‘å±ä¹‹ä¸€"
+        DataPanel.boxrelaatomass.Text = "24.31"
+    End Sub
+
+    Private Sub mn25_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mn25.Click
+        DataPanel.boxchname.Text = "Mn"
+        DataPanel.boxchpinyin.Text = "mÄ›ng"
+        DataPanel.boxenname.Text = "Manganese"
+        DataPanel.boxensymbol.Text = "['m&aelig;Å‹É¡É™,ni:s]"
+        DataPanel.boxoutelec.Text = "3d5 4s2"
+        DataPanel.boxvalence.Text = "2ã€4ã€6ã€7"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "åœ¨åœ°å£³ä¸­åˆ†å¸ƒå¹¿æ³›"
+        DataPanel.boxrelaatomass.Text = "54.96"
+    End Sub
+
+    Private Sub mo42_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mo42.Click
+        DataPanel.boxchname.Text = "Mo"
+        DataPanel.boxchpinyin.Text = "mÃ¹"
+        DataPanel.boxenname.Text = "Molybdenum"
+        DataPanel.boxensymbol.Text = "[mÉ”'libdinÉ™m]"
+        DataPanel.boxoutelec.Text = "4d5 5s1"
+        DataPanel.boxvalence.Text = "6"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "æ¤ç‰©ç”Ÿé•¿æ‰€éœ€çš„å¾®é‡å…ƒç´ ã€€"
+        DataPanel.boxrelaatomass.Text = "95.94"
+    End Sub
+
+    Private Sub mt109_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles mt109.Click
+        DataPanel.boxchname.Text = "Mt"
+        DataPanel.boxchpinyin.Text = "mÃ i"
+        DataPanel.boxenname.Text = "Mietnerium"
+        DataPanel.boxensymbol.Text = "mÄ«tËˆni(É™)rÄ“É™m"
+        DataPanel.boxoutelec.Text = "6d7 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(266)"
+    End Sub
+
+    Private Sub n7_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles n7.Click
+        DataPanel.boxchname.Text = "N"
+        DataPanel.boxchpinyin.Text = "dÃ n"
+        DataPanel.boxenname.Text = "Nitrogen"
+        DataPanel.boxensymbol.Text = "['naitrÉ™dÊ’É™n]"
+        DataPanel.boxoutelec.Text = "2s2 2p3"
+        DataPanel.boxvalence.Text = "-3ã€ 1 ã€2ã€ 3ã€ 4ã€5"
+        DataPanel.boxclassifi.Text = "ä¸»/é/æ°”"
+        DataPanel.boxintro.Text = "ç©ºæ°”ä¸­å«é‡æœ€å¤šçš„å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "14.01"
+    End Sub
+
+    Private Sub na11_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles na11.Click
+        DataPanel.boxchname.Text = "Na"
+        DataPanel.boxchpinyin.Text = "nÃ "
+        DataPanel.boxenname.Text = "Sodium"
+        DataPanel.boxensymbol.Text = "['sÉ™udiÉ™m]"
+        DataPanel.boxoutelec.Text = "3s1"
+        DataPanel.boxvalence.Text = "1"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±"
+        DataPanel.boxintro.Text = "æ´»æ³¼"
+        DataPanel.boxrelaatomass.Text = "22.99"
+    End Sub
+
+    Private Sub nb41_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles nb41.Click
+        DataPanel.boxchname.Text = "Nb"
+        DataPanel.boxchpinyin.Text = "nÃ­"
+        DataPanel.boxenname.Text = "Niobium"
+        DataPanel.boxensymbol.Text = "[nai'É™ubiÉ™m]"
+        DataPanel.boxoutelec.Text = "4d4 5s1"
+        DataPanel.boxvalence.Text = "5"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "é“Œé’¢è¢«ç”¨äºåˆ¶ä½œæ±½è½¦å¤–å£³ã€€"
+        DataPanel.boxrelaatomass.Text = "92.91"
+    End Sub
+
+    Private Sub ne10_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ne10.Click
+        DataPanel.boxchname.Text = "Ne"
+        DataPanel.boxchpinyin.Text = "nÇi"
+        DataPanel.boxenname.Text = "Neon"
+        DataPanel.boxensymbol.Text = "['ni:É”n]"
+        DataPanel.boxoutelec.Text = "2s2 2p6"
+        DataPanel.boxvalence.Text = "--"
+        DataPanel.boxclassifi.Text = "ä¸»/é/ç¨€"
+        DataPanel.boxintro.Text = "ç¨€æœ‰æ°”ä½“"
+        DataPanel.boxrelaatomass.Text = "20.18"
+    End Sub
+
+    Private Sub nh113_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles nh113.Click
+        DataPanel.boxchname.Text = "Nh"
+        DataPanel.boxchpinyin.Text = "nÇ"
+        DataPanel.boxenname.Text = "Nihonium"
+        DataPanel.boxensymbol.Text = "Nihonium"
+        DataPanel.boxoutelec.Text = "5f6d7s7p1"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„,ä¸ç¨³å®šçš„è¶…é‡å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(286)"
+    End Sub
+
+    Private Sub ni28_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ni28.Click
+        DataPanel.boxchname.Text = "59"
+        DataPanel.boxchpinyin.Text = "niÃ¨"
+        DataPanel.boxenname.Text = "Nickel"
+        DataPanel.boxensymbol.Text = "['nikÉ™l]"
+        DataPanel.boxoutelec.Text = "3d8 4s2"
+        DataPanel.boxvalence.Text = "2ã€3"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "æœ‰ç£æ€§å’Œè‰¯å¥½å¯å¡‘æ€§"
+        DataPanel.boxrelaatomass.Text = "58.69"
+    End Sub
+
+    Private Sub o8_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles o8.Click
+        DataPanel.boxchname.Text = "O"
+        DataPanel.boxchpinyin.Text = "yÇng"
+        DataPanel.boxenname.Text = "Oxygen"
+        DataPanel.boxensymbol.Text = "['É”ksidÊ’É™n]"
+        DataPanel.boxoutelec.Text = "2s2 2p4"
+        DataPanel.boxvalence.Text = "-2ã€-1ã€2"
+        DataPanel.boxclassifi.Text = "ä¸»/é/æ°”"
+        DataPanel.boxintro.Text = "åœ°å£³ä¸­æœ€å¤š"
+        DataPanel.boxrelaatomass.Text = "16.00"
+    End Sub
+
+    Private Sub og118_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles og118.Click
+        DataPanel.boxchname.Text = "Og"
+        DataPanel.boxchpinyin.Text = "Ã o"
+        DataPanel.boxenname.Text = "Oganesson"
+        DataPanel.boxensymbol.Text = "Oganesson"
+        DataPanel.boxoutelec.Text = "5f6d7s7p6"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "ä¸»/é/ç¨€"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„,äººå·¥åˆæˆçš„ç¨€æœ‰æ°”ä½“å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(294)"
+    End Sub
+
+    Private Sub os76_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles os76.Click
+        DataPanel.boxchname.Text = "Os"
+        DataPanel.boxchpinyin.Text = "Ã©"
+        DataPanel.boxenname.Text = "Osmium"
+        DataPanel.boxensymbol.Text = "['É”zmiÉ™m]"
+        DataPanel.boxoutelec.Text = "5d6 6s2"
+        DataPanel.boxvalence.Text = "4,6,8"
+        DataPanel.boxclassifi.Text = "ä¸»/é"
+        DataPanel.boxintro.Text = "å¯†åº¦æœ€å¤§çš„é‡‘å±"
+        DataPanel.boxrelaatomass.Text = "190.23"
+    End Sub
+
+    Private Sub p15_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles p15.Click
+        DataPanel.boxchname.Text = "P"
+        DataPanel.boxchpinyin.Text = "lÃ­n"
+        DataPanel.boxenname.Text = "Phosphorus"
+        DataPanel.boxensymbol.Text = "['fÉ”sfÉ™rÉ™s]"
+        DataPanel.boxoutelec.Text = "3s2 3p3"
+        DataPanel.boxvalence.Text = "-3ã€3ã€5"
+        DataPanel.boxclassifi.Text = "ä¸»/é"
+        DataPanel.boxintro.Text = "ç™½ç£·æœ‰å‰§æ¯’"
+        DataPanel.boxrelaatomass.Text = "30.97"
+    End Sub
+
+    Private Sub pb82_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles pb82.Click
+        DataPanel.boxchname.Text = "Pb"
+        DataPanel.boxchpinyin.Text = "qiÄn"
+        DataPanel.boxenname.Text = "Lead"
+        DataPanel.boxensymbol.Text = "[led]"
+        DataPanel.boxoutelec.Text = "6s2 6p2"
+        DataPanel.boxvalence.Text = "2,4"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "ã€€å¯†åº¦å¤§ï¼Œç†”ç‚¹ä½ï¼Œå¯¹äººä½“æœ‰æ¯’æ€§ã€‚è®¸å¤šåŒ–å¦†å“ä¸­å¿…é¡»å«æœ‰çš„å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "207.2"
+    End Sub
+
+    Private Sub pd46_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles pd46.Click
+        DataPanel.boxchname.Text = "Pd"
+        DataPanel.boxchpinyin.Text = "bÇ"
+        DataPanel.boxenname.Text = "Palladium"
+        DataPanel.boxensymbol.Text = "[pÉ™'leidiÉ™m]"
+        DataPanel.boxoutelec.Text = "4d10"
+        DataPanel.boxvalence.Text = "2,4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "è¢«åº”ç”¨äºé…’ç²¾æ£€æµ‹ä¸­"
+        DataPanel.boxrelaatomass.Text = "106.42"
+    End Sub
+
+    Private Sub po84_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles po84.Click
+        DataPanel.boxchname.Text = "Po"
+        DataPanel.boxchpinyin.Text = "pÅ"
+        DataPanel.boxenname.Text = "Polonium"
+        DataPanel.boxensymbol.Text = "[pÉ™'lÉ™uniÉ™m]"
+        DataPanel.boxoutelec.Text = "6s2 6p4"
+        DataPanel.boxvalence.Text = "-2ã€6"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(209)"
+    End Sub
+
+    Private Sub pt78_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles pt78.Click
+        DataPanel.boxchname.Text = "Pt"
+        DataPanel.boxchpinyin.Text = "bÃ³"
+        DataPanel.boxenname.Text = "Platinum"
+        DataPanel.boxensymbol.Text = "['pl&aelig;tinÉ™m]"
+        DataPanel.boxoutelec.Text = "5d9 6s1"
+        DataPanel.boxvalence.Text = "2,4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "è¢«åº”ç”¨äºç å®é¦–é¥°ä¸­çš„è´µé‡‘å±ï¼Œä¿—ç§°é“‚é‡‘ã€€"
+        DataPanel.boxrelaatomass.Text = "195.08"
+    End Sub
+
+    Private Sub rb37_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rb37.Click
+        DataPanel.boxchname.Text = "Rb"
+        DataPanel.boxchpinyin.Text = "rÃº"
+        DataPanel.boxenname.Text = "Rubidium"
+        DataPanel.boxensymbol.Text = "[ru:'bidiÉ™m]"
+        DataPanel.boxoutelec.Text = "5s1"
+        DataPanel.boxvalence.Text = "1"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±"
+        DataPanel.boxintro.Text = "æ´»æ³¼"
+        DataPanel.boxrelaatomass.Text = "85.47"
+    End Sub
+
+    Private Sub re75_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles re75.Click
+        DataPanel.boxchname.Text = "Re"
+        DataPanel.boxchpinyin.Text = "lÃ¡i"
+        DataPanel.boxenname.Text = "Rhenium"
+        DataPanel.boxensymbol.Text = "['ri:niÉ™m]"
+        DataPanel.boxoutelec.Text = "5d5 6s2"
+        DataPanel.boxvalence.Text = "7"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "æœ€æ™šè¢«å‘ç°çš„ç¨³å®šå…ƒç´ ã€€"
+        DataPanel.boxrelaatomass.Text = "186.21"
+    End Sub
+
+    Private Sub rf104_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rf104.Click
+        DataPanel.boxchname.Text = "Rf"
+        DataPanel.boxchpinyin.Text = "lÃº"
+        DataPanel.boxenname.Text = "Rutherfordium"
+        DataPanel.boxensymbol.Text = "[,rÊŒ&eth;É™'fÉ”:diÉ™m]"
+        DataPanel.boxoutelec.Text = "6d2 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(261)"
+    End Sub
+
+    Private Sub rg111_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rg111.Click
+        DataPanel.boxchname.Text = "Rg"
+        DataPanel.boxchpinyin.Text = "lÃºn"
+        DataPanel.boxenname.Text = "Roentgenium"
+        DataPanel.boxensymbol.Text = "rentËˆgenÄ“É™m,rÉ™nt-"
+        DataPanel.boxoutelec.Text = "6d9 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘"
+        DataPanel.boxintro.Text = "è¶…é‡å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(272)"
+    End Sub
+
+    Private Sub rh45_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rh45.Click
+        DataPanel.boxchname.Text = "Rh"
+        DataPanel.boxchpinyin.Text = "lÇo"
+        DataPanel.boxenname.Text = "Rhodium"
+        DataPanel.boxensymbol.Text = "['rÉ™udiÉ™m]"
+        DataPanel.boxoutelec.Text = "4d8 5s1"
+        DataPanel.boxvalence.Text = "3ï¼Œ4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "ç°ä»£ç å®åˆ¶ä½œè¿‡ç¨‹è¿›è¡Œè¡¨é¢å¤„ç†çš„å¿…é¡»å…ƒç´ ã€€"
+        DataPanel.boxrelaatomass.Text = "102.91"
+    End Sub
+
+    Private Sub rn86_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles rn86.Click
+        DataPanel.boxchname.Text = "Rn"
+        DataPanel.boxchpinyin.Text = "dÅng"
+        DataPanel.boxenname.Text = "Radon"
+        DataPanel.boxensymbol.Text = "['reidÉ”n]"
+        DataPanel.boxoutelec.Text = "6s2 6p6"
+        DataPanel.boxvalence.Text = "--"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(222)"
+    End Sub
+
+    Private Sub ra88_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ra88.Click
+        DataPanel.boxchname.Text = "Ra"
+        DataPanel.boxchpinyin.Text = "lÃ©i"
+        DataPanel.boxenname.Text = "Radium"
+        DataPanel.boxensymbol.Text = "['reidiÉ™m]"
+        DataPanel.boxoutelec.Text = "7s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±åœŸ"
+        DataPanel.boxintro.Text = "æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(226)"
+    End Sub
+
+    Private Sub ru44_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ru44.Click
+        DataPanel.boxchname.Text = "Ru"
+        DataPanel.boxchpinyin.Text = "liÇo"
+        DataPanel.boxenname.Text = "Ruthenium"
+        DataPanel.boxensymbol.Text = "[ru:'Î¸i:niÉ™m]"
+        DataPanel.boxoutelec.Text = "4d7 5s1"
+        DataPanel.boxvalence.Text = "3ã€8"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "å¤šä»·ç¨€æœ‰é‡‘å±å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "101.07"
+    End Sub
+
+    Private Sub s16_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles s16.Click
+        DataPanel.boxchname.Text = "S"
+        DataPanel.boxchpinyin.Text = "liÃº"
+        DataPanel.boxenname.Text = "Sulfur"
+        DataPanel.boxensymbol.Text = "['sÊŒlfÉ™]"
+        DataPanel.boxoutelec.Text = "3s2 3p4"
+        DataPanel.boxvalence.Text = "-2ã€4ã€6"
+        DataPanel.boxclassifi.Text = "ä¸»/é"
+        DataPanel.boxintro.Text = "è´¨åœ°æŸ”è½¯ï¼Œè½»ã€‚ä¸æ°§æ°”ç‡ƒçƒ§å½¢æˆæœ‰æ¯’çš„äºŒæ°§åŒ–ç¡«"
+        DataPanel.boxrelaatomass.Text = "32.07"
+    End Sub
+
+    Private Sub sb51_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sb51.Click
+        DataPanel.boxchname.Text = "Sb"
+        DataPanel.boxchpinyin.Text = "tÄ«"
+        DataPanel.boxenname.Text = "Antimony"
+        DataPanel.boxensymbol.Text = "['&aelig;ntimÉ™ni]"
+        DataPanel.boxoutelec.Text = "5s2 5p3"
+        DataPanel.boxvalence.Text = "-3ã€3ã€5"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "ç†”ç‚¹ä½ï¼Œè¢«ç”¨äºåˆ¶ä½œä¿é™©ä¸ã€€"
+        DataPanel.boxrelaatomass.Text = "121.76"
+    End Sub
+
+    Private Sub sc21_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sc21.Click
+        DataPanel.boxchname.Text = "Sc"
+        DataPanel.boxchpinyin.Text = "kÃ ng"
+        DataPanel.boxenname.Text = "Scandium"
+        DataPanel.boxensymbol.Text = "['sk&aelig;ndiÉ™m]"
+        DataPanel.boxoutelec.Text = "3d1 4s2"
+        DataPanel.boxvalence.Text = "3"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "ä¸€ç§æŸ”è½¯è¿‡æ¸¡é‡‘å±ï¼Œå¸¸ä¸é’†ï¼Œé“’æ··åˆå­˜åœ¨"
+        DataPanel.boxrelaatomass.Text = "44.96"
+    End Sub
+
+    Private Sub se34_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles se34.Click
+        DataPanel.boxchname.Text = "Se"
+        DataPanel.boxchpinyin.Text = "xÄ«"
+        DataPanel.boxenname.Text = "Selenium"
+        DataPanel.boxensymbol.Text = "[si'li:niÉ™m]"
+        DataPanel.boxoutelec.Text = "4s2 4p4"
+        DataPanel.boxvalence.Text = "-2ã€4ã€6"
+        DataPanel.boxclassifi.Text = "ä¸»/é"
+        DataPanel.boxintro.Text = "å¯ä½¿ç»ç’ƒè‡´è‰²ä¸ºé²œçº¢è‰²ã€€"
+        DataPanel.boxrelaatomass.Text = "78.96"
+    End Sub
+
+    Private Sub sg106_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sg106.Click
+        DataPanel.boxchname.Text = "Sg"
+        DataPanel.boxchpinyin.Text = "xÇ"
+        DataPanel.boxenname.Text = "Seaborgium"
+        DataPanel.boxensymbol.Text = "[si:bÉ”:É¡iÉ™m]"
+        DataPanel.boxoutelec.Text = "6d4 7s2"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººé€  æ”¾å°„"
+        DataPanel.boxrelaatomass.Text = "(263)"
+    End Sub
+
+    Private Sub si14_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles si14.Click
+        DataPanel.boxchname.Text = "Si"
+        DataPanel.boxchpinyin.Text = "guÄ«"
+        DataPanel.boxenname.Text = "Silicon"
+        DataPanel.boxensymbol.Text = "['silikÉ™n]"
+        DataPanel.boxoutelec.Text = "3s2 3p2"
+        DataPanel.boxvalence.Text = "4"
+        DataPanel.boxclassifi.Text = "ä¸»/é"
+        DataPanel.boxintro.Text = "åœ°å£³ä¸­å«é‡ä»…æ¬¡äºæ°§"
+        DataPanel.boxrelaatomass.Text = "28.09"
+    End Sub
+
+    Private Sub sn50_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sn50.Click
+        DataPanel.boxchname.Text = "Sn"
+        DataPanel.boxchpinyin.Text = "xÄ«"
+        DataPanel.boxenname.Text = "Tin"
+        DataPanel.boxensymbol.Text = "[tin]"
+        DataPanel.boxoutelec.Text = "5s2 5p2"
+        DataPanel.boxvalence.Text = "2ã€4"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "äººç±»æœ€æ—©å‘ç°åº”ç”¨çš„å…ƒç´ ä¹‹ä¸€ï¼Œè¢«ç”¨äºåˆ¶é€ å®¹å™¨"
+        DataPanel.boxrelaatomass.Text = "118.71"
+    End Sub
+
+    Private Sub sr38_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles sr38.Click
+        DataPanel.boxchname.Text = "Sr"
+        DataPanel.boxchpinyin.Text = "sÄ«"
+        DataPanel.boxenname.Text = "Strontium"
+        DataPanel.boxensymbol.Text = "['strÉ”ntiÉ™m]"
+        DataPanel.boxoutelec.Text = "5s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘/ç¢±åœŸ"
+        DataPanel.boxintro.Text = "æ˜¯ç¢±åœŸå…ƒç´ ä¸­ä¸°åº¦æœ€å°çš„å…ƒç´ ã€€"
+        DataPanel.boxrelaatomass.Text = "87.62"
+    End Sub
+
+    Private Sub ta73_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ta73.Click
+        DataPanel.boxchname.Text = "Ta"
+        DataPanel.boxchpinyin.Text = "tÇn"
+        DataPanel.boxenname.Text = "Tantalum"
+        DataPanel.boxensymbol.Text = "['t&aelig;ntÉ™lÉ™m]"
+        DataPanel.boxoutelec.Text = "5d3 6s2"
+        DataPanel.boxvalence.Text = "5"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = ""
+        DataPanel.boxrelaatomass.Text = "180.95"
+    End Sub
+
+    Private Sub tc43_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles tc43.Click
+        DataPanel.boxchname.Text = "Tc"
+        DataPanel.boxchpinyin.Text = "dÃ©"
+        DataPanel.boxenname.Text = "Technetium"
+        DataPanel.boxensymbol.Text = "[tek'ni:ÊƒiÉ™m]"
+        DataPanel.boxoutelec.Text = "4d5 5s2"
+        DataPanel.boxvalence.Text = "7"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "åŸå­åºæ•°æœ€å°çš„æ”¾å°„æ€§å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(99)"
+    End Sub
+
+    Private Sub te52_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles te52.Click
+        DataPanel.boxchname.Text = "Te"
+        DataPanel.boxchpinyin.Text = "dÃ¬"
+        DataPanel.boxenname.Text = "Tellurium"
+        DataPanel.boxensymbol.Text = "[te'ljuÉ™riÉ™m]"
+        DataPanel.boxoutelec.Text = "5s2 5p4"
+        DataPanel.boxvalence.Text = "-2ã€2ã€4ã€6"
+        DataPanel.boxclassifi.Text = "ä¸»/é"
+        DataPanel.boxintro.Text = "å¯†åº¦æœ€å¤§çš„éé‡‘å±"
+        DataPanel.boxrelaatomass.Text = "127.60"
+    End Sub
+
+    Private Sub ti22_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ti22.Click
+        DataPanel.boxchname.Text = "Ti"
+        DataPanel.boxchpinyin.Text = "tÃ i"
+        DataPanel.boxenname.Text = "Titanium"
+        DataPanel.boxensymbol.Text = "[tai'teiniÉ™m]"
+        DataPanel.boxoutelec.Text = "3d2 4s2"
+        DataPanel.boxvalence.Text = "4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "èƒ½åœ¨æ°®æ°”ä¸­ç‡ƒçƒ§ï¼Œç†”ç‚¹é«˜"
+        DataPanel.boxrelaatomass.Text = "47.87"
+    End Sub
+
+    Private Sub tl81_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles tl81.Click
+        DataPanel.boxchname.Text = "Tl"
+        DataPanel.boxchpinyin.Text = "tÄ"
+        DataPanel.boxenname.Text = "Thallium"
+        DataPanel.boxensymbol.Text = "['Î¸&aelig;liÉ™m]"
+        DataPanel.boxoutelec.Text = "6s2 6p1"
+        DataPanel.boxvalence.Text = "3"
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = ""
+        DataPanel.boxrelaatomass.Text = "204.38"
+    End Sub
+
+    Private Sub ts117_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ts117.Click
+        DataPanel.boxchname.Text = "Ts"
+        DataPanel.boxchpinyin.Text = "tiÃ¡n"
+        DataPanel.boxenname.Text = "Tennessine"
+        DataPanel.boxensymbol.Text = "Tennessine"
+        DataPanel.boxoutelec.Text = "5f6d7s7p5"
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = "ä¸»/é‡‘"
+        DataPanel.boxintro.Text = "å¤æ—å…ƒç´ ,äººå·¥åˆæˆçš„æ”¾å°„æ€§åŒ–å­¦å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "(294)"
+    End Sub
+
+    Private Sub v23_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles v23.Click
+        DataPanel.boxchname.Text = "V"
+        DataPanel.boxchpinyin.Text = "fÃ¡n"
+        DataPanel.boxenname.Text = "Vanadium"
+        DataPanel.boxensymbol.Text = "[vÉ™'neidiÉ™m]"
+        DataPanel.boxoutelec.Text = "3d3 4s2"
+        DataPanel.boxvalence.Text = "4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "é«˜ç†”ç‚¹ç¨€æœ‰é‡‘å±"
+        DataPanel.boxrelaatomass.Text = "50.94"
+    End Sub
+
+    Private Sub w74_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles w74.Click
+        DataPanel.boxchname.Text = "W"
+        DataPanel.boxchpinyin.Text = "wÅ«"
+        DataPanel.boxenname.Text = "Tungsten"
+        DataPanel.boxensymbol.Text = "['tÊŒÅ‹stÉ™n]"
+        DataPanel.boxoutelec.Text = "5d4 6s2"
+        DataPanel.boxvalence.Text = "6"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "ç†”ç‚¹æœ€é«˜"
+        DataPanel.boxrelaatomass.Text = "183.84"
+    End Sub
+
+    Private Sub xe54_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles xe54.Click
+        DataPanel.boxchname.Text = "Xe"
+        DataPanel.boxchpinyin.Text = "xiÄn"
+        DataPanel.boxenname.Text = "Xenon"
+        DataPanel.boxensymbol.Text = "['zenÉ”n]"
+        DataPanel.boxoutelec.Text = "5s2 5p6"
+        DataPanel.boxvalence.Text = "4ã€6ã€8"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "å¯è¢«ç”¨äºåˆ¶ä½œæ°™ç¯ã€€"
+        DataPanel.boxrelaatomass.Text = "131.29"
+    End Sub
+
+    Private Sub y39_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles y39.Click
+        DataPanel.boxchname.Text = "Y"
+        DataPanel.boxchpinyin.Text = "yÇ"
+        DataPanel.boxenname.Text = "Yttrium"
+        DataPanel.boxensymbol.Text = "['itriÉ™m]"
+        DataPanel.boxoutelec.Text = "4d1 5s2"
+        DataPanel.boxvalence.Text = "3"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººå·¥åˆæˆçš„é’‡é“æ¦´çŸ³æ›¾è¢«å½“åšé’»çŸ³çš„æ›¿ä»£å“ã€€"
+        DataPanel.boxrelaatomass.Text = "88.91"
+    End Sub
+
+    Private Sub zn30_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles zn30.Click
+        DataPanel.boxchname.Text = "Zn"
+        DataPanel.boxchpinyin.Text = "xÄ«n"
+        DataPanel.boxenname.Text = "Zinc"
+        DataPanel.boxensymbol.Text = "[ziÅ‹k]"
+        DataPanel.boxoutelec.Text = "3d10 4s2"
+        DataPanel.boxvalence.Text = "2"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "äººä½“éœ€è¦çš„å¾®é‡å…ƒç´ "
+        DataPanel.boxrelaatomass.Text = "69.72"
+    End Sub
+
+    Private Sub zr40_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles zr40.Click
+        DataPanel.boxchname.Text = "Zr"
+        DataPanel.boxchpinyin.Text = "gÃ o"
+        DataPanel.boxenname.Text = "Zirconium"
+        DataPanel.boxensymbol.Text = "[zÉ™:'kÉ™uniÉ™m]"
+        DataPanel.boxoutelec.Text = "4d2 5s2"
+        DataPanel.boxvalence.Text = "4"
+        DataPanel.boxclassifi.Text = "å‰¯/é‡‘/è¿‡"
+        DataPanel.boxintro.Text = "æ°§åŒ–ç‰©ç«‹æ–¹æ°§åŒ–é”†ä¸ºé’»çŸ³çš„äººå·¥æ›¿ä»£å“ã€€"
+        DataPanel.boxrelaatomass.Text = "91.22"
+    End Sub
+
+    Private Sub uue119_Click(sender As Object, e As EventArgs) Handles uue119.Click
+        DataPanel.boxchname.Text = "Uue"
+        DataPanel.boxchpinyin.Text = ""
+        DataPanel.boxenname.Text = ""
+        DataPanel.boxensymbol.Text = ""
+        DataPanel.boxoutelec.Text = ""
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = ""
+        DataPanel.boxintro.Text = ""
+        DataPanel.boxrelaatomass.Text = ""
+    End Sub
+
+    Private Sub ubn120_Click(sender As Object, e As EventArgs) Handles ubn120.Click
+        DataPanel.boxchname.Text = "Ubn"
+        DataPanel.boxchpinyin.Text = ""
+        DataPanel.boxenname.Text = ""
+        DataPanel.boxensymbol.Text = ""
+        DataPanel.boxoutelec.Text = ""
+        DataPanel.boxvalence.Text = ""
+        DataPanel.boxclassifi.Text = ""
+        DataPanel.boxintro.Text = ""
+        DataPanel.boxrelaatomass.Text = ""
     End Sub
 End Class
