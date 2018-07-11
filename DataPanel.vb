@@ -3,6 +3,10 @@
     Private Sub boxchname_TextChanged(sender As Object, e As EventArgs) Handles boxchname.TextChanged
         element = Me.boxchname.Text
         PeriodicTable.ysfh.Text = element
+        If element = "Uue" Or element = "Ubn" Then
+            PeriodicTable.errornolabel.Visible = True
+        Else : PeriodicTable.errornolabel.Visible = False
+        End If
     End Sub
 
     Private Sub boxchpinyin_TextChanged(sender As Object, e As EventArgs) Handles boxchpinyin.TextChanged

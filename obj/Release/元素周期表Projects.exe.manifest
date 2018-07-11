@@ -4,7 +4,7 @@
   <description asmv2:iconFile="icon\32位图标.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="元素周期表Projects" version="2.0.6730.22764" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="元素周期表Projects" version="2.0.6730.33588" language="neutral" processorArchitecture="x86" />
     <commandLine file="元素周期表Projects.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="元素周期表Projects.exe" size="2135552">
-      <assemblyIdentity name="元素周期表Projects" version="2.0.6730.22764" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="元素周期表Projects.exe" size="2138624">
+      <assemblyIdentity name="元素周期表Projects" version="2.0.6730.33588" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>w6KOaIykV5LyyC6niB6pHmutGac=</dsig:DigestValue>
+        <dsig:DigestValue>NgSTjARRDSRV7lIWbSHKAnsRtpA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -128,13 +128,13 @@
       <dsig:DigestValue>hlOC0yg6KHiaRPOICEvZ35VFUGg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="元素周期表Projects.exe.config" size="1260">
+  <file name="元素周期表Projects.exe.config" size="2024">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>kIaR0G8UNkQ2pD83i+hy5zEtanY=</dsig:DigestValue>
+      <dsig:DigestValue>w0WfNNaoHFIYckl2ik212qDHjHM=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

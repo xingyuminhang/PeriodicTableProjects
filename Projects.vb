@@ -451,6 +451,9 @@ Friend Class PeriodicTable
         Ion.Show()
     End Sub
 
+    Private Sub IonsTool_Click(sender As Object, e As EventArgs) Handles IonsTool.Click
+        Ions.Show()
+    End Sub
     Private Sub ir77_Click(ByVal eventSender As System.Object, ByVal eventArgs As System.EventArgs) Handles ir77.Click
         DataPanel.boxchname.Text = "Ir"
         DataPanel.boxchpinyin.Text = "yī"

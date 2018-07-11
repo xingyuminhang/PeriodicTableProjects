@@ -29,6 +29,7 @@
         Me.Image1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -60,38 +61,54 @@
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label1.Size = New System.Drawing.Size(355, 34)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "元素周期表Projects 于2018年06月" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "您可以点击此处，打开Github上的PeriodicTableProjects项目。"
+        Me.Label1.Text = "元素周期表Projects2.1.0.9α 于2018年07月 Build180711" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "您可以点击此处，打开Github上的PeriodicTableProje" & _
+    "cts项目。"
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.CheckBox1)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Location = New System.Drawing.Point(269, 109)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(141, 81)
+        Me.GroupBox1.Size = New System.Drawing.Size(109, 87)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "周期表显示方式（…）"
+        Me.GroupBox1.Text = "周期表显示方式"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Checked = True
+        Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox1.Location = New System.Drawing.Point(9, 64)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(72, 16)
+        Me.CheckBox1.TabIndex = 2
+        Me.CheckBox1.TabStop = False
+        Me.CheckBox1.Text = "显示序数"
+        Me.CheckBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(9, 51)
+        Me.RadioButton2.Checked = True
+        Me.RadioButton2.Location = New System.Drawing.Point(9, 42)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(71, 16)
         Me.RadioButton2.TabIndex = 1
+        Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "元素名称"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Checked = True
         Me.RadioButton1.Location = New System.Drawing.Point(9, 20)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(71, 16)
         Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "元素符号"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
@@ -99,9 +116,9 @@
         '
         Me.GroupBox2.Controls.Add(Me.RadioButton3)
         Me.GroupBox2.Controls.Add(Me.RadioButton4)
-        Me.GroupBox2.Location = New System.Drawing.Point(416, 109)
+        Me.GroupBox2.Location = New System.Drawing.Point(384, 109)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(140, 81)
+        Me.GroupBox2.Size = New System.Drawing.Size(140, 87)
         Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "电子层显示方式（…）"
@@ -135,7 +152,7 @@
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(81, 32)
         Me.Button1.TabIndex = 3
-        Me.Button1.Text = "保存设置（…）"
+        Me.Button1.Text = "保存设置"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'aboutform
@@ -174,5 +191,6 @@
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 #End Region 
 End Class

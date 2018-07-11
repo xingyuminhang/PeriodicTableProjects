@@ -10,11 +10,11 @@ Imports System.Runtime.InteropServices
 ' TODO: 检查程序集的属性值
 
 
-<Assembly: AssemblyTitle("")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyTitle("PeriodicTableProjects")> 
+<Assembly: AssemblyDescription("简易Basic元素周期表。")> 
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("元素周期表Projects")>
-<Assembly: AssemblyCopyright("")>
+<Assembly: AssemblyCopyright("xingyuminhang")> 
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 

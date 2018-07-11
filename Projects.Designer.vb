@@ -320,6 +320,8 @@
         Me.Label53 = New System.Windows.Forms.Label()
         Me.uue119 = New System.Windows.Forms.Button()
         Me.ubn120 = New System.Windows.Forms.Button()
+        Me.errornolabel = New System.Windows.Forms.Label()
+        Me.IonsTool = New System.Windows.Forms.Button()
         Me.Frame2.SuspendLayout()
         Me.Frame1.SuspendLayout()
         Me.SuspendLayout()
@@ -355,7 +357,7 @@
         Me.AboutTool.BackColor = System.Drawing.SystemColors.Control
         Me.AboutTool.Cursor = System.Windows.Forms.Cursors.Default
         Me.AboutTool.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.AboutTool.Location = New System.Drawing.Point(898, 119)
+        Me.AboutTool.Location = New System.Drawing.Point(898, 163)
         Me.AboutTool.Name = "AboutTool"
         Me.AboutTool.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.AboutTool.Size = New System.Drawing.Size(82, 33)
@@ -2257,12 +2259,38 @@
         Me.ubn120.Text = "120Ubn"
         Me.ubn120.UseVisualStyleBackColor = False
         '
+        'errornolabel
+        '
+        Me.errornolabel.AutoSize = True
+        Me.errornolabel.Font = New System.Drawing.Font("微软雅黑", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.errornolabel.Location = New System.Drawing.Point(121, 407)
+        Me.errornolabel.Name = "errornolabel"
+        Me.errornolabel.Size = New System.Drawing.Size(240, 25)
+        Me.errornolabel.TabIndex = 159
+        Me.errornolabel.Text = "提示：该元素目前不存在。"
+        Me.errornolabel.Visible = False
+        '
+        'IonsTool
+        '
+        Me.IonsTool.BackColor = System.Drawing.SystemColors.Control
+        Me.IonsTool.Cursor = System.Windows.Forms.Cursors.Default
+        Me.IonsTool.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.IonsTool.Location = New System.Drawing.Point(898, 119)
+        Me.IonsTool.Name = "IonsTool"
+        Me.IonsTool.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.IonsTool.Size = New System.Drawing.Size(82, 33)
+        Me.IonsTool.TabIndex = 160
+        Me.IonsTool.Text = "新离子工具"
+        Me.IonsTool.UseVisualStyleBackColor = False
+        '
         'PeriodicTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(992, 450)
+        Me.Controls.Add(Me.IonsTool)
+        Me.Controls.Add(Me.errornolabel)
         Me.Controls.Add(Me.ubn120)
         Me.Controls.Add(Me.uue119)
         Me.Controls.Add(Me.Label53)
@@ -2415,5 +2443,7 @@
     Public WithEvents Label53 As System.Windows.Forms.Label
     Public WithEvents uue119 As System.Windows.Forms.Button
     Public WithEvents ubn120 As System.Windows.Forms.Button
+    Friend WithEvents errornolabel As System.Windows.Forms.Label
+    Public WithEvents IonsTool As System.Windows.Forms.Button
 #End Region
 End Class

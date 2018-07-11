@@ -7,7 +7,8 @@
     'nucnum核电荷数/原子序数(Nuclear charge number/atomic number),neunum中子数(Number of neutrons),outelecnum最外层电子数（number of The outermost electronics)
     Public relaatomass As Double
     ' relaatomass相对原子质量(relative atomic mass)
-    REM 旧版本写法范例Me.ysfh.Text = "H"
+    REM （旧版本写法范例。）
+    'Me.ysfh.Text = "H"
     ' Me.hypy.Text = "qīng"
     ' Me.ywm.Text = "Hydrogen"
     ' Me.yyyb.Text = "['haidrədʒən]"
@@ -16,7 +17,8 @@
     ' Me.fl.Text = "主/非/气"
     ' Me.qt.Text = "轻，同位素为氕、氘和氚"
     ' Me.xdyzzl.Text = "1.0079
-    REM la与ac系元素旧版本写法范例PeriodicTable.ysfh.Text = "La"
+    REM (la与ac系元素旧版本写法范例。)
+    'PeriodicTable.ysfh.Text = "La"
     'PeriodicTable.hypy.Text = "lán"
     'PeriodicTable.ywm.Text = "Lanthanum"
     'PeriodicTable.yyyb.Text = "['l&aelig;nθənəm]"

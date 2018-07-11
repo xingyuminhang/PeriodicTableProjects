@@ -41,7 +41,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>8</ApplicationRevision>
+    <ApplicationRevision>9</ApplicationRevision>
     <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -145,6 +145,12 @@
     <Compile Include="Ion.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Ions.Designer.vb">
+      <DependentUpon>Ions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ions.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="lanthanides.Designer.vb">
       <SubType>Code</SubType>
       <DependentUpon>lanthanides.vb</DependentUpon>
@@ -207,6 +213,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ion.resX">
       <DependentUpon>Ion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ions.resx">
+      <DependentUpon>Ions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lanthanides.resX">
       <DependentUpon>lanthanides.vb</DependentUpon>

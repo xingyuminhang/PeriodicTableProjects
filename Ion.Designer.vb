@@ -17,39 +17,37 @@
 	'Windows 窗体设计器所必需的
 	Private components As System.ComponentModel.IContainer
 	Public ToolTip1 As System.Windows.Forms.ToolTip
-	Public WithEvents Command1 As System.Windows.Forms.Button
-	Public WithEvents Text1 As System.Windows.Forms.TextBox
-	Public WithEvents po4 As System.Windows.Forms.RadioButton
-	Public WithEvents co3 As System.Windows.Forms.RadioButton
-	Public WithEvents so4 As System.Windows.Forms.RadioButton
-	Public WithEvents cl As System.Windows.Forms.RadioButton
-	Public WithEvents no3 As System.Windows.Forms.RadioButton
-	Public WithEvents oh As System.Windows.Forms.RadioButton
-	Public WithEvents Frame2 As System.Windows.Forms.GroupBox
-	Public WithEvents ag As System.Windows.Forms.RadioButton
-	Public WithEvents cu As System.Windows.Forms.RadioButton
-	Public WithEvents fe3 As System.Windows.Forms.RadioButton
-	Public WithEvents fe2 As System.Windows.Forms.RadioButton
-	Public WithEvents zn As System.Windows.Forms.RadioButton
-	Public WithEvents mn As System.Windows.Forms.RadioButton
-	Public WithEvents al As System.Windows.Forms.RadioButton
-	Public WithEvents mg As System.Windows.Forms.RadioButton
-	Public WithEvents ca As System.Windows.Forms.RadioButton
-	Public WithEvents ba As System.Windows.Forms.RadioButton
-	Public WithEvents na As System.Windows.Forms.RadioButton
-	Public WithEvents k As System.Windows.Forms.RadioButton
-	Public WithEvents nh4 As System.Windows.Forms.RadioButton
-	Public WithEvents h As System.Windows.Forms.RadioButton
-	Public WithEvents Frame1 As System.Windows.Forms.GroupBox
+    Public WithEvents ionpairbox As System.Windows.Forms.TextBox
+    Public WithEvents po4 As System.Windows.Forms.RadioButton
+    Public WithEvents co3 As System.Windows.Forms.RadioButton
+    Public WithEvents so4 As System.Windows.Forms.RadioButton
+    Public WithEvents cl As System.Windows.Forms.RadioButton
+    Public WithEvents no3 As System.Windows.Forms.RadioButton
+    Public WithEvents oh As System.Windows.Forms.RadioButton
+    Public WithEvents Frame2 As System.Windows.Forms.GroupBox
+    Public WithEvents ag As System.Windows.Forms.RadioButton
+    Public WithEvents cu As System.Windows.Forms.RadioButton
+    Public WithEvents fe3 As System.Windows.Forms.RadioButton
+    Public WithEvents fe2 As System.Windows.Forms.RadioButton
+    Public WithEvents zn As System.Windows.Forms.RadioButton
+    Public WithEvents mn As System.Windows.Forms.RadioButton
+    Public WithEvents al As System.Windows.Forms.RadioButton
+    Public WithEvents mg As System.Windows.Forms.RadioButton
+    Public WithEvents ca As System.Windows.Forms.RadioButton
+    Public WithEvents ba As System.Windows.Forms.RadioButton
+    Public WithEvents na As System.Windows.Forms.RadioButton
+    Public WithEvents k As System.Windows.Forms.RadioButton
+    Public WithEvents nh4 As System.Windows.Forms.RadioButton
+    Public WithEvents h As System.Windows.Forms.RadioButton
+    Public WithEvents Frame1 As System.Windows.Forms.GroupBox
     '注意: 以下过程是 Windows 窗体设计器所必需的
     '可以使用 Windows 窗体设计器来修改它。
     '不要使用代码编辑器修改它。
-	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Ion))
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Command1 = New System.Windows.Forms.Button()
-        Me.Text1 = New System.Windows.Forms.TextBox()
+        Me.ionpairbox = New System.Windows.Forms.TextBox()
         Me.Frame2 = New System.Windows.Forms.GroupBox()
         Me.po4 = New System.Windows.Forms.RadioButton()
         Me.co3 = New System.Windows.Forms.RadioButton()
@@ -72,36 +70,25 @@
         Me.k = New System.Windows.Forms.RadioButton()
         Me.nh4 = New System.Windows.Forms.RadioButton()
         Me.h = New System.Windows.Forms.RadioButton()
+        Me.cationbox = New System.Windows.Forms.TextBox()
+        Me.anionbox = New System.Windows.Forms.TextBox()
         Me.Frame2.SuspendLayout()
         Me.Frame1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Command1
+        'ionpairbox
         '
-        Me.Command1.BackColor = System.Drawing.SystemColors.Control
-        Me.Command1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.Command1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Command1.Location = New System.Drawing.Point(544, 184)
-        Me.Command1.Name = "Command1"
-        Me.Command1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Command1.Size = New System.Drawing.Size(81, 33)
-        Me.Command1.TabIndex = 23
-        Me.Command1.Text = "生成离子对"
-        Me.Command1.UseVisualStyleBackColor = False
-        '
-        'Text1
-        '
-        Me.Text1.AcceptsReturn = True
-        Me.Text1.BackColor = System.Drawing.SystemColors.Window
-        Me.Text1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Text1.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.Text1.Location = New System.Drawing.Point(344, 144)
-        Me.Text1.MaxLength = 0
-        Me.Text1.Name = "Text1"
-        Me.Text1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Text1.Size = New System.Drawing.Size(281, 21)
-        Me.Text1.TabIndex = 22
-        Me.Text1.Text = "选择离子,按动按钮。"
+        Me.ionpairbox.AcceptsReturn = True
+        Me.ionpairbox.BackColor = System.Drawing.SystemColors.Window
+        Me.ionpairbox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.ionpairbox.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.ionpairbox.Location = New System.Drawing.Point(344, 144)
+        Me.ionpairbox.MaxLength = 0
+        Me.ionpairbox.Name = "ionpairbox"
+        Me.ionpairbox.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ionpairbox.Size = New System.Drawing.Size(281, 21)
+        Me.ionpairbox.TabIndex = 22
+        Me.ionpairbox.Text = "请选择阴阳离子吧,剩下的事情交给我们来完成。"
         '
         'Frame2
         '
@@ -413,14 +400,31 @@
         Me.h.Text = "H(+)"
         Me.h.UseVisualStyleBackColor = False
         '
+        'cationbox
+        '
+        Me.cationbox.Location = New System.Drawing.Point(6, 12)
+        Me.cationbox.Name = "cationbox"
+        Me.cationbox.Size = New System.Drawing.Size(99, 21)
+        Me.cationbox.TabIndex = 24
+        Me.cationbox.Text = "阳离子cationbox"
+        '
+        'anionbox
+        '
+        Me.anionbox.Location = New System.Drawing.Point(111, 12)
+        Me.anionbox.Name = "anionbox"
+        Me.anionbox.Size = New System.Drawing.Size(99, 21)
+        Me.anionbox.TabIndex = 25
+        Me.anionbox.Text = "阴离子anionbox"
+        '
         'Ion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(637, 228)
-        Me.Controls.Add(Me.Command1)
-        Me.Controls.Add(Me.Text1)
+        Me.Controls.Add(Me.anionbox)
+        Me.Controls.Add(Me.cationbox)
+        Me.Controls.Add(Me.ionpairbox)
         Me.Controls.Add(Me.Frame2)
         Me.Controls.Add(Me.Frame1)
         Me.Cursor = System.Windows.Forms.Cursors.Default
@@ -439,5 +443,7 @@
         Me.PerformLayout()
 
     End Sub
+    Friend WithEvents cationbox As System.Windows.Forms.TextBox
+    Friend WithEvents anionbox As System.Windows.Forms.TextBox
 #End Region
 End Class

@@ -53,6 +53,17 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+
+        <Global.System.Configuration.UserScopedSettingAttribute(), _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute()> _
+        Public Property ProjectsShowWay() As Boolean
+            Get
+                Return CType(Me("ProjectsShowWay"), Boolean)
+            End Get
+            Set(value As Boolean)
+                Me("ProjectsShowWay") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
