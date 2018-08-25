@@ -1,6 +1,9 @@
 # 元素周期表计划  ~ PeriodicTableProjects ~ 
 简易Basic元素周期表。 ~ A simple Basic Periodic Table ~ 
 
+2.1.0.9-α4-Build180825
+在README.md里更改了更新日志。
+
 2.1.0.9-α3-Build180825
 在README.md里添加了更新日志。
 
@@ -29,8 +32,14 @@ Basic版本更新。
 1.修复了关于页面文字的错误。
 2.重新调整了Public变量，优化了程序结构。
 
+New name.
+（将关于页的yszqb-Projects改名为PeriodicTableProjects）
+
 The new project name.
 （yszqb-Projects改名为PeriodicTableProjects）
+
+exe
+(重新打包了exe文件。)
 
 yszqb Projects 2.0
 添加了离子对溶解性工具，原子结构工具待完善。
